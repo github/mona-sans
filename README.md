@@ -6,7 +6,7 @@ A strong and versatile typeface, designed with [Degarism](https://degarism.com/)
 
 Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enable different variations of a typeface to be incorporated into one single file, and are supported by all major browsers, allowing for performance benefits and granular design control of the typeface's weight, width, and slant.
 
-![mona-sans](https://user-images.githubusercontent.com/99746865/200585870-c7b449d2-943d-4f89-a0a8-0351794a8b19.png)
+![mona-sans](https://user-images.githubusercontent.com/99746865/200648883-dbd47e9a-9d95-483e-aef6-1bfa602eb942.png)
 
 ## Styles
 | Style Name | Italic Name | Weight | Width |
@@ -38,6 +38,6 @@ Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enabl
 
 
 ## License
-Mona Sans is licensed under the SIL Open Font License v1.1 (http://scripts.sil.org/OFL)
+Mona Sans is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL).
 
 
