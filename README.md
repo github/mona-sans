@@ -1,18 +1,37 @@
 # Mona Sans
 
-[Download Mona Sans](http://github.com/mona-sans/releases/latest) • [Typeface microsite](http://github.com/mona-sans) ↗️
+[Download Mona Sans](http://github.com/github/mona-sans/releases/latest) • [Typeface microsite](http://github.com/mona-sans) ↗️
 
-A strong and versatile typeface, designed together with [Degarism](https://degarism.com/) and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print.
+A strong and versatile typeface, designed together with [Degarism](https://degarism.com/) and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print. Made to work well together with  Mona Sans's sidekick, [Hubot Sans](https://github.com/github/hubot-sans).
 
-Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enable different variations of a typeface to be incorporated into one single file, and are supported by all major browsers, allowing for performance benefits and granular design control of the typeface's weight, width, and slant.
+Mona Sans is a [variable font](https://web.dev/variable-fonts/). Variable fonts enable different variations of a typeface to be incorporated into one single file, and are supported by all major browsers, allowing for performance benefits and granular design control of the typeface's weight, width, and slant.
 
 ![mona-sans](https://user-images.githubusercontent.com/99746865/200648883-dbd47e9a-9d95-483e-aef6-1bfa602eb942.png)
 
-Check out Mona Sans's sidekick, [Hubot Sans](https://github.com/github/hubot-sans).
+## Usage
 
-# Usage
+For web, we recommend using `Mona Sans.woff2`. Define the font with a `@font-face` rule, set its **weight** and **stretch** ranges, and use it:
 
-[Notes on using Mona Sans]
+```css
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('Mona-Sans.woff2') format('woff2 supports variations'),
+    url('Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+
+html {
+  font-family: 'Mona Sans';
+}
+```
+
+To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of your document:
+
+```html
+<link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+```
 
 ## Styles
 | Style Name | Italic Name | Weight | Width |
