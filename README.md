@@ -8,10 +8,11 @@ Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enabl
 
 ![mona-sans](https://user-images.githubusercontent.com/99746865/200648883-dbd47e9a-9d95-483e-aef6-1bfa602eb942.png)
 
+Check out Mona Sans's sidekick, [Hubot Sans](https://github.com/github/hubot-sans).
+
 # Usage
 
 [Notes on using Mona Sans]
-
 
 ## Styles
 | Style Name | Italic Name | Weight | Width |
@@ -40,8 +41,6 @@ Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enabl
 | Bold Wide | Bold Wide Italic | 700 | 125 |
 | ExtraBold Wide | ExtraBold Wide Italic | 800 | 125 |
 | Black Wide | Black Wide Italic | 900 | 125 |
-
-Check out Mona's sidekick, [Hubot Sans](https://github.com/github/hubot-sans).
 
 ## License
 Mona Sans is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL).
