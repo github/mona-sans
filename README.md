@@ -1,8 +1,8 @@
 # Mona Sans
 
-[Typeface microsite](http://github.com/mona-sans) ↗️
+[Download Mona Sans](http://github.com/mona-sans/releases/latest) • [Typeface microsite](http://github.com/mona-sans) ↗️
 
-A strong and versatile typeface, designed with [Degarism](https://degarism.com/) and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print.
+A strong and versatile typeface, designed together with [Degarism](https://degarism.com/) and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print.
 
 Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enable different variations of a typeface to be incorporated into one single file, and are supported by all major browsers, allowing for performance benefits and granular design control of the typeface's weight, width, and slant.
 
