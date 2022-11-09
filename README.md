@@ -36,6 +36,8 @@ Mona is a [variable font](https://web.dev/variable-fonts/). Variable fonts enabl
 | ExtraBold Wide | ExtraBold Wide Italic | 800 | 125 |
 | Black Wide | Black Wide Italic | 900 | 125 |
 
+Check out Mona's sidekick, [Hubot Sans](https://github.com/github/hubot-sans).
+
 
 ## License
 Mona Sans is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL).
