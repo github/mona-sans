@@ -1,9 +1,0 @@
-sources:
-  - MonaSans.glyphs
-buildOTF: False
-buildWebfont: False
-axisOrder:
-  - wdth
-  - wght
-  - ital
-familyName: "Mona Sans"
