@@ -1,5 +1,5 @@
 {
-.appVersion = "3144";
+.appVersion = "3145";
 .formatVersion = 3;
 axes = (
 {
@@ -199876,7 +199876,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Mona Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Mona Sans\"";
+value = "Copyright 2022 The Mona Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Mona\"";
 }
 );
 },
