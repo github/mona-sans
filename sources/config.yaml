@@ -1,8 +1,8 @@
 sources:
   - MonaSans.glyphs
-buildOTF: False
-buildWebfont: False
-buildTTF: false
+# buildOTF: False
+# buildWebfont: False
+# buildTTF: false
 axisOrder:
   - wdth
   - wght
