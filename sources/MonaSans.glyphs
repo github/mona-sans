@@ -234,7 +234,7 @@ sub g by g.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = "a, g double-storey";
 }
 );
 tag = ss01;
@@ -246,7 +246,7 @@ code = "sub zero.tf by zero.tf.ss03;
 labels = (
 {
 language = dflt;
-value = "";
+value = "tabular zero slashed variant";
 }
 );
 tag = ss03;
@@ -262,7 +262,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -282,7 +282,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -347,7 +347,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -367,7 +367,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -446,7 +446,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -466,7 +466,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -531,7 +531,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -551,7 +551,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -611,7 +611,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -631,7 +631,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -691,7 +691,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -711,7 +711,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -776,7 +776,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -796,7 +796,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -870,7 +870,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -890,7 +890,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -972,7 +972,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -992,7 +992,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -1061,7 +1061,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -1081,7 +1081,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -1142,7 +1142,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -1162,7 +1162,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -1228,7 +1228,7 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 964;
+value = 965;
 },
 {
 name = typoDescender;
@@ -1248,7 +1248,7 @@ value = 264;
 },
 {
 name = hheaAscender;
-value = 964;
+value = 965;
 },
 {
 name = hheaDescender;
@@ -199911,7 +199911,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
