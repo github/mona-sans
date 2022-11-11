@@ -16,4 +16,9 @@ if __name__ == "__main__":
             ttFont["name"].setName("Regular", 263, 3, 1, 0x409)
             ttFont["name"].setName("ExtraLight", 261, 1, 0, 0)
             ttFont["name"].setName("Regular", 263, 1, 0, 0)
+            for axisvalue in ttFont["STAT"].table.AxisValueArray.AxisValue:
+                if axisvalue.ValueNameID == 2:
+                    axisvalue.ValueNameID = 263
+                if axisvalue.ValueNameID == 17:
+                    axisvalue.ValueNameID = 261
             ttFont.save(font_path)
