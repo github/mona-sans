@@ -4,7 +4,7 @@ sources:
 # buildWebfont: False
 # buildTTF: false
 axisOrder:
+  - slnt
   - wdth
   - wght
-  - ital
 familyName: "Mona Sans"

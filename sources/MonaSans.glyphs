@@ -1,7 +1,11 @@
 {
-.appVersion = "3145";
+.appVersion = "3146";
 .formatVersion = 3;
 axes = (
+{
+name = Slant;
+tag = slnt;
+},
 {
 name = Width;
 tag = wdth;
@@ -9,10 +13,6 @@ tag = wdth;
 {
 name = Weight;
 tag = wght;
-},
-{
-name = Italic;
-tag = ital;
 }
 );
 customParameters = (
@@ -255,9 +255,9 @@ tag = ss03;
 fontMaster = (
 {
 axesValues = (
+0,
 75,
-200,
-0
+200
 );
 customParameters = (
 {
@@ -340,9 +340,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
+0,
 75,
-900,
-0
+900
 );
 customParameters = (
 {
@@ -439,9 +439,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
+0,
 100,
-200,
-0
+200
 );
 customParameters = (
 {
@@ -524,9 +524,9 @@ stemValues = (
 },
 {
 axesValues = (
+0,
 100,
-900,
-0
+900
 );
 customParameters = (
 {
@@ -604,9 +604,9 @@ stemValues = (
 },
 {
 axesValues = (
+0,
 125,
-200,
-0
+200
 );
 customParameters = (
 {
@@ -684,9 +684,9 @@ stemValues = (
 },
 {
 axesValues = (
+0,
 125,
-900,
-0
+900
 );
 customParameters = (
 {
@@ -769,9 +769,9 @@ stemValues = (
 },
 {
 axesValues = (
+-12,
 75,
-200,
-1
+200
 );
 customParameters = (
 {
@@ -863,9 +863,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
+-12,
 75,
-900,
-1
+900
 );
 customParameters = (
 {
@@ -965,9 +965,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
+-12,
 100,
-200,
-1
+200
 );
 customParameters = (
 {
@@ -1054,9 +1054,9 @@ stemValues = (
 },
 {
 axesValues = (
+-12,
 100,
-900,
-1
+900
 );
 customParameters = (
 {
@@ -1135,9 +1135,9 @@ stemValues = (
 },
 {
 axesValues = (
+-12,
 125,
-200,
-1
+200
 );
 customParameters = (
 {
@@ -1221,9 +1221,9 @@ stemValues = (
 },
 {
 axesValues = (
+-12,
 125,
-900,
-1
+900
 );
 customParameters = (
 {
@@ -11911,9 +11911,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -11990,9 +11990,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -12069,9 +12069,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -12183,9 +12183,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -12319,9 +12319,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -12371,9 +12371,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -32969,9 +32969,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -33071,9 +33071,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -33451,9 +33451,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -33628,9 +33628,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -33889,9 +33889,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -33947,9 +33947,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -34064,9 +34064,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -34181,9 +34181,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -34298,9 +34298,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -34415,9 +34415,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -34532,9 +34532,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -34649,9 +34649,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -35818,9 +35818,9 @@ axisRules = (
 {
 },
 {
-min = 200;
 },
 {
+min = 200;
 }
 );
 };
@@ -47978,9 +47978,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -48157,9 +48157,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -48457,9 +48457,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -48761,9 +48761,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -49048,9 +49048,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -49120,9 +49120,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -52949,9 +52949,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -52999,9 +52999,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -57146,9 +57146,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -57290,9 +57290,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -57434,9 +57434,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -57642,9 +57642,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -57954,9 +57954,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58029,9 +58029,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58188,9 +58188,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58347,9 +58347,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58506,9 +58506,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58665,9 +58665,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58824,9 +58824,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -58983,9 +58983,9 @@ axisRules = (
 {
 },
 {
-min = 300;
 },
 {
+min = 300;
 }
 );
 };
@@ -151771,9 +151771,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -151885,9 +151885,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152069,9 +152069,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152157,9 +152157,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152321,9 +152321,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152389,9 +152389,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152503,9 +152503,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152617,9 +152617,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152731,9 +152731,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152845,9 +152845,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -152959,9 +152959,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -153073,9 +153073,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -154105,9 +154105,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -154185,9 +154185,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -154451,9 +154451,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -154597,9 +154597,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -154797,9 +154797,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -154877,9 +154877,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -155015,9 +155015,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -155153,9 +155153,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -155291,9 +155291,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -155429,9 +155429,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -155567,9 +155567,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -155705,9 +155705,9 @@ axisRules = (
 {
 },
 {
-min = 500;
 },
 {
+min = 500;
 }
 );
 };
@@ -178230,9 +178230,9 @@ unicode = 731;
 instances = (
 {
 axesValues = (
+0,
 75,
-200,
-0
+200
 );
 customParameters = (
 {
@@ -178270,9 +178270,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-300,
-0
+300
 );
 customParameters = (
 {
@@ -178311,9 +178311,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-400,
-0
+400
 );
 customParameters = (
 {
@@ -178351,9 +178351,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-500,
-0
+500
 );
 customParameters = (
 {
@@ -178392,9 +178392,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-600,
-0
+600
 );
 customParameters = (
 {
@@ -178433,9 +178433,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-700,
-0
+700
 );
 customParameters = (
 {
@@ -178475,9 +178475,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-800,
-0
+800
 );
 customParameters = (
 {
@@ -178516,9 +178516,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 75,
-900,
-0
+900
 );
 customParameters = (
 {
@@ -178556,9 +178556,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+0,
 100,
-200,
-0
+200
 );
 customParameters = (
 {
@@ -178584,9 +178584,9 @@ weightClass = 200;
 },
 {
 axesValues = (
+0,
 100,
-300,
-0
+300
 );
 customParameters = (
 {
@@ -178613,9 +178613,9 @@ weightClass = 300;
 },
 {
 axesValues = (
+0,
 100,
-400,
-0
+400
 );
 customParameters = (
 {
@@ -178641,9 +178641,9 @@ name = Regular;
 },
 {
 axesValues = (
+0,
 100,
-500,
-0
+500
 );
 customParameters = (
 {
@@ -178670,9 +178670,9 @@ weightClass = 500;
 },
 {
 axesValues = (
+0,
 100,
-600,
-0
+600
 );
 customParameters = (
 {
@@ -178699,9 +178699,9 @@ weightClass = 600;
 },
 {
 axesValues = (
+0,
 100,
-700,
-0
+700
 );
 customParameters = (
 {
@@ -178729,9 +178729,9 @@ weightClass = 700;
 },
 {
 axesValues = (
+0,
 100,
-800,
-0
+800
 );
 customParameters = (
 {
@@ -178758,9 +178758,9 @@ weightClass = 800;
 },
 {
 axesValues = (
+0,
 100,
-900,
-0
+900
 );
 customParameters = (
 {
@@ -178786,9 +178786,9 @@ weightClass = 900;
 },
 {
 axesValues = (
+0,
 125,
-200,
-0
+200
 );
 customParameters = (
 {
@@ -178826,9 +178826,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-300,
-0
+300
 );
 customParameters = (
 {
@@ -178867,9 +178867,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-400,
-0
+400
 );
 customParameters = (
 {
@@ -178907,9 +178907,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-500,
-0
+500
 );
 customParameters = (
 {
@@ -178948,9 +178948,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-600,
-0
+600
 );
 customParameters = (
 {
@@ -178989,9 +178989,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-700,
-0
+700
 );
 customParameters = (
 {
@@ -179031,9 +179031,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-800,
-0
+800
 );
 customParameters = (
 {
@@ -179072,9 +179072,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+0,
 125,
-900,
-0
+900
 );
 customParameters = (
 {
@@ -179112,9 +179112,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 75,
-200,
-1
+200
 );
 customParameters = (
 {
@@ -179158,9 +179158,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-300,
-1
+300
 );
 customParameters = (
 {
@@ -179205,9 +179205,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-400,
-1
+400
 );
 customParameters = (
 {
@@ -179250,9 +179250,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-500,
-1
+500
 );
 customParameters = (
 {
@@ -179297,9 +179297,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-600,
-1
+600
 );
 customParameters = (
 {
@@ -179344,9 +179344,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-700,
-1
+700
 );
 customParameters = (
 {
@@ -179391,9 +179391,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-800,
-1
+800
 );
 customParameters = (
 {
@@ -179438,9 +179438,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 75,
-900,
-1
+900
 );
 customParameters = (
 {
@@ -179484,9 +179484,9 @@ widthClass = 3;
 },
 {
 axesValues = (
+-12,
 100,
-200,
-1
+200
 );
 customParameters = (
 {
@@ -179518,9 +179518,9 @@ weightClass = 200;
 },
 {
 axesValues = (
+-12,
 100,
-300,
-1
+300
 );
 customParameters = (
 {
@@ -179553,9 +179553,9 @@ weightClass = 300;
 },
 {
 axesValues = (
+-12,
 100,
-400,
-1
+400
 );
 customParameters = (
 {
@@ -179586,9 +179586,9 @@ name = Italic;
 },
 {
 axesValues = (
+-12,
 100,
-500,
-1
+500
 );
 customParameters = (
 {
@@ -179621,9 +179621,9 @@ weightClass = 500;
 },
 {
 axesValues = (
+-12,
 100,
-600,
-1
+600
 );
 customParameters = (
 {
@@ -179656,9 +179656,9 @@ weightClass = 600;
 },
 {
 axesValues = (
+-12,
 100,
-700,
-1
+700
 );
 customParameters = (
 {
@@ -179691,9 +179691,9 @@ weightClass = 700;
 },
 {
 axesValues = (
+-12,
 100,
-800,
-1
+800
 );
 customParameters = (
 {
@@ -179726,9 +179726,9 @@ weightClass = 800;
 },
 {
 axesValues = (
+-12,
 100,
-900,
-1
+900
 );
 customParameters = (
 {
@@ -179760,9 +179760,9 @@ weightClass = 900;
 },
 {
 axesValues = (
+-12,
 125,
-200,
-1
+200
 );
 customParameters = (
 {
@@ -179806,9 +179806,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-300,
-1
+300
 );
 customParameters = (
 {
@@ -179853,9 +179853,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-400,
-1
+400
 );
 customParameters = (
 {
@@ -179898,9 +179898,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-500,
-1
+500
 );
 customParameters = (
 {
@@ -179945,9 +179945,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-600,
-1
+600
 );
 customParameters = (
 {
@@ -179992,9 +179992,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-700,
-1
+700
 );
 customParameters = (
 {
@@ -180039,9 +180039,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-800,
-1
+800
 );
 customParameters = (
 {
@@ -180086,9 +180086,9 @@ widthClass = 7;
 },
 {
 axesValues = (
+-12,
 125,
-900,
-1
+900
 );
 customParameters = (
 {

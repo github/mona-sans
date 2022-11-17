@@ -2,21 +2,12 @@
 set -e
 #source ../env/bin/activate
 
-vf=MonaSans[ital,wdth,wght].ttf
-
 echo "Build VF"
 
 gftools builder config.yaml
 
-echo "slice Upright"
+echo "Remove italic instances in FVAR"
 
-fonttools varLib.instancer ../fonts/variable/$vf ital=0 --output ../fonts/variable/MonaSans[wdth,wght].ttf --update-name-table
-
-echo "slice Italic"
-
-fonttools varLib.instancer ../fonts/variable/$vf ital=1 --output ../fonts/variable/MonaSans-Italic[wdth,wght].ttf --update-name-table
-
-echo "fix Italic bits"
-python3 italic-patch.py
-
+python3 remove-FVAR-italics.py ../fonts/variable/MonaSans[slnt,wdth,wght].ttf
+ 
 echo "Complete"
