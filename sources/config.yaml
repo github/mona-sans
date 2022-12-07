@@ -1,0 +1,10 @@
+sources:
+  - MonaSans.glyphs
+# buildOTF: False
+# buildWebfont: False
+# buildTTF: false
+axisOrder:
+  - slnt
+  - wdth
+  - wght
+familyName: "Mona Sans"
