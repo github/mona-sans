@@ -1,6 +1,6 @@
 # Mona Sans
 
-[Download Mona Sans](http://github.com/github/mona-sans/releases/latest) • [Typeface microsite](http://github.com/mona-sans) ↗️
+[Download Mona Sans](https://github.com/github/mona-sans/releases/latest) • [Typeface microsite](https://github.com/mona-sans) ↗️
 
 A strong and versatile typeface, designed together with [Degarism](https://degarism.com/) and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print. Made to work well together with  Mona Sans's sidekick, [Hubot Sans](https://github.com/github/hubot-sans).
 
@@ -62,4 +62,4 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 | Black Wide | Black Wide Italic | 900 | 125 |
 
 ## License
-Mona Sans is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL).
+Mona Sans is licensed under the [SIL Open Font License v1.1](https://scripts.sil.org/OFL).
