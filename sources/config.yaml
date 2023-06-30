@@ -1,0 +1,57 @@
+sources:
+  - MonaSans.glyphs
+# buildOTF: False
+# buildWebfont: False
+# buildTTF: false
+axisOrder:
+  - wdth
+  - wght
+  - slnt
+familyName: "Mona Sans"
+stat:
+  - name: Width
+    tag: wdth
+    values:
+    - name: Condensed
+      value: 75
+    - name: SemiCondensed
+      value: 87.5
+    - name: Normal
+      value: 100
+      flags: 2
+    - name: SemiExpanded
+      value: 112.5
+    - name: Expanded
+      value: 125
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+  - name: Slant
+    tag: slnt
+    values:
+    - name: Default
+      value: 0
+      flags: 2
+      linkedValue: -12
+    - name: Italic
+      value: -12
