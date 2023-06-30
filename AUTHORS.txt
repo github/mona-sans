@@ -5,5 +5,5 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Deni Anggara <>
-Github <>
+Deni Anggara <studio@degarism.com>
+GitHub <tobiasahlin@github.com>
