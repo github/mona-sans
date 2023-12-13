@@ -1,0 +1,214 @@
+{
+color = 6;
+glyphname = hyphen;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,191,l),
+(343,351,l),
+(29,351,l),
+(29,191,l)
+);
+}
+);
+width = 372;
+},
+{
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,246,l),
+(250,271,l),
+(70,271,l),
+(70,246,l)
+);
+}
+);
+width = 320;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(290,242,l),
+(290,275,l),
+(30,275,l),
+(30,242,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.hints = (
+{
+horizontal = 1;
+options = 0;
+origin = (
+0,
+2
+);
+stem = -2;
+target = (
+0,
+3
+);
+type = Stem;
+}
+);
+};
+width = 320;
+},
+{
+layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,192,l),
+(384,352,l),
+(30,352,l),
+(30,192,l)
+);
+}
+);
+width = 414;
+},
+{
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+closed = 1;
+nodes = (
+(339,243,l),
+(339,275,l),
+(53,275,l),
+(53,243,l)
+);
+}
+);
+width = 392;
+},
+{
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(385,187,l),
+(385,355,l),
+(27,355,l),
+(27,187,l)
+);
+}
+);
+width = 412;
+},
+{
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+closed = 1;
+nodes = (
+(246,246,l),
+(251,271,l),
+(73,271,l),
+(68,246,l)
+);
+}
+);
+width = 318;
+},
+{
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(323,191,l),
+(357,351,l),
+(46,351,l),
+(13,191,l)
+);
+}
+);
+width = 369;
+},
+{
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,242,l),
+(292,275,l),
+(34,275,l),
+(27,242,l)
+);
+}
+);
+width = 319;
+},
+{
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+closed = 1;
+nodes = (
+(364,192,l),
+(398,352,l),
+(47,352,l),
+(14,192,l)
+);
+}
+);
+width = 411;
+},
+{
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+closed = 1;
+nodes = (
+(333,243,l),
+(340,275,l),
+(57,275,l),
+(50,243,l)
+);
+}
+);
+width = 390;
+},
+{
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+shapes = (
+{
+closed = 1;
+nodes = (
+(363,187,l),
+(399,355,l),
+(44,355,l),
+(9,187,l)
+);
+}
+);
+width = 409;
+}
+);
+unicode = 45;
+userData = {
+KernOnName = hyphen;
+KernOnSpecialSpacing = {
+L = hyphen;
+R = hyphen;
+};
+};
+}
