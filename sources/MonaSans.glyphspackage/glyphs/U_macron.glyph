@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Umacron;
 kernLeft = U;
 kernRight = U;
@@ -10,11 +11,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (80,58);
+pos = (88,58);
 ref = macroncomb;
 }
 );
-width = 443;
+width = 449;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (11,49);
+pos = (44,49);
 ref = macroncomb;
 }
 );
-width = 480;
+width = 476;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (175,57);
+pos = (162,57);
 ref = macroncomb;
 }
 );
-width = 753;
+width = 723;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (163,51);
+pos = (129,51);
 ref = macroncomb;
 }
 );
-width = 773;
+width = 741;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,7 +63,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (139,58);
+pos = (154,58);
 ref = macroncomb;
 }
 );
@@ -75,11 +76,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (188,56);
+pos = (136,56);
 ref = macroncomb;
 }
 );
-width = 819;
+width = 799;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (81,58);
+pos = (99,58);
 ref = macroncomb;
 }
 );
-width = 442;
+width = 449;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (52,49);
+pos = (54,49);
 ref = macroncomb;
 }
 );
-width = 477;
+width = 472;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (167,57);
+pos = (166,57);
 ref = macroncomb;
 }
 );
-width = 743;
+width = 712;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (173,51);
+pos = (147,51);
 ref = macroncomb;
 }
 );
-width = 754;
+width = 722;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (148,58);
+pos = (161,58);
 ref = macroncomb;
 }
 );
-width = 758;
+width = 757;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (138,56);
+pos = (142,56);
 ref = macroncomb;
 }
 );
-width = 812;
+width = 793;
 }
 );
 unicode = 362;

@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = odieresis;
 kernLeft = o;
 kernRight = o;
@@ -11,11 +11,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (39,-156);
+pos = (50,-156);
 ref = dieresiscomb;
 }
 );
-width = 324;
+width = 337;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -24,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-10,-137);
+pos = (2,-137);
 ref = dieresiscomb;
 }
 );
-width = 462;
+width = 454;
 },
 {
 layerId = master01;
@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (101,-155);
+pos = (133,-155);
 ref = dieresiscomb;
 }
 );
-width = 575;
+width = 589;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -50,7 +50,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (36,-134);
+pos = (61,-134);
 ref = dieresiscomb;
 }
 );
@@ -63,11 +63,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (134,-155);
+pos = (143,-155);
 ref = dieresiscomb;
 }
 );
-width = 654;
+width = 640;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -76,11 +76,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (71,-134);
+pos = (64,-134);
 ref = dieresiscomb;
 }
 );
-width = 718;
+width = 694;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -89,11 +89,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-12,-156);
+pos = (9,-156);
 ref = dieresiscomb;
 }
 );
-width = 324;
+width = 336;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -102,11 +102,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-48,-137);
+pos = (-37,-137);
 ref = dieresiscomb;
 }
 );
-width = 459;
+width = 451;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -115,11 +115,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (67,-156);
+pos = (80,-156);
 ref = dieresiscomb;
 }
 );
-width = 561;
+width = 577;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -128,7 +128,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (3,-134);
+pos = (18,-134);
 ref = dieresiscomb;
 }
 );
@@ -141,11 +141,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (75,-155);
+pos = (87,-155);
 ref = dieresiscomb;
 }
 );
-width = 645;
+width = 631;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -154,11 +154,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (18,-134);
+pos = (21,-134);
 ref = dieresiscomb;
 }
 );
-width = 718;
+width = 692;
 }
 );
 unicode = 246;

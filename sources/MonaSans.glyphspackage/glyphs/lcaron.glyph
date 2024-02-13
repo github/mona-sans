@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = lcaron;
 kernLeft = l;
 kernRight = lcaron;
@@ -10,8 +11,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (93,0);
-ref = caron.Alt;
+pos = (98,0);
+ref = caroncomb.alt;
 }
 );
 width = 149;
@@ -23,11 +24,11 @@ shapes = (
 ref = l;
 },
 {
-pos = (185,0);
-ref = caron.Alt;
+pos = (183,0);
+ref = caroncomb.alt;
 }
 );
-width = 233;
+width = 231;
 },
 {
 layerId = master01;
@@ -36,8 +37,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (126,0);
-ref = caron.Alt;
+pos = (140,0);
+ref = caroncomb.alt;
 }
 );
 width = 207;
@@ -49,8 +50,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (225,0);
-ref = caron.Alt;
+pos = (224,0);
+ref = caroncomb.alt;
 }
 );
 width = 299;
@@ -62,11 +63,11 @@ shapes = (
 ref = l;
 },
 {
-pos = (107,0);
-ref = caron.Alt;
+pos = (131,0);
+ref = caroncomb.alt;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -76,10 +77,10 @@ ref = l;
 },
 {
 pos = (254,0);
-ref = caron.Alt;
+ref = caroncomb.alt;
 }
 );
-width = 308;
+width = 307;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,8 +89,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (83,0);
-ref = caron.Alt;
+pos = (99,0);
+ref = caroncomb.alt;
 }
 );
 width = 149;
@@ -101,11 +102,11 @@ shapes = (
 ref = l;
 },
 {
-pos = (177,0);
-ref = caron.Alt;
+pos = (180,0);
+ref = caroncomb.alt;
 }
 );
-width = 232;
+width = 228;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,8 +115,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (124,0);
-ref = caron.Alt;
+pos = (139,0);
+ref = caroncomb.alt;
 }
 );
 width = 206;
@@ -127,8 +128,8 @@ shapes = (
 ref = l;
 },
 {
-pos = (218,0);
-ref = caron.Alt;
+pos = (233,0);
+ref = caroncomb.alt;
 }
 );
 width = 299;
@@ -140,11 +141,11 @@ shapes = (
 ref = l;
 },
 {
-pos = (116,0);
-ref = caron.Alt;
+pos = (131,0);
+ref = caroncomb.alt;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,12 +154,15 @@ shapes = (
 ref = l;
 },
 {
-pos = (237,0);
-ref = caron.Alt;
+pos = (252,0);
+ref = caroncomb.alt;
 }
 );
-width = 306;
+width = 305;
 }
 );
 unicode = 318;
+userData = {
+KernOnName = lcaron;
+};
 }

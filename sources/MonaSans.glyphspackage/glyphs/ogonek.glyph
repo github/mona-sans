@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = ogonek;
 layers = (
 {
@@ -50,7 +50,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 180;
+width = 203;
 },
 {
 background = {
@@ -89,7 +89,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 302;
+width = 305;
 },
 {
 layerId = master01;
@@ -99,7 +99,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 212;
+width = 226;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -109,7 +109,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 324;
+width = 340;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -119,7 +119,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 215;
+width = 246;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -129,7 +129,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 387;
+width = 390;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -139,7 +139,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 260;
+width = 206;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -149,7 +149,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 308;
+width = 309;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -159,7 +159,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 366;
+width = 228;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -169,7 +169,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 447;
+width = 336;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -179,7 +179,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 214;
+width = 248;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -189,7 +189,7 @@ alignment = 1;
 ref = ogonekcomb;
 }
 );
-width = 398;
+width = 388;
 }
 );
 unicode = 731;

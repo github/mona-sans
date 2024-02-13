@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = quotedblright;
 kernLeft = quotedblright;
 kernRight = quotedblright;
@@ -8,128 +8,139 @@ layers = (
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
+alignment = 3;
 pos = (0,575);
 ref = quotedblbase;
 }
 );
-width = 469;
+width = 435;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 shapes = (
 {
+alignment = 3;
 pos = (0,695);
 ref = quotedblbase;
 }
 );
-width = 273;
+width = 293;
 },
 {
 layerId = master01;
 shapes = (
 {
+alignment = 3;
 pos = (0,668);
 ref = quotedblbase;
 }
 );
-width = 319;
+width = 301;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 shapes = (
 {
+alignment = 3;
 pos = (0,571);
 ref = quotedblbase;
 }
 );
-width = 528;
+width = 494;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 shapes = (
 {
+alignment = 3;
 pos = (0,686);
 ref = quotedblbase;
 }
 );
-width = 297;
+width = 275;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 shapes = (
 {
+alignment = 3;
 pos = (0,565);
 ref = quotedblbase;
 }
 );
-width = 580;
+width = 541;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 shapes = (
 {
+alignment = 3;
 pos = (144,693);
 ref = quotedblbase;
 }
 );
-width = 271;
+width = 236;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
 shapes = (
 {
+alignment = 3;
 pos = (119,573);
 ref = quotedblbase;
 }
 );
-width = 499;
+width = 458;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 shapes = (
 {
+alignment = 3;
 pos = (142,685);
 ref = quotedblbase;
 }
 );
-width = 314;
+width = 303;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 shapes = (
 {
+alignment = 3;
 pos = (118,570);
 ref = quotedblbase;
 }
 );
-width = 533;
+width = 493;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 shapes = (
 {
+alignment = 3;
 pos = (142,686);
 ref = quotedblbase;
 }
 );
-width = 292;
+width = 276;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
+alignment = 3;
 pos = (117,565);
 ref = quotedblbase;
 }
 );
-width = 575;
+width = 543;
 }
 );
 metricLeft = comma;
 metricRight = comma;
 unicode = 8221;
 userData = {
-KernOnName = quotedblright;
 KernOnSpecialSpacing = {
 L = quotes;
 R = quotes;

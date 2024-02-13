@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ocircumflextilde;
 kernLeft = ccaron;
 kernRight = o;
@@ -10,11 +11,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (21,-156);
+pos = (36,-156);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 324;
+width = 337;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (2,-137);
+pos = (27,-137);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 462;
+width = 454;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (103,-155);
+pos = (122,-155);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 575;
+width = 589;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,7 +50,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (57,-134);
+pos = (62,-134);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -62,11 +63,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (144,-155);
+pos = (142,-155);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 654;
+width = 640;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (53,-129);
+pos = (80,-129);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 718;
+width = 694;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-8,-156);
+pos = (3,-156);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 324;
+width = 336;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-84,-137);
+pos = (-25,-137);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 459;
+width = 451;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (95,-156);
+pos = (64,-156);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 561;
+width = 577;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,7 +128,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (12,-134);
+pos = (8,-134);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -140,11 +141,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (0,-155);
+pos = (74,-155);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 645;
+width = 631;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,15 +154,12 @@ shapes = (
 ref = o;
 },
 {
-pos = (28,-129);
+pos = (31,-129);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 718;
+width = 692;
 }
 );
 unicode = 7895;
-userData = {
-KernOnName = ocircumflextilde;
-};
 }

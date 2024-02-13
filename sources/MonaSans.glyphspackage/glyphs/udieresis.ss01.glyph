@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 6;
 glyphname = udieresis.ss01;
 kernLeft = u;
 kernRight = u;
@@ -11,11 +11,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (67,-156);
+pos = (69,-156);
 ref = dieresiscomb.ss01;
 }
 );
-width = 357;
+width = 354;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -24,11 +24,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-4,-137);
+pos = (11,-137);
 ref = dieresiscomb.ss01;
 }
 );
-width = 478;
+width = 474;
 },
 {
 layerId = master01;
@@ -37,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (46,-155);
+pos = (151,-155);
 ref = dieresiscomb.ss01;
 }
 );
@@ -50,11 +50,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (74,-134);
+pos = (90,-134);
 ref = dieresiscomb.ss01;
 }
 );
-width = 648;
+width = 650;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -63,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (60,-155);
+pos = (163,-155);
 ref = dieresiscomb.ss01;
 }
 );
@@ -76,11 +76,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (112,-134);
+pos = (95,-134);
 ref = dieresiscomb.ss01;
 }
 );
-width = 730;
+width = 723;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -89,11 +89,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-83,-156);
+pos = (32,-156);
 ref = dieresiscomb.ss01;
 }
 );
-width = 356;
+width = 351;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -102,11 +102,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-30,-137);
+pos = (-19,-137);
 ref = dieresiscomb.ss01;
 }
 );
-width = 477;
+width = 471;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -115,11 +115,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (5,-155);
+pos = (108,-155);
 ref = dieresiscomb.ss01;
 }
 );
-width = 571;
+width = 569;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -128,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (40,-134);
+pos = (58,-134);
 ref = dieresiscomb.ss01;
 }
 );
@@ -141,11 +141,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (30,-155);
+pos = (132,-155);
 ref = dieresiscomb.ss01;
 }
 );
-width = 622;
+width = 620;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -154,11 +154,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (82,-134);
+pos = (67,-134);
 ref = dieresiscomb.ss01;
 }
 );
-width = 725;
+width = 714;
 }
 );
 }

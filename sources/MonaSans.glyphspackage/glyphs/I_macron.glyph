@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Imacron;
 layers = (
 {
@@ -8,11 +9,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-61,58);
+pos = (-55,58);
 ref = macroncomb;
 }
 );
-width = 161;
+width = 163;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -21,11 +22,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-107,49);
+pos = (-71,49);
 ref = macroncomb;
 }
 );
-width = 243;
+width = 245;
 },
 {
 layerId = master01;
@@ -34,11 +35,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-80,57);
+pos = (-87,57);
 ref = macroncomb;
 }
 );
-width = 244;
+width = 226;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -47,11 +48,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-53,51);
+pos = (-81,51);
 ref = macroncomb;
 }
 );
-width = 341;
+width = 321;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -60,11 +61,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-153,58);
+pos = (-137,58);
 ref = macroncomb;
 }
 );
-width = 180;
+width = 182;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -73,11 +74,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-53,56);
+pos = (-102,56);
 ref = macroncomb;
 }
 );
-width = 337;
+width = 323;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -86,7 +87,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (-59,58);
+pos = (-44,58);
 ref = macroncomb;
 }
 );
@@ -99,11 +100,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-69,49);
+pos = (-63,49);
 ref = macroncomb;
 }
 );
-width = 242;
+width = 244;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -112,11 +113,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-83,57);
+pos = (-76,57);
 ref = macroncomb;
 }
 );
-width = 244;
+width = 226;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -125,11 +126,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-35,51);
+pos = (-54,51);
 ref = macroncomb;
 }
 );
-width = 339;
+width = 319;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -138,11 +139,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-142,58);
+pos = (-126,58);
 ref = macroncomb;
 }
 );
-width = 180;
+width = 182;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -151,11 +152,11 @@ shapes = (
 ref = I;
 },
 {
-pos = (-100,56);
+pos = (-92,56);
 ref = macroncomb;
 }
 );
-width = 335;
+width = 321;
 }
 );
 unicode = 298;

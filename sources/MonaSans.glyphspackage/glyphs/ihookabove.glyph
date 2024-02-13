@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ihookabove;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-21,-156);
+pos = (-6,-156);
 ref = hookabovecomb;
 }
 );
@@ -21,11 +22,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-161,-138);
+pos = (-23,-138);
 ref = hookabovecomb;
 }
 );
-width = 233;
+width = 231;
 },
 {
 layerId = master01;
@@ -34,7 +35,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-19,-155);
+pos = (-4,-155);
 ref = hookabovecomb;
 }
 );
@@ -47,7 +48,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-18,-134);
+pos = (-13,-134);
 ref = hookabovecomb;
 }
 );
@@ -60,11 +61,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-38,-155);
+pos = (-23,-155);
 ref = hookabovecomb;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -73,11 +74,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-157,-134);
+pos = (1,-134);
 ref = hookabovecomb;
 }
 );
-width = 308;
+width = 307;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -86,7 +87,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-152,-157);
+pos = (-61,-157);
 ref = hookabovecomb;
 }
 );
@@ -99,11 +100,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-70,-139);
+pos = (-60,-139);
 ref = hookabovecomb;
 }
 );
-width = 233;
+width = 229;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -112,7 +113,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-223,-156);
+pos = (-32,-156);
 ref = hookabovecomb;
 }
 );
@@ -125,7 +126,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-125,-135);
+pos = (-47,-135);
 ref = hookabovecomb;
 }
 );
@@ -138,11 +139,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-241,-156);
+pos = (-50,-156);
 ref = hookabovecomb;
 }
 );
-width = 167;
+width = 168;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -151,11 +152,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-74,-137);
+pos = (-43,-137);
 ref = hookabovecomb;
 }
 );
-width = 307;
+width = 306;
 }
 );
 unicode = 7881;

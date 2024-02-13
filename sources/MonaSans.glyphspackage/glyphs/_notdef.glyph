@@ -1,5 +1,4 @@
 {
-color = 6;
 glyphname = .notdef;
 layers = (
 {
@@ -2535,4 +2534,10 @@ nodes = (
 width = 886;
 }
 );
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
 }

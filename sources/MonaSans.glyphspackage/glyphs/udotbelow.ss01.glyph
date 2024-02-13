@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 6;
 glyphname = udotbelow.ss01;
 kernLeft = u;
 kernRight = u;
@@ -11,11 +11,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (111,0);
+pos = (121,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 357;
+width = 354;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -24,11 +24,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-5,0);
+pos = (106,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 478;
+width = 474;
 },
 {
 layerId = master01;
@@ -37,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (177,0);
+pos = (227,0);
 ref = dotbelowcomb.ss01;
 }
 );
@@ -50,11 +50,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (86,0);
+pos = (185,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 648;
+width = 650;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -63,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (217,0);
+pos = (248,0);
 ref = dotbelowcomb.ss01;
 }
 );
@@ -76,11 +76,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (101,0);
+pos = (218,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 730;
+width = 723;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -89,11 +89,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (48,0);
+pos = (130,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 356;
+width = 351;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -102,11 +102,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-73,0);
+pos = (114,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 477;
+width = 471;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -115,11 +115,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (105,0);
+pos = (230,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 571;
+width = 569;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -128,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (12,0);
+pos = (189,0);
 ref = dotbelowcomb.ss01;
 }
 );
@@ -141,11 +141,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (148,0);
+pos = (255,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 622;
+width = 620;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -154,11 +154,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (122,0);
+pos = (225,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 725;
+width = 714;
 }
 );
 }

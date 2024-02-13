@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Uhornacute;
 kernLeft = U;
 kernRight = Uhorn;
@@ -10,11 +11,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (161,57);
+pos = (169,57);
 ref = acutecomb;
 }
 );
-width = 443;
+width = 449;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (123,51);
+pos = (126,51);
 ref = acutecomb;
 }
 );
-width = 480;
+width = 476;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (322,57);
+pos = (307,57);
 ref = acutecomb;
 }
 );
-width = 753;
+width = 723;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (275,51);
+pos = (259,51);
 ref = acutecomb;
 }
 );
-width = 773;
+width = 741;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,7 +63,7 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (319,57);
+pos = (324,57);
 ref = acutecomb;
 }
 );
@@ -75,11 +76,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (264,56);
+pos = (283,56);
 ref = acutecomb;
 }
 );
-width = 819;
+width = 799;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (173,57);
+pos = (181,57);
 ref = acutecomb;
 }
 );
-width = 442;
+width = 449;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (136,51);
+pos = (138,51);
 ref = acutecomb;
 }
 );
-width = 477;
+width = 472;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (327,57);
+pos = (310,57);
 ref = acutecomb;
 }
 );
-width = 743;
+width = 712;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (277,51);
+pos = (260,51);
 ref = acutecomb;
 }
 );
-width = 754;
+width = 722;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (329,57);
+pos = (332,57);
 ref = acutecomb;
 }
 );
-width = 758;
+width = 757;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (272,56);
+pos = (290,56);
 ref = acutecomb;
 }
 );
-width = 812;
+width = 793;
 }
 );
 unicode = 7912;

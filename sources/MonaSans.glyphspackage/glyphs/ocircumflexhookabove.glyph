@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ocircumflexhookabove;
 kernLeft = ccaron;
 layers = (
@@ -9,11 +10,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (27,-156);
+pos = (39,-156);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 324;
+width = 337;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -22,11 +23,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-2,-137);
+pos = (27,-137);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 462;
+width = 454;
 },
 {
 layerId = master01;
@@ -35,11 +36,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (99,-155);
+pos = (130,-155);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 575;
+width = 589;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -48,7 +49,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (74,-134);
+pos = (69,-134);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -61,11 +62,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (143,-155);
+pos = (141,-155);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 654;
+width = 640;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -74,11 +75,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (87,-129);
+pos = (80,-129);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 718;
+width = 694;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -87,11 +88,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-13,-156);
+pos = (1,-156);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 324;
+width = 336;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -100,11 +101,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-7,-137);
+pos = (-15,-137);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 459;
+width = 451;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -113,11 +114,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (62,-156);
+pos = (75,-156);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 561;
+width = 577;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -126,7 +127,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (8,-134);
+pos = (22,-134);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -139,11 +140,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-4,-155);
+pos = (82,-155);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 645;
+width = 631;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -152,15 +153,12 @@ shapes = (
 ref = o;
 },
 {
-pos = (103,-129);
+pos = (31,-129);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 718;
+width = 692;
 }
 );
 unicode = 7893;
-userData = {
-KernOnName = ocircumflexhookabove;
-};
 }

@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Uring;
 kernLeft = U;
 kernRight = U;
@@ -10,11 +11,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (114,57);
+pos = (122,57);
 ref = ringcomb;
 }
 );
-width = 443;
+width = 449;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (82,51);
+pos = (84,51);
 ref = ringcomb;
 }
 );
-width = 480;
+width = 476;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (127,57);
+pos = (229,57);
 ref = ringcomb;
 }
 );
-width = 753;
+width = 723;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (137,51);
+pos = (202,51);
 ref = ringcomb;
 }
 );
-width = 773;
+width = 741;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,7 +63,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (132,57);
+pos = (234,57);
 ref = ringcomb;
 }
 );
@@ -75,11 +76,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (160,56);
+pos = (216,56);
 ref = ringcomb;
 }
 );
-width = 819;
+width = 799;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (93,57);
+pos = (134,57);
 ref = ringcomb;
 }
 );
-width = 442;
+width = 449;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (83,51);
+pos = (95,51);
 ref = ringcomb;
 }
 );
-width = 477;
+width = 472;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (234,57);
+pos = (233,57);
 ref = ringcomb;
 }
 );
-width = 743;
+width = 712;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (137,51);
+pos = (200,51);
 ref = ringcomb;
 }
 );
-width = 754;
+width = 722;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (226,57);
+pos = (239,57);
 ref = ringcomb;
 }
 );
-width = 758;
+width = 757;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (216,51);
+pos = (220,51);
 ref = ringcomb;
 }
 );
-width = 812;
+width = 793;
 }
 );
 unicode = 366;

@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = imacron;
 kernLeft = imacron;
 kernRight = imacron;
@@ -10,7 +11,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-67,-155);
+pos = (-62,-155);
 ref = macroncomb;
 }
 );
@@ -23,11 +24,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-112,-139);
+pos = (-78,-139);
 ref = macroncomb;
 }
 );
-width = 233;
+width = 231;
 },
 {
 layerId = master01;
@@ -36,7 +37,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-98,-155);
+pos = (-96,-155);
 ref = macroncomb;
 }
 );
@@ -49,7 +50,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-74,-134);
+pos = (-92,-134);
 ref = macroncomb;
 }
 );
@@ -62,11 +63,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-158,-154);
+pos = (-143,-154);
 ref = macroncomb;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-68,-129);
+pos = (-110,-129);
 ref = macroncomb;
 }
 );
-width = 308;
+width = 307;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,7 +89,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-110,-155);
+pos = (-95,-155);
 ref = macroncomb;
 }
 );
@@ -101,11 +102,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-111,-139);
+pos = (-108,-139);
 ref = macroncomb;
 }
 );
-width = 233;
+width = 229;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,7 +115,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-145,-155);
+pos = (-129,-155);
 ref = macroncomb;
 }
 );
@@ -127,7 +128,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-91,-134);
+pos = (-100,-134);
 ref = macroncomb;
 }
 );
@@ -140,11 +141,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-191,-154);
+pos = (-176,-154);
 ref = macroncomb;
 }
 );
-width = 167;
+width = 168;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-154,-129);
+pos = (-139,-129);
 ref = macroncomb;
 }
 );
-width = 307;
+width = 306;
 }
 );
 unicode = 299;

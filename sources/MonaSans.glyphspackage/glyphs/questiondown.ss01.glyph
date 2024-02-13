@@ -1,35 +1,38 @@
 {
-color = 5;
+color = 6;
 glyphname = questiondown.ss01;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (444,542);
+pos = (445,541);
 ref = question.ss01;
 }
 );
-width = 444;
+width = 445;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (319,516);
+pos = (302,516);
 ref = question.ss01;
 }
 );
-width = 319;
+width = 302;
 },
 {
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (522,516);
+pos = (509,517);
 ref = question.ss01;
 }
 );
@@ -123,14 +126,15 @@ type = Stem;
 }
 );
 };
-width = 522;
+width = 509;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (588,544);
+pos = (578,544);
 ref = question.ss01;
 }
 );
@@ -138,95 +142,103 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = S;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = S;
 };
-width = 588;
+width = 578;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (538,516);
+pos = (528,517);
 ref = question.ss01;
 }
 );
-width = 538;
+width = 528;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (626,544);
+pos = (603,544);
 ref = question.ss01;
 }
 );
-width = 626;
+width = 603;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (318,516);
+pos = (300,516);
 ref = question.ss01;
 }
 );
-width = 318;
+width = 300;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (440,541);
+pos = (441,541);
 ref = question.ss01;
 }
 );
-width = 440;
+width = 441;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (520,516);
+pos = (507,517);
 ref = question.ss01;
 }
 );
-width = 521;
+width = 507;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (588,544);
+pos = (578,544);
 ref = question.ss01;
 }
 );
-width = 588;
+width = 578;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (538,516);
+pos = (529,517);
 ref = question.ss01;
 }
 );
-width = 538;
+width = 529;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (615,544);
+pos = (591,544);
 ref = question.ss01;
 }
 );
-width = 615;
+width = 591;
 }
 );
 metricLeft = "=|question";

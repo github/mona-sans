@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 6;
 glyphname = ohorndotbelow.ss01;
 kernLeft = o;
 layers = (
@@ -10,11 +10,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (94,0);
+pos = (113,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 324;
+width = 338;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +23,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (-13,0);
+pos = (98,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 462;
+width = 470;
 },
 {
 layerId = master01;
@@ -36,11 +36,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (174,0);
+pos = (236,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 575;
+width = 589;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +49,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (66,0);
+pos = (168,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 608;
+width = 612;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,11 +62,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (231,0);
+pos = (261,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 654;
+width = 640;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +75,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (95,0);
+pos = (206,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 718;
+width = 700;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +88,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (34,0);
+pos = (126,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 324;
+width = 337;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +101,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (-70,0);
+pos = (118,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 459;
+width = 451;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +114,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (106,0);
+pos = (246,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 561;
+width = 577;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +127,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (15,0);
+pos = (197,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 605;
+width = 607;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +140,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (169,0);
+pos = (277,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 645;
+width = 631;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +153,11 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (144,0);
+pos = (243,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 718;
+width = 694;
 }
 );
 }

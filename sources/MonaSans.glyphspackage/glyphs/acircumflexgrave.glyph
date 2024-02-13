@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = acircumflexgrave;
 kernLeft = a;
 kernRight = a;
@@ -10,11 +11,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (36,-156);
+pos = (48,-156);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 337;
+width = 344;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (27,-137);
+pos = (40,-137);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 473;
+width = 470;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (71,-155);
+pos = (136,-155);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 582;
+width = 592;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (97,-134);
+pos = (95,-134);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 651;
+width = 654;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,11 +63,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (138,-155);
+pos = (137,-155);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 646;
+width = 640;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (99,-129);
+pos = (94,-129);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 740;
+width = 730;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (-2,-156);
+pos = (12,-156);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 335;
+width = 341;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (6,-137);
+pos = (9,-137);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 471;
+width = 467;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (127,-155);
+pos = (112,-155);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 576;
+width = 586;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (37,-134);
+pos = (53,-134);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 655;
+width = 657;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (28,-155);
+pos = (115,-155);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 644;
+width = 638;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,15 +154,12 @@ shapes = (
 ref = a;
 },
 {
-pos = (32,-129);
+pos = (63,-129);
 ref = circumflexcomb_gravecomb;
 }
 );
-width = 733;
+width = 723;
 }
 );
 unicode = 7847;
-userData = {
-KernOnName = acircumflexgrave;
-};
 }

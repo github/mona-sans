@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Scedilla;
 kernLeft = S;
 kernRight = S;
@@ -10,7 +11,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (69,0);
+pos = (54,0);
 ref = cedillacomb;
 }
 );
@@ -23,11 +24,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (-46,0);
+pos = (18,0);
 ref = cedillacomb;
 }
 );
-width = 446;
+width = 448;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (193,0);
+pos = (177,0);
 ref = cedillacomb;
 }
 );
-width = 644;
+width = 634;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (61,0);
+pos = (123,0);
 ref = cedillacomb;
 }
 );
-width = 684;
+width = 678;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,11 +63,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (225,0);
+pos = (198,0);
 ref = cedillacomb;
 }
 );
-width = 691;
+width = 680;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (96,0);
+pos = (151,0);
 ref = cedillacomb;
 }
 );
-width = 761;
+width = 745;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (9,0);
+pos = (78,0);
 ref = cedillacomb;
 }
 );
-width = 375;
+width = 373;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (-105,0);
+pos = (41,0);
 ref = cedillacomb;
 }
 );
-width = 443;
+width = 444;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (133,0);
+pos = (200,0);
 ref = cedillacomb;
 }
 );
-width = 632;
+width = 620;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (120,0);
+pos = (145,0);
 ref = cedillacomb;
 }
 );
-width = 666;
+width = 657;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (175,0);
+pos = (229,0);
 ref = cedillacomb;
 }
 );
-width = 685;
+width = 671;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (181,0);
+pos = (183,0);
 ref = cedillacomb;
 }
 );
-width = 755;
+width = 735;
 }
 );
 unicode = 350;

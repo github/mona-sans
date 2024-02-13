@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = uring;
 kernLeft = u;
 kernRight = u;
@@ -10,11 +11,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (71,-156);
+pos = (73,-156);
 ref = ringcomb;
 }
 );
-width = 357;
+width = 354;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -27,7 +28,7 @@ pos = (81,-137);
 ref = ringcomb;
 }
 );
-width = 478;
+width = 474;
 },
 {
 layerId = master01;
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (41,-155);
+pos = (153,-155);
 ref = ringcomb;
 }
 );
@@ -49,11 +50,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (74,-134);
+pos = (152,-134);
 ref = ringcomb;
 }
 );
-width = 648;
+width = 650;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (63,-155);
+pos = (159,-155);
 ref = ringcomb;
 }
 );
@@ -75,11 +76,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (112,-129);
+pos = (172,-129);
 ref = ringcomb;
 }
 );
-width = 730;
+width = 723;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (6,-156);
+pos = (40,-156);
 ref = ringcomb;
 }
 );
-width = 356;
+width = 351;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (42,-137);
+pos = (52,-137);
 ref = ringcomb;
 }
 );
-width = 477;
+width = 471;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (105,-155);
+pos = (114,-155);
 ref = ringcomb;
 }
 );
-width = 571;
+width = 569;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (41,-134);
+pos = (116,-134);
 ref = ringcomb;
 }
 );
@@ -140,11 +141,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (114,-155);
+pos = (121,-155);
 ref = ringcomb;
 }
 );
-width = 622;
+width = 620;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (131,-134);
+pos = (137,-134);
 ref = ringcomb;
 }
 );
-width = 725;
+width = 714;
 }
 );
 unicode = 367;

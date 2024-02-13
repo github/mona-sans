@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Ahookabove;
 kernLeft = A;
 kernRight = A;
@@ -10,11 +11,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (99,57);
+pos = (112,57);
 ref = hookabovecomb;
 }
 );
-width = 390;
+width = 386;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (-28,50);
+pos = (110,50);
 ref = hookabovecomb;
 }
 );
-width = 500;
+width = 497;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (192,57);
+pos = (231,57);
 ref = hookabovecomb;
 }
 );
-width = 629;
+width = 678;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (202,51);
+pos = (220,51);
 ref = hookabovecomb;
 }
 );
-width = 739;
+width = 766;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,11 +63,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (278,57);
+pos = (294,57);
 ref = hookabovecomb;
 }
 );
-width = 802;
+width = 803;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (126,51);
+pos = (282,51);
 ref = hookabovecomb;
 }
 );
-width = 874;
+width = 871;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (16,56);
+pos = (104,56);
 ref = hookabovecomb;
 }
 );
-width = 394;
+width = 389;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (98,49);
+pos = (109,49);
 ref = hookabovecomb;
 }
 );
-width = 501;
+width = 498;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (24,56);
+pos = (239,56);
 ref = hookabovecomb;
 }
 );
-width = 614;
+width = 663;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (107,50);
+pos = (198,50);
 ref = hookabovecomb;
 }
 );
-width = 698;
+width = 724;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (114,56);
+pos = (306,56);
 ref = hookabovecomb;
 }
 );
-width = 793;
+width = 794;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (230,48);
+pos = (260,48);
 ref = hookabovecomb;
 }
 );
-width = 850;
+width = 848;
 }
 );
 unicode = 7842;

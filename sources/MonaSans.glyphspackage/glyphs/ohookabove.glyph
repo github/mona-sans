@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ohookabove;
 kernLeft = o;
 kernRight = o;
@@ -10,11 +11,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (66,-156);
+pos = (87,-156);
 ref = hookabovecomb;
 }
 );
-width = 324;
+width = 337;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-47,-138);
+pos = (88,-138);
 ref = hookabovecomb;
 }
 );
-width = 462;
+width = 454;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (165,-155);
+pos = (187,-155);
 ref = hookabovecomb;
 }
 );
-width = 575;
+width = 589;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,7 +50,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (136,-134);
+pos = (141,-134);
 ref = hookabovecomb;
 }
 );
@@ -62,11 +63,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (204,-155);
+pos = (212,-155);
 ref = hookabovecomb;
 }
 );
-width = 654;
+width = 640;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (48,-134);
+pos = (194,-134);
 ref = hookabovecomb;
 }
 );
-width = 718;
+width = 694;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-68,-157);
+pos = (29,-157);
 ref = hookabovecomb;
 }
 );
-width = 324;
+width = 336;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (41,-139);
+pos = (49,-139);
 ref = hookabovecomb;
 }
 );
-width = 459;
+width = 451;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-61,-157);
+pos = (138,-157);
 ref = hookabovecomb;
 }
 );
-width = 561;
+width = 577;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,7 +128,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (14,-135);
+pos = (92,-135);
 ref = hookabovecomb;
 }
 );
@@ -140,11 +141,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-23,-156);
+pos = (161,-156);
 ref = hookabovecomb;
 }
 );
-width = 645;
+width = 631;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (120,-137);
+pos = (138,-137);
 ref = hookabovecomb;
 }
 );
-width = 718;
+width = 692;
 }
 );
 unicode = 7887;

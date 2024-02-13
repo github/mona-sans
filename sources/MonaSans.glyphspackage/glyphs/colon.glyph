@@ -4,7 +4,7 @@ glyphname = colon;
 kernLeft = colon;
 layers = (
 {
-layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+background = {
 shapes = (
 {
 closed = 1;
@@ -41,10 +41,25 @@ nodes = (
 );
 }
 );
-width = 240;
+};
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+alignment = 1;
+anchor = top;
+pos = (0,387);
+ref = period;
+}
+);
+width = 196;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -81,10 +96,25 @@ nodes = (
 );
 }
 );
-width = 150;
+};
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = master01;
+alignment = 1;
+anchor = top;
+pos = (0,480);
+ref = period;
+}
+);
+width = 124;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -121,10 +151,25 @@ nodes = (
 );
 }
 );
-width = 186;
+};
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+alignment = 1;
+anchor = top;
+pos = (0,473);
+ref = period;
+}
+);
+width = 170;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -161,10 +206,25 @@ nodes = (
 );
 }
 );
-width = 278;
+};
+layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+alignment = 1;
+anchor = top;
+pos = (0,384);
+ref = period;
+}
+);
+width = 232;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -201,10 +261,25 @@ nodes = (
 );
 }
 );
-width = 159;
+};
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+alignment = 1;
+anchor = top;
+pos = (0,473);
+ref = period;
+}
+);
+width = 142;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -241,10 +316,25 @@ nodes = (
 );
 }
 );
-width = 300;
+};
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+alignment = 1;
+anchor = top;
+pos = (0,379);
+ref = period;
+}
+);
+width = 262;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -281,10 +371,25 @@ nodes = (
 );
 }
 );
-width = 149;
+};
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+alignment = 1;
+anchor = top;
+pos = (100,480);
+ref = period;
+}
+);
+width = 123;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -321,10 +426,25 @@ nodes = (
 );
 }
 );
-width = 245;
+};
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+alignment = 1;
+anchor = top;
+pos = (81,387);
+ref = period;
+}
+);
+width = 211;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -361,10 +481,25 @@ nodes = (
 );
 }
 );
-width = 189;
+};
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+alignment = 1;
+anchor = top;
+pos = (98,473);
+ref = period;
+}
+);
+width = 170;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -401,10 +536,25 @@ nodes = (
 );
 }
 );
-width = 290;
+};
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+alignment = 1;
+anchor = top;
+pos = (80,385);
+ref = period;
+}
+);
+width = 242;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -441,10 +591,25 @@ nodes = (
 );
 }
 );
-width = 161;
+};
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
 },
 {
-layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+alignment = 1;
+anchor = top;
+pos = (98,473);
+ref = period;
+}
+);
+width = 144;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -481,13 +646,29 @@ nodes = (
 );
 }
 );
-width = 306;
+};
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+shapes = (
+{
+alignment = 1;
+anchor = top;
+ref = period;
+},
+{
+alignment = 1;
+anchor = top;
+pos = (78,379);
+ref = period;
+}
+);
+width = 264;
 }
 );
 metricLeft = period;
 metricRight = period;
 unicode = 58;
 userData = {
+KernOnName = colon;
 KernOnSpecialSpacing = {
 L = "spaced-off";
 R = "spaced-off";

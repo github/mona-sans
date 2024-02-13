@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = icircumflex;
 kernLeft = icircumflex;
 kernRight = icircumflex;
@@ -11,7 +11,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-60,-156);
+pos = (-54,-156);
 ref = circumflexcomb;
 }
 );
@@ -24,11 +24,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-133,-137);
+pos = (-101,-137);
 ref = circumflexcomb;
 }
 );
-width = 233;
+width = 231;
 },
 {
 layerId = master01;
@@ -37,7 +37,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-146,-155);
+pos = (-60,-155);
 ref = circumflexcomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-100,-134);
+pos = (-97,-134);
 ref = circumflexcomb;
 }
 );
@@ -63,11 +63,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-99,-155);
+pos = (-94,-155);
 ref = circumflexcomb;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -76,11 +76,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-113,-129);
+pos = (-137,-129);
 ref = circumflexcomb;
 }
 );
-width = 308;
+width = 307;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -89,7 +89,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-92,-156);
+pos = (-87,-156);
 ref = circumflexcomb;
 }
 );
@@ -102,11 +102,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-164,-137);
+pos = (-131,-137);
 ref = circumflexcomb;
 }
 );
-width = 233;
+width = 229;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -115,7 +115,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-67,-155);
+pos = (-95,-155);
 ref = circumflexcomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-127,-134);
+pos = (-121,-134);
 ref = circumflexcomb;
 }
 );
@@ -141,11 +141,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-218,-155);
+pos = (-128,-155);
 ref = circumflexcomb;
 }
 );
-width = 167;
+width = 168;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -154,11 +154,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-182,-129);
+pos = (-167,-129);
 ref = circumflexcomb;
 }
 );
-width = 307;
+width = 306;
 }
 );
 unicode = 238;

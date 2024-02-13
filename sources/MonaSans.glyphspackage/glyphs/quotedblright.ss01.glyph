@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 6;
 glyphname = quotedblright.ss01;
 kernLeft = quotedblright.ss01;
 kernRight = quotedblright.ss01;
@@ -8,126 +8,135 @@ layers = (
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 shapes = (
 {
+alignment = 3;
 pos = (0,674);
 ref = quotedblbase.ss01;
 }
 );
-width = 238;
+width = 222;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
+alignment = 3;
 pos = (0,564);
 ref = quotedblbase.ss01;
 }
 );
-width = 451;
+width = 436;
 },
 {
 layerId = master01;
 shapes = (
 {
+alignment = 3;
 pos = (0,672);
 ref = quotedblbase.ss01;
 }
 );
-width = 303;
+width = 302;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 shapes = (
 {
+alignment = 3;
 pos = (0,567);
 ref = quotedblbase.ss01;
 }
 );
-width = 515;
+width = 514;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 shapes = (
 {
+alignment = 3;
 pos = (0,672);
 ref = quotedblbase.ss01;
 }
 );
-width = 263;
+width = 257;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 shapes = (
 {
+alignment = 3;
 pos = (0,565);
 ref = quotedblbase.ss01;
 }
 );
-width = 544;
+width = 542;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 shapes = (
 {
-pos = (139,674);
+alignment = 3;
+pos = (140,674);
 ref = quotedblbase.ss01;
 }
 );
-width = 243;
+width = 226;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
 shapes = (
 {
-pos = (117,562);
+alignment = 3;
+pos = (116,562);
 ref = quotedblbase.ss01;
 }
 );
-width = 437;
+width = 423;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 shapes = (
 {
+alignment = 3;
 pos = (139,672);
 ref = quotedblbase.ss01;
 }
 );
-width = 272;
+width = 283;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 shapes = (
 {
+alignment = 3;
 pos = (116,559);
 ref = quotedblbase.ss01;
 }
 );
-width = 509;
+width = 492;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 shapes = (
 {
+alignment = 3;
 pos = (140,676);
 ref = quotedblbase.ss01;
 }
 );
-width = 270;
+width = 256;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
+alignment = 3;
 pos = (117,565);
 ref = quotedblbase.ss01;
 }
 );
-width = 541;
+width = 534;
 }
 );
 metricLeft = comma.ss01;
 metricRight = comma.ss01;
-userData = {
-KernOnName = quotedblright.ss01;
-};
 }

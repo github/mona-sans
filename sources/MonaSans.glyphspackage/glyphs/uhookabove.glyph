@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = uhookabove;
 kernLeft = u;
 kernRight = u;
@@ -10,11 +11,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (83,-156);
+pos = (95,-156);
 ref = hookabovecomb;
 }
 );
-width = 357;
+width = 354;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-39,-138);
+pos = (96,-138);
 ref = hookabovecomb;
 }
 );
-width = 478;
+width = 474;
 },
 {
 layerId = master01;
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (168,-155);
+pos = (178,-155);
 ref = hookabovecomb;
 }
 );
@@ -49,11 +50,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (156,-134);
+pos = (158,-134);
 ref = hookabovecomb;
 }
 );
-width = 648;
+width = 650;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (190,-155);
+pos = (199,-155);
 ref = hookabovecomb;
 }
 );
@@ -75,11 +76,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (51,-134);
+pos = (203,-134);
 ref = hookabovecomb;
 }
 );
-width = 730;
+width = 723;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-48,-157);
+pos = (39,-157);
 ref = hookabovecomb;
 }
 );
-width = 356;
+width = 351;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (52,-139);
+pos = (59,-139);
 ref = hookabovecomb;
 }
 );
-width = 477;
+width = 471;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-40,-156);
+pos = (144,-156);
 ref = hookabovecomb;
 }
 );
-width = 571;
+width = 569;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (43,-135);
+pos = (116,-135);
 ref = hookabovecomb;
 }
 );
@@ -140,11 +141,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (-14,-156);
+pos = (169,-156);
 ref = hookabovecomb;
 }
 );
-width = 622;
+width = 620;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (133,-137);
+pos = (155,-137);
 ref = hookabovecomb;
 }
 );
-width = 725;
+width = 714;
 }
 );
 unicode = 7911;

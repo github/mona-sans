@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = tilde;
 layers = (
 {
@@ -10,7 +10,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 291;
+width = 281;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -20,7 +20,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 477;
+width = 467;
 },
 {
 layerId = master01;
@@ -40,7 +40,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 480;
+width = 479;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -50,7 +50,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 431;
+width = 419;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -60,7 +60,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 452;
+width = 524;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -70,7 +70,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 291;
+width = 281;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -80,7 +80,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 477;
+width = 467;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -100,7 +100,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 474;
+width = 473;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -110,7 +110,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 431;
+width = 419;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -120,7 +120,7 @@ alignment = 1;
 ref = tildecomb;
 }
 );
-width = 453;
+width = 523;
 }
 );
 unicode = 732;

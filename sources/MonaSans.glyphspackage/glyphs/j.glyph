@@ -45,11 +45,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-22,-137);
+pos = (-18,-137);
 ref = dotaccent;
 }
 );
-width = 233;
+width = 231;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -58,7 +58,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (30,-156);
+pos = (12,-156);
 ref = dotaccent;
 }
 );
@@ -105,7 +105,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (1,-155);
+pos = (32,-155);
 ref = dotaccent;
 }
 );
@@ -172,7 +172,7 @@ type = Stem;
 }
 );
 };
-width = 201;
+width = 207;
 },
 {
 background = {
@@ -215,7 +215,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-13,-134);
+pos = (12,-134);
 ref = dotaccent;
 }
 );
@@ -231,11 +231,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (0,-155);
+pos = (13,-155);
 ref = dotaccent;
 }
 );
-width = 171;
+width = 169;
 },
 {
 background = {
@@ -278,11 +278,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-9,-129);
+pos = (-4,-129);
 ref = dotaccent;
 }
 );
-width = 308;
+width = 307;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -291,11 +291,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-52,-156);
+pos = (-25,-156);
 ref = dotaccent;
 }
 );
-width = 138;
+width = 150;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -304,11 +304,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-80,-137);
+pos = (-48,-137);
 ref = dotaccent;
 }
 );
-width = 223;
+width = 228;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -317,11 +317,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-14,-155);
+pos = (0,-155);
 ref = dotaccent;
 }
 );
-width = 197;
+width = 206;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -330,11 +330,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-47,-134);
+pos = (-18,-134);
 ref = dotaccent;
 }
 );
-width = 291;
+width = 300;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -343,11 +343,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-49,-155);
+pos = (-18,-155);
 ref = dotaccent;
 }
 );
-width = 156;
+width = 169;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -356,11 +356,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-66,-129);
+pos = (-34,-129);
 ref = dotaccent;
 }
 );
-width = 298;
+width = 307;
 }
 );
 metricRight = i;
