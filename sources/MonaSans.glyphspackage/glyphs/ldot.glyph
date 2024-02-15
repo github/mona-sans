@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = ldot;
+kernLeft = KO_l;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -56,7 +57,7 @@ pos = (299,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 469;
+width = 485;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -126,7 +127,7 @@ pos = (206,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 260;
+width = 261;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -140,7 +141,7 @@ pos = (299,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 474;
+width = 490;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";

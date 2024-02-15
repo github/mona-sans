@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = ij;
+kernRight = KO_i;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -48,11 +49,11 @@ shapes = (
 ref = i;
 },
 {
-pos = (299,0);
+pos = (309,0);
 ref = j;
 }
 );
-width = 598;
+width = 608;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";

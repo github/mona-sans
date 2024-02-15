@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = parenright;
-kernLeft = parenright;
-kernRight = parenright;
+kernLeft = KO_parenright;
+kernRight = KO_parenright;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

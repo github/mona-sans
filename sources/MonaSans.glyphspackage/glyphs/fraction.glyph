@@ -1,6 +1,7 @@
 {
 glyphname = fraction;
-kernRight = fraction;
+kernLeft = KO_fraction;
+kernRight = KO_fraction;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

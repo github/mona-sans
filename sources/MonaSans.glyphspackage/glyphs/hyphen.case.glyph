@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = hyphen.case;
-kernLeft = hyphen;
-kernRight = hyphen;
+kernLeft = KO_hyphen.case;
+kernRight = KO_hyphen.case;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

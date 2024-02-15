@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = quoteleft;
-kernLeft = quotedblleft;
-kernRight = quoteleft;
+kernLeft = KO_quotedblleft;
+kernRight = KO_quoteleft;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -78,11 +78,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (264,561);
+pos = (267,561);
 ref = quotesinglbase;
 }
 );
-width = 264;
+width = 267;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";

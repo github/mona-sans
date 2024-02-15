@@ -1,7 +1,7 @@
 {
 glyphname = eng;
-kernLeft = n;
-kernRight = n;
+kernLeft = KO_n;
+kernRight = KO_n;
 layers = (
 {
 background = {

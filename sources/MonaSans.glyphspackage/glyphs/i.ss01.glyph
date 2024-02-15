@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = i.ss01;
-kernLeft = l;
-kernRight = l;
+kernLeft = KO_i;
+kernRight = KO_i;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = quotedblleft;
-kernLeft = quotedblleft;
-kernRight = quotedblleft;
+kernLeft = KO_quotedblleft;
+kernRight = KO_quotedblleft;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -34,11 +34,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (301,583);
+pos = (308,583);
 ref = quotedblbase;
 }
 );
-width = 301;
+width = 308;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -46,11 +46,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (494,562);
+pos = (495,562);
 ref = quotedblbase;
 }
 );
-width = 494;
+width = 495;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";

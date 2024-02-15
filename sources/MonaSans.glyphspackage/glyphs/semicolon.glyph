@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = semicolon;
-kernLeft = semicolon;
+kernLeft = KO_semicolon;
 layers = (
 {
 background = {
@@ -186,11 +186,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (-1,473);
+pos = (6,473);
 ref = period;
 }
 );
-width = 172;
+width = 179;
 },
 {
 background = {
@@ -249,11 +249,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (-1,384);
+pos = (0,384);
 ref = period;
 }
 );
-width = 240;
+width = 241;
 },
 {
 background = {

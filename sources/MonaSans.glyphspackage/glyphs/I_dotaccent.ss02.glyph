@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = Idotaccent.ss02;
-kernLeft = I.ss02;
-kernRight = I.ss02;
+kernLeft = KO_I.ss02;
+kernRight = KO_I.ss02;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

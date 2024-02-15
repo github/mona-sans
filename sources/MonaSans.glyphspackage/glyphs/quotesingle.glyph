@@ -1,7 +1,7 @@
 {
 glyphname = quotesingle;
-kernLeft = quotedbl;
-kernRight = quotedbl;
+kernLeft = KO_quotedbl;
+kernRight = KO_quotedbl;
 layers = (
 {
 anchors = (

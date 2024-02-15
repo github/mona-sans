@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = quotedblbase;
-kernRight = quotedblbase;
+kernRight = KO_quotedblbase;
 layers = (
 {
 background = {
@@ -83,7 +83,7 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = comma;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = comma;
 };
-width = 301;
+width = 308;
 },
 {
 background = {
@@ -113,7 +113,7 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = comma;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = comma;
 };
-width = 494;
+width = 495;
 },
 {
 background = {

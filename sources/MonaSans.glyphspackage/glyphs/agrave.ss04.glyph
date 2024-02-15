@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = agrave.ss04;
-kernLeft = ae;
-kernRight = a.ss01;
+kernLeft = KO_a.ss04;
+kernRight = KO_a.ss04;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

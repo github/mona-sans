@@ -1,7 +1,7 @@
 {
 glyphname = question;
-kernLeft = question;
-kernRight = question;
+kernLeft = KO_question;
+kernRight = KO_question;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

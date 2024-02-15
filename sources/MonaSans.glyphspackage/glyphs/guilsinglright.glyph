@@ -1,7 +1,8 @@
 {
 color = 6;
 glyphname = guilsinglright;
-kernRight = guillemetright;
+kernLeft = KO_guillemetright;
+kernRight = KO_guillemetright;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

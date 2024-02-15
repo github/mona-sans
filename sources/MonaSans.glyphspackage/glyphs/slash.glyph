@@ -1,7 +1,7 @@
 {
 glyphname = slash;
-kernLeft = slash;
-kernRight = slash;
+kernLeft = KO_slash;
+kernRight = KO_slash;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -110,7 +110,7 @@ nodes = (
 );
 }
 );
-width = 426;
+width = 444;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -125,7 +125,7 @@ nodes = (
 );
 }
 );
-width = 507;
+width = 535;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";

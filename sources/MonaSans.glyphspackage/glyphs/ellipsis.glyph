@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = ellipsis;
-kernLeft = ellipsis;
-kernRight = ellipsis;
+kernLeft = KO_ellipsis;
+kernRight = KO_ellipsis;
 layers = (
 {
 background = {

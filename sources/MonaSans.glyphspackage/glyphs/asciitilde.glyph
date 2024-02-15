@@ -1,6 +1,6 @@
 {
 glyphname = asciitilde;
-kernRight = asciitilde;
+kernRight = KO_asciitilde;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

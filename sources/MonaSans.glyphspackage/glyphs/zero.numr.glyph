@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = zero.numr;
-kernLeft = zero.numr;
-kernRight = zero.numr;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

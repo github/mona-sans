@@ -1,7 +1,7 @@
 {
 glyphname = ae;
-kernLeft = ae;
-kernRight = e;
+kernLeft = KO_a.ss04;
+kernRight = KO_e;
 layers = (
 {
 background = {

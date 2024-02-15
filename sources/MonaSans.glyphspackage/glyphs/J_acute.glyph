@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = Jacute;
+kernLeft = KO_J;
+kernRight = KO_J;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -48,11 +50,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (165,51);
+pos = (167,51);
 ref = acutecomb;
 }
 );
-width = 430;
+width = 439;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";

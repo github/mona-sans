@@ -1,6 +1,6 @@
 {
 glyphname = ampersand;
-kernLeft = ampersand;
+kernRight = KO_ampersand;
 layers = (
 {
 background = {

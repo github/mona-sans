@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = quotedblbase.ss01;
-kernRight = quotedblbase.ss01;
+kernRight = KO_quotedblbase.ss01;
 layers = (
 {
 background = {

@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = Ocircumflexhookabove;
-kernLeft = O;
-kernRight = O;
+kernLeft = KO_O;
+kernRight = KO_O;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

@@ -1,7 +1,7 @@
 {
 glyphname = f_y.liga;
-kernLeft = f;
-kernRight = f_y.liga;
+kernLeft = KO_f;
+kernRight = KO_y;
 layers = (
 {
 background = {

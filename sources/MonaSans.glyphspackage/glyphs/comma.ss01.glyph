@@ -1,7 +1,7 @@
 {
 glyphname = comma.ss01;
-kernLeft = comma.ss01;
-kernRight = comma.ss01;
+kernLeft = KO_comma.ss01;
+kernRight = KO_quotedblbase.ss01;
 layers = (
 {
 anchors = (

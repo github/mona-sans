@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = quotedblright;
-kernLeft = quotedblright;
-kernRight = quotedblright;
+kernLeft = KO_quotedblright;
+kernRight = KO_quotedblright;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -35,7 +35,7 @@ pos = (0,668);
 ref = quotedblbase;
 }
 );
-width = 301;
+width = 308;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -46,7 +46,7 @@ pos = (0,571);
 ref = quotedblbase;
 }
 );
-width = 494;
+width = 495;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";

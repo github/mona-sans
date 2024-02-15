@@ -1,5 +1,6 @@
 {
 glyphname = logicalnot;
+kernRight = KO_logicalnot;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

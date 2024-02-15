@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = ecaron;
-kernLeft = ccaron;
-kernRight = e;
+kernLeft = KO_odieresis;
+kernRight = KO_e;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

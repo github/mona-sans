@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = j.ss01;
-kernLeft = j;
-kernRight = l;
+kernLeft = KO_j;
+kernRight = KO_i;
 layers = (
 {
 background = {
