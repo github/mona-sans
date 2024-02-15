@@ -39,6 +39,10 @@ value = 1;
 {
 name = "Use Extension Kerning";
 value = 1;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2017-05-31 15:56:58 +0000";
@@ -3028,7 +3032,7 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "MonaSans-Variable";
+value = "MonaSansVariable-Regular";
 },
 {
 name = "Variable Font Origin";
