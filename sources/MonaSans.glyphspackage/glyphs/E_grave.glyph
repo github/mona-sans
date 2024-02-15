@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = Egrave;
-kernLeft = KO_H;
-kernRight = KO_E;
+kernLeft = H;
+kernRight = E;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

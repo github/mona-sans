@@ -1,7 +1,7 @@
 {
 color = 7;
 glyphname = ohorn;
-kernLeft = KO_e;
+kernLeft = e;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -123,7 +123,7 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (271,-11);
+pos = (291,-11);
 ref = horncomb;
 }
 );
@@ -151,7 +151,7 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (302,-11);
+pos = (322,-11);
 ref = horncomb;
 }
 );

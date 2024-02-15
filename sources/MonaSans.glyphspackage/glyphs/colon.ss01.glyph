@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = colon.ss01;
-kernLeft = KO_colon.ss01;
+kernLeft = colon.ss01;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

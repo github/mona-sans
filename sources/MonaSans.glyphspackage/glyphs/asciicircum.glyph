@@ -1,7 +1,7 @@
 {
 glyphname = asciicircum;
-kernLeft = KO_asciicircum;
-kernRight = KO_asciicircum;
+kernLeft = asciicircum;
+kernRight = asciicircum;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

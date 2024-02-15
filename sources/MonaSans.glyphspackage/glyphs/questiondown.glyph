@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = questiondown;
-kernRight = KO_questiondown;
+kernRight = questiondown;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -175,11 +175,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (300,516);
+pos = (325,516);
 ref = question;
 }
 );
-width = 300;
+width = 325;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";

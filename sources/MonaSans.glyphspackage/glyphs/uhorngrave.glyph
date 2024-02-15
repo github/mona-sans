@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = uhorngrave;
-kernLeft = KO_u;
-kernRight = KO_uhorn;
+kernLeft = u;
+kernRight = uhorn;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -41,7 +41,7 @@ pos = (152,-155);
 ref = gravecomb;
 }
 );
-width = 585;
+width = 609;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -67,7 +67,7 @@ pos = (163,-155);
 ref = gravecomb;
 }
 );
-width = 636;
+width = 659;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -119,7 +119,7 @@ pos = (114,-155);
 ref = gravecomb;
 }
 );
-width = 579;
+width = 603;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -145,7 +145,7 @@ pos = (127,-155);
 ref = gravecomb;
 }
 );
-width = 638;
+width = 665;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";

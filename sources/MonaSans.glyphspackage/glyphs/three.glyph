@@ -1,7 +1,7 @@
 {
 glyphname = three;
-kernLeft = KO_three;
-kernRight = KO_three;
+kernLeft = three;
+kernRight = three;
 layers = (
 {
 background = {

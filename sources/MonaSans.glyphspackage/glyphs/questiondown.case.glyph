@@ -70,7 +70,7 @@ pos = (44,213);
 ref = questiondown;
 }
 );
-width = 300;
+width = 325;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";

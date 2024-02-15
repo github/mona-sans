@@ -1,7 +1,7 @@
 {
 glyphname = o;
-kernLeft = KO_e;
-kernRight = KO_o;
+kernLeft = e;
+kernRight = o;
 layers = (
 {
 anchors = (
@@ -655,11 +655,11 @@ pos = (472,10);
 },
 {
 name = top;
-pos = (327,516);
+pos = (327,517);
 },
 {
 name = topright;
-pos = (367,517);
+pos = (387,517);
 }
 );
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -889,7 +889,7 @@ pos = (349,517);
 },
 {
 name = topright;
-pos = (398,517);
+pos = (418,517);
 }
 );
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";

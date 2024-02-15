@@ -100,11 +100,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (24,41);
+pos = (25,41);
 ref = slashlongcomb.case;
 }
 );
-width = 490;
+width = 492;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";

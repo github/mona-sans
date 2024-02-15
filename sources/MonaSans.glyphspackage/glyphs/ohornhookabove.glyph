@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ohornhookabove;
-kernLeft = KO_e;
+kernLeft = e;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -114,7 +114,7 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (138,-157);
+pos = (138,-156);
 ref = hookabovecomb;
 }
 );

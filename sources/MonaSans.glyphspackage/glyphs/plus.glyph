@@ -1,7 +1,7 @@
 {
 glyphname = plus;
-kernLeft = KO_plus;
-kernRight = KO_plus;
+kernLeft = plus;
+kernRight = plus;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -307,7 +307,6 @@ width = 720;
 metricWidth = zero.tf;
 unicode = 43;
 userData = {
-KernOnName = plus;
 KernOnSpecialSpacing = {
 L = math;
 R = math;

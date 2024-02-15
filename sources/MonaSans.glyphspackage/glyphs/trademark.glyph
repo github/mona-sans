@@ -1,6 +1,6 @@
 {
 glyphname = trademark;
-kernLeft = KO_trademark;
+kernLeft = trademark;
 layers = (
 {
 guides = (

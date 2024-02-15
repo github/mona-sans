@@ -1,7 +1,7 @@
 {
 color = 7;
 glyphname = Lslash;
-kernRight = KO_Lslash;
+kernRight = Lslash;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -23,15 +23,15 @@ layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
 alignment = -1;
-pos = (14,0);
+pos = (15,0);
 ref = L;
 },
 {
-pos = (-28,-38);
+pos = (-27,-38);
 ref = slashshortcomb.case;
 }
 );
-width = 373;
+width = 374;
 },
 {
 layerId = master01;
@@ -173,15 +173,15 @@ layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
 alignment = -1;
-pos = (18,0);
+pos = (19,0);
 ref = L;
 },
 {
-pos = (-19,70);
+pos = (-18,70);
 ref = slashshortcomb.case;
 }
 );
-width = 624;
+width = 625;
 }
 );
 metricRight = L;

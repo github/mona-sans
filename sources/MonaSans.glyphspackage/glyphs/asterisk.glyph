@@ -1,7 +1,7 @@
 {
 glyphname = asterisk;
-kernLeft = KO_asterisk;
-kernRight = KO_asterisk;
+kernLeft = asterisk;
+kernRight = asterisk;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

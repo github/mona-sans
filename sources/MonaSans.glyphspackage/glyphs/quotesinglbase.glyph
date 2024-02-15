@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = quotesinglbase;
-kernRight = KO_quotedblbase;
+kernRight = quotedblbase;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -101,7 +101,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 245;
+width = 247;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";

@@ -1,6 +1,6 @@
 {
 glyphname = four.dnom;
-kernLeft = KO_four.dnom;
+kernLeft = four.dnom;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

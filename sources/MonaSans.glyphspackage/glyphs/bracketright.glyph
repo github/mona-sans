@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = bracketright;
-kernLeft = KO_bracketright;
+kernLeft = bracketright;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

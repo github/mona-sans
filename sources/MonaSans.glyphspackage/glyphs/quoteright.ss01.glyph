@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = quoteright.ss01;
-kernLeft = KO_quoteright.ss01;
-kernRight = KO_quoteright.ss01;
+kernLeft = quoteright.ss01;
+kernRight = quoteright.ss01;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";

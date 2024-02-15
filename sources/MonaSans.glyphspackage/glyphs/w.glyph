@@ -1,7 +1,7 @@
 {
 glyphname = w;
-kernLeft = KO_w;
-kernRight = KO_w;
+kernLeft = w;
+kernRight = w;
 layers = (
 {
 anchors = (

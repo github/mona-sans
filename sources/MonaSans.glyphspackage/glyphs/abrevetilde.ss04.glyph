@@ -113,11 +113,11 @@ shapes = (
 ref = a.ss04;
 },
 {
-pos = (18,-155);
+pos = (15,-155);
 ref = brevecomb_tildecomb;
 }
 );
-width = 527;
+width = 524;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -143,7 +143,7 @@ pos = (12,-155);
 ref = brevecomb_tildecomb;
 }
 );
-width = 580;
+width = 587;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -152,11 +152,11 @@ shapes = (
 ref = a.ss04;
 },
 {
-pos = (17,-129);
+pos = (16,-129);
 ref = brevecomb_tildecomb;
 }
 );
-width = 647;
+width = 646;
 }
 );
 }

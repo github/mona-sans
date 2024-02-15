@@ -1,7 +1,7 @@
 {
 glyphname = n;
-kernLeft = KO_n;
-kernRight = KO_n;
+kernLeft = n;
+kernRight = n;
 layers = (
 {
 anchors = (
@@ -528,6 +528,13 @@ name = top;
 pos = (389,544);
 }
 );
+background = {
+shapes = (
+{
+ref = r;
+}
+);
+};
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 shapes = (
 {
@@ -552,7 +559,7 @@ nodes = (
 (294,467,c),
 (286,467,l),
 (295,544,l),
-(112,544,l),
+(111,544,l),
 (-2,0,l)
 );
 }
@@ -570,6 +577,13 @@ name = top;
 pos = (382,517);
 }
 );
+background = {
+shapes = (
+{
+ref = r;
+}
+);
+};
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 shapes = (
 {
@@ -595,7 +609,7 @@ nodes = (
 (136,406,l),
 (156,517,l),
 (120,517,l),
-(13,0,l)
+(12,0,l)
 );
 }
 );

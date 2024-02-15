@@ -1,7 +1,7 @@
 {
 glyphname = fi;
-kernLeft = KO_f;
-kernRight = KO_i;
+kernLeft = f;
+kernRight = i;
 layers = (
 {
 background = {

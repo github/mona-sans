@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = quotedblbase;
-kernRight = KO_quotedblbase;
+kernRight = quotedblbase;
 layers = (
 {
 background = {
@@ -165,7 +165,7 @@ pos = (277,0);
 ref = comma;
 }
 );
-width = 541;
+width = 544;
 },
 {
 background = {
@@ -398,7 +398,7 @@ pos = (248,0);
 ref = comma;
 }
 );
-width = 493;
+width = 495;
 },
 {
 background = {

@@ -896,4 +896,10 @@ width = 720;
 }
 );
 metricWidth = zero.tf;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
 }

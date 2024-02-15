@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = ellipsis.ss01;
-kernLeft = KO_period.ss01;
-kernRight = KO_period.ss01;
+kernLeft = period.ss01;
+kernRight = period.ss01;
 layers = (
 {
 background = {

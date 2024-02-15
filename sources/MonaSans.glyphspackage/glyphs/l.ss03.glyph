@@ -1,7 +1,7 @@
 {
 glyphname = l.ss03;
-kernLeft = KO_l.ss03;
-kernRight = KO_l;
+kernLeft = l.ss03;
+kernRight = l;
 layers = (
 {
 anchors = (

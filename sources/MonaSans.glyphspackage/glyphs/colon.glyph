@@ -1,7 +1,8 @@
 {
 color = 6;
 glyphname = colon;
-kernLeft = KO_colon;
+kernLeft = colon;
+kernRight = colon;
 layers = (
 {
 background = {

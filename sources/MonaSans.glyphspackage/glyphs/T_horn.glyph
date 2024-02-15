@@ -1,8 +1,8 @@
 {
 color = 7;
 glyphname = Thorn;
-kernLeft = KO_H;
-kernRight = KO_Thorn;
+kernLeft = H;
+kernRight = Thorn;
 layers = (
 {
 background = {

@@ -1,7 +1,7 @@
 {
 glyphname = six;
-kernLeft = KO_zero;
-kernRight = KO_six;
+kernLeft = zero;
+kernRight = six;
 layers = (
 {
 background = {

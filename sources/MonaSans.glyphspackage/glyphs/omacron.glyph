@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = omacron;
-kernLeft = KO_odieresis;
-kernRight = KO_o;
+kernLeft = odieresis;
+kernRight = o;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -115,7 +115,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (41,-156);
+pos = (41,-155);
 ref = macroncomb;
 }
 );

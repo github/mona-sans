@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ninesuperior;
-kernLeft = KO_ninesuperior;
+kernLeft = ninesuperior;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

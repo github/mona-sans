@@ -1,7 +1,7 @@
 {
 glyphname = t_t.liga;
-kernLeft = KO_t;
-kernRight = KO_t;
+kernLeft = t;
+kernRight = t;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

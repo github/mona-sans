@@ -1,6 +1,6 @@
 {
 glyphname = zero.dnom;
-kernLeft = KO_zero.dnom;
+kernLeft = zero.dnom;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";

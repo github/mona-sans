@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = quotedbl;
-kernLeft = KO_quotedbl;
-kernRight = KO_quotedbl;
+kernLeft = quotedbl;
+kernRight = quotedbl;
 layers = (
 {
 background = {

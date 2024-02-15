@@ -1,8 +1,8 @@
 {
 color = 6;
 glyphname = twosuperior;
-kernLeft = KO_twosuperior;
-kernRight = KO_twosuperior;
+kernLeft = twosuperior;
+kernRight = twosuperior;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -268,7 +268,7 @@ weight = -300;
 width = 60;
 };
 };
-width = 427;
+width = 426;
 }
 );
 unicode = 178;
