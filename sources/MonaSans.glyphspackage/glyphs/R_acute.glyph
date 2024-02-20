@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = Racute;
+kernLeft = H;
 kernRight = R;
 layers = (
 {

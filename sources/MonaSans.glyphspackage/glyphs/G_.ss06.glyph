@@ -1,7 +1,7 @@
 {
 glyphname = G.ss06;
 kernLeft = O;
-kernRight = G.ss01;
+kernRight = G.ss06;
 layers = (
 {
 anchors = (

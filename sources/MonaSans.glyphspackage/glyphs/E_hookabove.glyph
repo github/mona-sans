@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Ehookabove;
-kernLeft = H;
 kernRight = E;
 layers = (
 {

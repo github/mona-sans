@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = omacron;
-kernLeft = odieresis;
+kernLeft = egrave;
 kernRight = o;
 layers = (
 {

@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = wdieresis.ss01;
-kernLeft = w;
 kernRight = w;
 layers = (
 {

@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ccircumflex;
-kernLeft = odieresis;
+kernLeft = egrave;
 kernRight = c;
 layers = (
 {

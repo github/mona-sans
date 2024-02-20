@@ -183,7 +183,4 @@ width = 172;
 }
 );
 metricRight = "=|";
-userData = {
-KernOnName = periodcentered.loclCAT;
-};
 }

@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ograve;
-kernLeft = e;
+kernLeft = egrave;
 kernRight = o;
 layers = (
 {
