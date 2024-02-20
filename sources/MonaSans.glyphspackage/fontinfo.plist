@@ -18,7 +18,7 @@ tag = ital;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Abrevedotbelow.ss01 Acircumflexdotbelow.ss01 Adieresis.ss01 Adotbelow.ss01 Cdotaccent.ss01 Ecircumflexdotbelow.ss01 Edieresis.ss01 Edotaccent.ss01 Edotbelow.ss01 G.ss01 Gcommaaccent.ss01 Gdotaccent.ss01 Idieresis.ss01 Idotaccent.ss01 Idotbelow.ss01 Ocircumflexdotbelow.ss01 Odieresis.ss01 Odotbelow.ss01 Ohorndotbelow.ss01 Udieresis.ss01 Udotbelow.ss01 Uhorndotbelow.ss01 Wdieresis.ss01 Ydieresis.ss01 Ydotbelow.ss01 I.ss02 Iacute.ss02 Icircumflex.ss02 Idieresis.ss02 Idotaccent.ss02 Idotbelow.ss02 Igrave.ss02 Ihookabove.ss02 Imacron.ss02 Iogonek.ss02 Itilde.ss02";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Abrevedotbelow.ss01 Acircumflexdotbelow.ss01 Adieresis.ss01 Adotbelow.ss01 Cdotaccent.ss01 Ecircumflexdotbelow.ss01 Edieresis.ss01 Edotaccent.ss01 Edotbelow.ss01 Gdotaccent.ss01 Idieresis.ss01 Idotaccent.ss01 Idotbelow.ss01 Ldot.ss01 Ocircumflexdotbelow.ss01 Odieresis.ss01 Odotbelow.ss01 Ohorndotbelow.ss01 Udieresis.ss01 Udotbelow.ss01 Uhorndotbelow.ss01 Wdieresis.ss01 Ydieresis.ss01 Ydotbelow.ss01 Zdotaccent.ss01 I.ss02 IJ.ss02 Iacute.ss02 Ibreve.ss02 Icircumflex.ss02 Idieresis.ss02 Idotaccent.ss02 Idotbelow.ss02 Igrave.ss02 Ihookabove.ss02 Imacron.ss02 Iogonek.ss02 Itilde.ss02 G.ss06 Gbreve.ss06 Gcaron.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gdotaccent.ss01.ss06";
 name = Uppercase;
 }
 );
@@ -86,6 +86,7 @@ feature ss03;
 feature ss04;
 feature ss05;
 feature ss06;
+feature ss07;
 ";
 tag = aalt;
 },
@@ -354,12 +355,11 @@ sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;
 sub Edieresis by Edieresis.ss01;
 sub Edotaccent by Edotaccent.ss01;
 sub Edotbelow by Edotbelow.ss01;
-sub G by G.ss01;
-sub Gcommaaccent by Gcommaaccent.ss01;
 sub Gdotaccent by Gdotaccent.ss01;
 sub Idieresis by Idieresis.ss01;
 sub Idotaccent by Idotaccent.ss01;
 sub Idotbelow by Idotbelow.ss01;
+sub Ldot by Ldot.ss01;
 sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss01;
 sub Odieresis by Odieresis.ss01;
 sub Odotbelow by Odotbelow.ss01;
@@ -370,15 +370,22 @@ sub Uhorndotbelow by Uhorndotbelow.ss01;
 sub Wdieresis by Wdieresis.ss01;
 sub Ydieresis by Ydieresis.ss01;
 sub Ydotbelow by Ydotbelow.ss01;
+sub Zdotaccent by Zdotaccent.ss01;
+sub abrevedotbelow by abrevedotbelow.ss01;
+sub acircumflexdotbelow by acircumflexdotbelow.ss01;
+sub adotbelow by adotbelow.ss01;
 sub cdotaccent by cdotaccent.ss01;
 sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;
 sub edieresis by edieresis.ss01;
 sub edotaccent by edotaccent.ss01;
 sub edotbelow by edotbelow.ss01;
+sub gdotaccent by gdotaccent.ss01;
 sub i by i.ss01;
 sub idieresis by idieresis.ss01;
+sub idotaccent by idotaccent.ss01;
 sub idotbelow by idotbelow.ss01;
 sub j by j.ss01;
+sub ldot by ldot.ss01;
 sub ocircumflexdotbelow by ocircumflexdotbelow.ss01;
 sub odieresis by odieresis.ss01;
 sub odotbelow by odotbelow.ss01;
@@ -389,6 +396,8 @@ sub uhorndotbelow by uhorndotbelow.ss01;
 sub wdieresis by wdieresis.ss01;
 sub ydieresis by ydieresis.ss01;
 sub ydotbelow by ydotbelow.ss01;
+sub zdotaccent by zdotaccent.ss01;
+sub idotbelow.dotless by idotbelow.dotless.ss01;
 sub fi by fi.ss01;
 sub f_f_i.liga by f_f_i.liga.ss01;
 sub t_i.liga by t_i.liga.ss01;
@@ -401,6 +410,8 @@ sub exclam by exclam.ss01;
 sub exclamdown by exclamdown.ss01;
 sub question by question.ss01;
 sub questiondown by questiondown.ss01;
+sub periodcentered.loclCAT by periodcentered.loclCAT.ss01;
+sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss01;
 sub quotesinglbase by quotesinglbase.ss01;
 sub quotedblbase by quotedblbase.ss01;
 sub quotedblleft by quotedblleft.ss01;
@@ -422,7 +433,9 @@ tag = ss01;
 {
 automatic = 1;
 code = "sub I by I.ss02;
+sub IJ by IJ.ss02;
 sub Iacute by Iacute.ss02;
+sub Ibreve by Ibreve.ss02;
 sub Icircumflex by Icircumflex.ss02;
 sub Idieresis by Idieresis.ss02;
 sub Idotaccent by Idotaccent.ss02;
@@ -438,6 +451,7 @@ sub lcaron by lcaron.ss02;
 sub lcommaaccent by lcommaaccent.ss02;
 sub ldot by ldot.ss02;
 sub lslash by lslash.ss02;
+sub ldot.ss01 by ldot.ss01.ss02;
 ";
 labels = (
 {
@@ -455,6 +469,7 @@ sub lcaron by lcaron.ss03;
 sub lcommaaccent by lcommaaccent.ss03;
 sub ldot by ldot.ss03;
 sub lslash by lslash.ss03;
+sub ldot.ss01 by ldot.ss01.ss03;
 ";
 labels = (
 {
@@ -468,6 +483,7 @@ tag = ss03;
 automatic = 1;
 code = "sub a by a.ss04;
 sub aacute by aacute.ss04;
+sub abreve by abreve.ss04;
 sub abreveacute by abreveacute.ss04;
 sub abrevedotbelow by abrevedotbelow.ss04;
 sub abrevegrave by abrevegrave.ss04;
@@ -482,6 +498,8 @@ sub acircumflextilde by acircumflextilde.ss04;
 sub adieresis by adieresis.ss04;
 sub adotbelow by adotbelow.ss04;
 sub agrave by agrave.ss04;
+sub ahookabove by ahookabove.ss04;
+sub amacron by amacron.ss04;
 sub aogonek by aogonek.ss04;
 sub aring by aring.ss04;
 sub atilde by atilde.ss04;
@@ -502,6 +520,7 @@ sub gcaron by gcaron.ss05;
 sub gcircumflex by gcircumflex.ss05;
 sub gcommaaccent by gcommaaccent.ss05;
 sub gdotaccent by gdotaccent.ss05;
+sub gdotaccent.ss01 by gdotaccent.ss01.ss05;
 ";
 labels = (
 {
@@ -513,7 +532,25 @@ tag = ss05;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero.tf.ss06;
+code = "sub G by G.ss06;
+sub Gbreve by Gbreve.ss06;
+sub Gcaron by Gcaron.ss06;
+sub Gcircumflex by Gcircumflex.ss06;
+sub Gcommaaccent by Gcommaaccent.ss06;
+sub Gdotaccent by Gdotaccent.ss06;
+sub Gdotaccent.ss01 by Gdotaccent.ss01.ss06;
+";
+labels = (
+{
+language = dflt;
+value = "G without leg";
+}
+);
+tag = ss06;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero.tf.ss07;
 ";
 labels = (
 {
@@ -521,7 +558,7 @@ language = dflt;
 value = "Tabular zero with straight bar";
 }
 );
-tag = ss06;
+tag = ss07;
 }
 );
 fontMaster = (
@@ -13125,7 +13162,7 @@ jcircumflex = 13;
 three = 10;
 two = 5;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 12;
 Lslash = 14;
 Oslash = 10;
@@ -13539,7 +13576,7 @@ Lslash = 12;
 Oslash = {
 Eth = 11;
 G = 18;
-G.ss01 = 18;
+G.ss06 = 18;
 J = 0;
 O = 18;
 Oslash = 18;
@@ -14277,7 +14314,7 @@ bracketleft.case = {
 A = 30;
 C = -18;
 G = -17;
-G.ss01 = -18;
+G.ss06 = -18;
 O = -18;
 Q = -18;
 S = -6;
@@ -16121,7 +16158,7 @@ questiondown.ss01 = {
 C = -51;
 D = -22;
 E = -22;
-G.ss01 = -51;
+G.ss06 = -51;
 L = -22;
 N = -22;
 O = -51;
@@ -24023,7 +24060,7 @@ jcircumflex = 29;
 three = 0;
 two = 0;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 24;
 Lslash = 9;
 Oslash = 9;
@@ -24437,7 +24474,7 @@ Lslash = 9;
 Oslash = {
 Eth = 13;
 G = 11;
-G.ss01 = 11;
+G.ss06 = 11;
 J = -6;
 O = 11;
 Oslash = 11;
@@ -25175,7 +25212,7 @@ bracketleft.case = {
 A = 0;
 C = -13;
 G = -10;
-G.ss01 = -15;
+G.ss06 = -15;
 O = -15;
 Q = -15;
 S = -12;
@@ -27019,7 +27056,7 @@ questiondown.ss01 = {
 C = -40;
 D = -12;
 E = -12;
-G.ss01 = -42;
+G.ss06 = -42;
 L = -12;
 N = -12;
 O = -42;
@@ -34921,7 +34958,7 @@ jcircumflex = 22;
 three = 9;
 two = 13;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 27;
 Lslash = 32;
 Oslash = 23;
@@ -35335,7 +35372,7 @@ Lslash = 24;
 Oslash = {
 Eth = 39;
 G = 32;
-G.ss01 = 32;
+G.ss06 = 32;
 J = -43;
 O = 32;
 Oslash = 32;
@@ -36073,7 +36110,7 @@ bracketleft.case = {
 A = 0;
 C = -55;
 G = -55;
-G.ss01 = -55;
+G.ss06 = -55;
 O = -55;
 Q = -55;
 S = -20;
@@ -37917,7 +37954,7 @@ questiondown.ss01 = {
 C = -74;
 D = -34;
 E = -34;
-G.ss01 = -74;
+G.ss06 = -74;
 L = -34;
 N = -34;
 O = -74;
@@ -45819,7 +45856,7 @@ jcircumflex = 25;
 three = 0;
 two = 11;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 29;
 Lslash = 21;
 Oslash = 22;
@@ -46233,7 +46270,7 @@ Lslash = 21;
 Oslash = {
 Eth = 28;
 G = 26;
-G.ss01 = 26;
+G.ss06 = 26;
 J = -10;
 O = 25;
 Oslash = 25;
@@ -46971,7 +47008,7 @@ bracketleft.case = {
 A = 0;
 C = -35;
 G = -31;
-G.ss01 = -34;
+G.ss06 = -34;
 O = -35;
 Q = -35;
 S = -14;
@@ -48815,7 +48852,7 @@ questiondown.ss01 = {
 C = -81;
 D = -19;
 E = -19;
-G.ss01 = -80;
+G.ss06 = -80;
 L = -19;
 N = -19;
 O = -81;
@@ -56717,7 +56754,7 @@ jcircumflex = 37;
 three = 9;
 two = 11;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 23;
 Lslash = 34;
 Oslash = 24;
@@ -57131,7 +57168,7 @@ Lslash = 28;
 Oslash = {
 Eth = 34;
 G = 30;
-G.ss01 = 30;
+G.ss06 = 30;
 J = -48;
 O = 30;
 Oslash = 30;
@@ -57869,7 +57906,7 @@ bracketleft.case = {
 A = -2;
 C = -68;
 G = -68;
-G.ss01 = -68;
+G.ss06 = -68;
 O = -68;
 Q = -68;
 S = -41;
@@ -59713,7 +59750,7 @@ questiondown.ss01 = {
 C = -83;
 D = -25;
 E = -25;
-G.ss01 = -83;
+G.ss06 = -83;
 L = -25;
 N = -25;
 O = -83;
@@ -67615,7 +67652,7 @@ jcircumflex = 38;
 three = 9;
 two = 14;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 39;
 Lslash = 27;
 Oslash = 27;
@@ -68029,7 +68066,7 @@ Lslash = 30;
 Oslash = {
 Eth = 31;
 G = 29;
-G.ss01 = 29;
+G.ss06 = 29;
 J = -6;
 O = 29;
 Oslash = 29;
@@ -68767,7 +68804,7 @@ bracketleft.case = {
 A = 14;
 C = -34;
 G = -30;
-G.ss01 = -34;
+G.ss06 = -34;
 O = -34;
 Q = -34;
 S = -13;
@@ -70611,7 +70648,7 @@ questiondown.ss01 = {
 C = -75;
 D = -10;
 E = -10;
-G.ss01 = -74;
+G.ss06 = -74;
 L = -10;
 N = -10;
 O = -75;
@@ -78513,7 +78550,7 @@ jcircumflex = 16;
 three = 4;
 two = 7;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 10;
 Lslash = 5;
 Oslash = 7;
@@ -78927,7 +78964,7 @@ Lslash = 6;
 Oslash = {
 Eth = 3;
 G = 17;
-G.ss01 = 18;
+G.ss06 = 18;
 J = 0;
 O = 17;
 Oslash = 17;
@@ -79665,7 +79702,7 @@ bracketleft.case = {
 A = 25;
 C = -19;
 G = -19;
-G.ss01 = -19;
+G.ss06 = -19;
 O = -19;
 Q = -19;
 S = -4;
@@ -81509,7 +81546,7 @@ questiondown.ss01 = {
 C = -55;
 D = -22;
 E = -22;
-G.ss01 = -54;
+G.ss06 = -54;
 L = -22;
 N = -22;
 O = -55;
@@ -89411,7 +89448,7 @@ jcircumflex = 27;
 three = 0;
 two = 0;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 20;
 Lslash = 10;
 Oslash = 9;
@@ -89825,7 +89862,7 @@ Lslash = 9;
 Oslash = {
 Eth = 11;
 G = 11;
-G.ss01 = 11;
+G.ss06 = 11;
 J = -2;
 O = 10;
 Oslash = 10;
@@ -90563,7 +90600,7 @@ bracketleft.case = {
 A = -2;
 C = -6;
 G = -7;
-G.ss01 = -6;
+G.ss06 = -6;
 O = -7;
 Q = -7;
 S = -13;
@@ -92407,7 +92444,7 @@ questiondown.ss01 = {
 C = -57;
 D = -10;
 E = -10;
-G.ss01 = -58;
+G.ss06 = -58;
 L = -10;
 N = -10;
 O = -60;
@@ -100309,7 +100346,7 @@ jcircumflex = 26;
 three = 9;
 two = 7;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 18;
 Lslash = 39;
 Oslash = 15;
@@ -100723,7 +100760,7 @@ Lslash = 37;
 Oslash = {
 Eth = 33;
 G = 24;
-G.ss01 = 25;
+G.ss06 = 25;
 J = -22;
 O = 25;
 Oslash = 25;
@@ -101461,7 +101498,7 @@ bracketleft.case = {
 A = -12;
 C = -48;
 G = -49;
-G.ss01 = -48;
+G.ss06 = -48;
 O = -48;
 Q = -48;
 S = -30;
@@ -103305,7 +103342,7 @@ questiondown.ss01 = {
 C = -96;
 D = -41;
 E = -41;
-G.ss01 = -97;
+G.ss06 = -97;
 L = -41;
 N = -41;
 O = -96;
@@ -111207,7 +111244,7 @@ jcircumflex = 25;
 three = 7;
 two = 7;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 18;
 Lslash = 29;
 Oslash = 19;
@@ -111621,7 +111658,7 @@ Lslash = 27;
 Oslash = {
 Eth = 22;
 G = 23;
-G.ss01 = 22;
+G.ss06 = 22;
 J = 0;
 O = 22;
 Oslash = 22;
@@ -112359,7 +112396,7 @@ bracketleft.case = {
 A = 0;
 C = -25;
 G = -31;
-G.ss01 = -27;
+G.ss06 = -27;
 O = -25;
 Q = -25;
 S = -7;
@@ -114203,7 +114240,7 @@ questiondown.ss01 = {
 C = -83;
 D = -19;
 E = -19;
-G.ss01 = -82;
+G.ss06 = -82;
 L = -19;
 N = -19;
 O = -82;
@@ -122105,7 +122142,7 @@ jcircumflex = 32;
 three = 3;
 two = 0;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 12;
 Lslash = 38;
 Oslash = 17;
@@ -122519,7 +122556,7 @@ Lslash = 34;
 Oslash = {
 Eth = 31;
 G = 20;
-G.ss01 = 20;
+G.ss06 = 20;
 J = -31;
 O = 20;
 Oslash = 20;
@@ -123257,7 +123294,7 @@ bracketleft.case = {
 A = -9;
 C = -61;
 G = -61;
-G.ss01 = -61;
+G.ss06 = -61;
 O = -62;
 Q = -62;
 S = -34;
@@ -125101,7 +125138,7 @@ questiondown.ss01 = {
 C = -106;
 D = -38;
 E = -38;
-G.ss01 = -106;
+G.ss06 = -106;
 L = -38;
 N = -38;
 O = -106;
@@ -133003,7 +133040,7 @@ jcircumflex = 34;
 three = 11;
 two = 2;
 };
-G.ss01 = {
+G.ss06 = {
 Hbar = 22;
 Lslash = 31;
 Oslash = 27;
@@ -133417,7 +133454,7 @@ Lslash = 31;
 Oslash = {
 Eth = 28;
 G = 25;
-G.ss01 = 24;
+G.ss06 = 24;
 J = 0;
 O = 24;
 Oslash = 24;
@@ -134155,7 +134192,7 @@ bracketleft.case = {
 A = 11;
 C = -24;
 G = -24;
-G.ss01 = -24;
+G.ss06 = -24;
 O = -24;
 Q = -24;
 S = -2;
@@ -135999,7 +136036,7 @@ questiondown.ss01 = {
 C = -88;
 D = -10;
 E = -10;
-G.ss01 = -88;
+G.ss06 = -88;
 L = -10;
 N = -10;
 O = -88;
