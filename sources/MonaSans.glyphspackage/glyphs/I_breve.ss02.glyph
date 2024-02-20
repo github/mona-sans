@@ -1,6 +1,6 @@
 {
 color = 6;
-glyphname = Ihookabove.ss02;
+glyphname = Ibreve.ss02;
 kernLeft = I.ss02;
 kernRight = I.ss02;
 layers = (
@@ -11,8 +11,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (25,57);
-ref = hookabovecomb;
+pos = (-18,57);
+ref = brevecomb;
 }
 );
 width = 211;
@@ -24,8 +24,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (41,50);
-ref = hookabovecomb;
+pos = (-15,51);
+ref = brevecomb;
 }
 );
 width = 359;
@@ -37,8 +37,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (129,57);
-ref = hookabovecomb;
+pos = (69,51);
+ref = brevecomb;
 }
 );
 width = 474;
@@ -50,8 +50,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (130,51);
-ref = hookabovecomb;
+pos = (74,51);
+ref = brevecomb;
 }
 );
 width = 585;
@@ -63,8 +63,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (152,57);
-ref = hookabovecomb;
+pos = (86,57);
+ref = brevecomb;
 }
 );
 width = 522;
@@ -76,8 +76,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (142,51);
-ref = hookabovecomb;
+pos = (56,56);
+ref = brevecomb;
 }
 );
 width = 589;
@@ -89,8 +89,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (15,56);
-ref = hookabovecomb;
+pos = (-10,57);
+ref = brevecomb;
 }
 );
 width = 212;
@@ -102,8 +102,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (44,49);
-ref = hookabovecomb;
+pos = (-5,51);
+ref = brevecomb;
 }
 );
 width = 360;
@@ -115,8 +115,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (145,56);
-ref = hookabovecomb;
+pos = (78,57);
+ref = brevecomb;
 }
 );
 width = 475;
@@ -128,8 +128,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (132,50);
-ref = hookabovecomb;
+pos = (75,51);
+ref = brevecomb;
 }
 );
 width = 584;
@@ -141,8 +141,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (169,56);
-ref = hookabovecomb;
+pos = (92,57);
+ref = brevecomb;
 }
 );
 width = 522;
@@ -154,8 +154,8 @@ shapes = (
 ref = I.ss02;
 },
 {
-pos = (137,48);
-ref = hookabovecomb;
+pos = (67,51);
+ref = brevecomb;
 }
 );
 width = 589;

@@ -1,5 +1,5 @@
 {
-category = Symbol;
+category = "";
 export = 0;
 glyphname = _B.currency;
 layers = (
@@ -736,5 +736,5 @@ nodes = (
 width = 781;
 }
 );
-subCategory = Currency;
+subCategory = "";
 }
