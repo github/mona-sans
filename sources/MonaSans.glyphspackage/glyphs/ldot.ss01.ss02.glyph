@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ldot.ss01.ss02;
 layers = (
 {
@@ -41,7 +42,7 @@ pos = (235,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 310;
+width = 309;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -97,7 +98,7 @@ pos = (153,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 200;
+width = 190;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -125,7 +126,7 @@ pos = (228,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 283;
+width = 302;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -153,7 +154,7 @@ pos = (223,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 304;
+width = 303;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";

@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = Ldot.ss01;
 layers = (
 {
@@ -27,7 +28,7 @@ pos = (359,0);
 ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 409;
+width = 406;
 },
 {
 layerId = master01;
@@ -111,7 +112,7 @@ pos = (356,0);
 ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 419;
+width = 410;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
