@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = seveneighths;
 layers = (
 {
@@ -9,15 +9,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (262,0);
+pos = (243,0);
 ref = fraction;
 },
 {
-pos = (422,0);
+pos = (365,0);
 ref = eight.dnom;
 }
 );
-width = 681;
+width = 626;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -26,15 +26,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (213,0);
+pos = (189,0);
 ref = fraction;
 },
 {
-pos = (337,0);
+pos = (245,0);
 ref = eight.dnom;
 }
 );
-width = 562;
+width = 516;
 },
 {
 layerId = master01;
@@ -43,11 +43,11 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (279,0);
+pos = (286,0);
 ref = fraction;
 },
 {
-pos = (383,0);
+pos = (390,0);
 ref = eight.dnom;
 }
 );
@@ -55,7 +55,7 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = seven.numr;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = seven.numr;
 };
-width = 713;
+width = 781;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -64,11 +64,11 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (324,0);
+pos = (315,0);
 ref = fraction;
 },
 {
-pos = (506,0);
+pos = (462,0);
 ref = eight.dnom;
 }
 );
@@ -76,10 +76,129 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = seven.numr;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = seven.numr;
 };
-width = 861;
+width = 831;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (294,0);
+ref = fraction;
+},
+{
+pos = (394,0);
+ref = eight.dnom;
+}
+);
+width = 809;
+},
+{
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (309,0);
+ref = fraction;
+},
+{
+pos = (438,0);
+ref = eight.dnom;
+}
+);
+width = 845;
+},
+{
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (187,0);
+ref = fraction;
+},
+{
+pos = (248,0);
+ref = eight.dnom;
+}
+);
+width = 519;
+},
+{
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (243,0);
+ref = fraction;
+},
+{
+pos = (376,0);
+ref = eight.dnom;
+}
+);
+width = 635;
+},
+{
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (298,0);
+ref = fraction;
+},
+{
+pos = (424,0);
+ref = eight.dnom;
+}
+);
+width = 815;
+},
+{
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (322,0);
+ref = fraction;
+},
+{
+pos = (489,0);
+ref = eight.dnom;
+}
+);
+width = 862;
+},
+{
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+ref = seven.numr;
+},
+{
+pos = (301,0);
+ref = fraction;
+},
+{
+pos = (414,0);
+ref = eight.dnom;
+}
+);
+width = 828;
+},
+{
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
 ref = seven.numr;
@@ -89,130 +208,11 @@ pos = (328,0);
 ref = fraction;
 },
 {
-pos = (548,0);
+pos = (475,0);
 ref = eight.dnom;
 }
 );
-width = 917;
-},
-{
-layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (344,0);
-ref = fraction;
-},
-{
-pos = (548,0);
-ref = eight.dnom;
-}
-);
-width = 931;
-},
-{
-layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (211,0);
-ref = fraction;
-},
-{
-pos = (364,0);
-ref = eight.dnom;
-}
-);
-width = 588;
-},
-{
-layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (260,0);
-ref = fraction;
-},
-{
-pos = (407,0);
-ref = eight.dnom;
-}
-);
-width = 664;
-},
-{
-layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (275,0);
-ref = fraction;
-},
-{
-pos = (360,0);
-ref = eight.dnom;
-}
-);
-width = 690;
-},
-{
-layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (325,0);
-ref = fraction;
-},
-{
-pos = (498,0);
-ref = eight.dnom;
-}
-);
-width = 858;
-},
-{
-layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (329,0);
-ref = fraction;
-},
-{
-pos = (530,0);
-ref = eight.dnom;
-}
-);
-width = 901;
-},
-{
-layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
-shapes = (
-{
-ref = seven.numr;
-},
-{
-pos = (352,0);
-ref = fraction;
-},
-{
-pos = (549,0);
-ref = eight.dnom;
-}
-);
-width = 930;
+width = 880;
 }
 );
 unicode = 8542;

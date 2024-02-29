@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = itilde;
 kernLeft = itilde;
 layers = (
@@ -9,7 +10,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-70,-156);
+pos = (-65,-156);
 ref = tildecomb;
 }
 );
@@ -22,11 +23,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-122,-138);
+pos = (-118,-138);
 ref = tildecomb;
 }
 );
-width = 233;
+width = 231;
 },
 {
 layerId = master01;
@@ -48,7 +49,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-92,-134);
+pos = (-91,-134);
 ref = tildecomb;
 }
 );
@@ -61,11 +62,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-128,-155);
+pos = (-122,-155);
 ref = tildecomb;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -74,11 +75,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-74,-129);
+pos = (-110,-129);
 ref = tildecomb;
 }
 );
-width = 308;
+width = 307;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -87,7 +88,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-102,-156);
+pos = (-97,-156);
 ref = tildecomb;
 }
 );
@@ -100,11 +101,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-151,-138);
+pos = (-148,-138);
 ref = tildecomb;
 }
 );
-width = 233;
+width = 229;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -126,7 +127,7 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-115,-134);
+pos = (-114,-134);
 ref = tildecomb;
 }
 );
@@ -139,11 +140,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-160,-155);
+pos = (-154,-155);
 ref = tildecomb;
 }
 );
-width = 167;
+width = 168;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -152,11 +153,11 @@ shapes = (
 ref = idotless;
 },
 {
-pos = (-103,-129);
+pos = (-137,-129);
 ref = tildecomb;
 }
 );
-width = 307;
+width = 306;
 }
 );
 unicode = 297;

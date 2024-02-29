@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 6;
 glyphname = questiondown;
 kernRight = questiondown;
 layers = (
@@ -7,30 +7,33 @@ layers = (
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (444.29,541);
+pos = (445,541);
 ref = question;
 }
 );
-width = 444.29;
+width = 445;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (324.2,516);
+pos = (324,516);
 ref = question;
 }
 );
-width = 319.2;
+width = 324;
 },
 {
 layerId = master01;
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (522,517);
+pos = (509,517);
 ref = question;
 }
 );
@@ -124,14 +127,15 @@ type = Stem;
 }
 );
 };
-width = 522;
+width = 509;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (583,544);
+pos = (578,544);
 ref = question;
 }
 );
@@ -139,102 +143,109 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = S;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = S;
 };
-width = 588;
+width = 578;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (538,517);
+pos = (528,517);
 ref = question;
 }
 );
-width = 538;
+width = 528;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (626,543);
+pos = (603,544);
 ref = question;
 }
 );
-width = 626;
+width = 603;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (323,516);
+pos = (325,516);
 ref = question;
 }
 );
-width = 318;
+width = 325;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (440,541);
+pos = (442,541);
 ref = question;
 }
 );
-width = 440;
+width = 442;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (520,517);
+pos = (507,517);
 ref = question;
 }
 );
-width = 520;
+width = 507;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (583,544);
+pos = (578,544);
 ref = question;
 }
 );
-width = 588;
+width = 578;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (539,517);
+pos = (529,517);
 ref = question;
 }
 );
-width = 539;
+width = 529;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
+alignment = 1;
 angle = 180;
-pos = (615,543);
+pos = (593,544);
 ref = question;
 }
 );
-width = 615;
+width = 593;
 }
 );
 metricLeft = S;
 metricRight = S;
 unicode = 191;
 userData = {
-KernOnName = questiondown;
 KernOnSpecialSpacing = {
 R = "spaced-off";
 };

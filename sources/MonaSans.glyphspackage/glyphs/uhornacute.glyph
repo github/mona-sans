@@ -1,7 +1,7 @@
 {
+color = 6;
 glyphname = uhornacute;
 kernLeft = u;
-kernRight = uhorn;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -10,11 +10,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (118,-156);
+pos = (120,-156);
 ref = acutecomb;
 }
 );
-width = 357;
+width = 356;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +23,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (122,-137);
+pos = (123,-137);
 ref = acutecomb;
 }
 );
-width = 478;
+width = 518;
 },
 {
 layerId = master01;
@@ -36,11 +36,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (236,-155);
+pos = (231,-155);
 ref = acutecomb;
 }
 );
-width = 581;
+width = 609;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +49,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (212,-134);
+pos = (209,-134);
 ref = acutecomb;
 }
 );
-width = 648;
+width = 681;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,11 +62,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (250,-155);
+pos = (249,-155);
 ref = acutecomb;
 }
 );
-width = 626;
+width = 659;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +75,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (216,-129);
+pos = (239,-129);
 ref = acutecomb;
 }
 );
-width = 730;
+width = 765;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +88,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (86,-156);
+pos = (87,-156);
 ref = acutecomb;
 }
 );
-width = 356;
+width = 353;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -105,7 +105,7 @@ pos = (95,-137);
 ref = acutecomb;
 }
 );
-width = 477;
+width = 515;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +114,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (198,-155);
+pos = (191,-155);
 ref = acutecomb;
 }
 );
-width = 571;
+width = 603;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +127,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (181,-134);
+pos = (176,-134);
 ref = acutecomb;
 }
 );
-width = 638;
+width = 673;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +140,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (217,-155);
+pos = (214,-155);
 ref = acutecomb;
 }
 );
-width = 622;
+width = 665;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,15 +153,12 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (187,-129);
+pos = (207,-129);
 ref = acutecomb;
 }
 );
-width = 725;
+width = 769;
 }
 );
 unicode = 7913;
-userData = {
-KernOnName = uhornacute;
-};
 }

@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 7;
 glyphname = Q;
 kernLeft = O;
 kernRight = Q;
@@ -8,36 +8,39 @@ layers = (
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (171,0);
+pos = (163,0);
 ref = _tail.Q;
 }
 );
-width = 510;
+width = 521;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (167,0);
+pos = (174,0);
 ref = _tail.Q;
 }
 );
-width = 407;
+width = 432;
 },
 {
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (359,0);
+pos = (368,0);
 ref = _tail.Q;
 }
 );
@@ -117,16 +120,17 @@ type = Stem;
 }
 );
 };
-width = 792;
+width = 824;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (333,0);
+pos = (330,0);
 ref = _tail.Q;
 }
 );
@@ -134,116 +138,121 @@ userData = {
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = O;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = O;
 };
-width = 807;
+width = 846;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (384,0);
+pos = (379,0);
 ref = _tail.Q;
 }
 );
-width = 842;
+width = 863;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (375,0);
+pos = (365,0);
 ref = _tail.Q;
 }
 );
-width = 891;
+width = 916;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (125,0);
+pos = (132,0);
 ref = _tail.Q;
 }
 );
-width = 405;
+width = 434;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (131,0);
+pos = (124,0);
 ref = _tail.Q;
 }
 );
-width = 506;
+width = 523;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (309,0);
+pos = (319,0);
 ref = _tail.Q;
 }
 );
-width = 751;
+width = 807;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (307,0);
+pos = (302,0);
 ref = _tail.Q;
 }
 );
-width = 800;
+width = 858;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (365,-9);
+pos = (360,-9);
 ref = _tail.Q;
 }
 );
-width = 839;
+width = 892;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 shapes = (
 {
+alignment = -1;
 ref = O;
 },
 {
-pos = (356,0);
+pos = (345,0);
 ref = _tail.Q;
 }
 );
-width = 889;
+width = 955;
 }
 );
 metricLeft = O;
 unicode = 81;
-userData = {
-KernOnName = Q;
-};
 }

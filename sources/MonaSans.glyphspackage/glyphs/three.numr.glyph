@@ -1,8 +1,6 @@
 {
-color = 9;
+color = 6;
 glyphname = three.numr;
-kernLeft = three.numr;
-kernRight = three.numr;
 layers = (
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -36,7 +34,7 @@ weight = -45;
 width = 55;
 };
 };
-width = 213;
+width = 252;
 },
 {
 layerId = master01;
@@ -169,7 +167,7 @@ type = Stem;
 }
 );
 };
-width = 321;
+width = 374;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -188,7 +186,7 @@ width = 54;
 com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = three.dnom;
 com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = three.dnom;
 };
-width = 347;
+width = 363;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -205,7 +203,7 @@ weight = -35;
 width = 55;
 };
 };
-width = 372;
+width = 404;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -222,7 +220,7 @@ weight = -390;
 width = 54;
 };
 };
-width = 397;
+width = 398;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -239,7 +237,7 @@ weight = -45;
 width = 55;
 };
 };
-width = 213;
+width = 251;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -273,7 +271,7 @@ weight = -40;
 width = 55;
 };
 };
-width = 314;
+width = 367;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -290,7 +288,7 @@ weight = -370;
 width = 54;
 };
 };
-width = 349;
+width = 361;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -307,7 +305,7 @@ weight = -35;
 width = 55;
 };
 };
-width = 369;
+width = 400;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -324,10 +322,14 @@ weight = -390;
 width = 54;
 };
 };
-width = 394;
+width = 395;
 }
 );
 userData = {
+KernOnSpecialSpacing = {
+L = "fraction numbers";
+R = "fraction numbers";
+};
 RMXScaler = {
 source = three;
 };

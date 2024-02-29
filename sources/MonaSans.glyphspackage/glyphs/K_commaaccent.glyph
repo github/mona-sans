@@ -1,6 +1,7 @@
 {
+color = 6;
 glyphname = Kcommaaccent;
-kernLeft = K;
+kernLeft = H;
 kernRight = K;
 layers = (
 {
@@ -10,11 +11,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (46,0);
+pos = (90,0);
 ref = commaaccentcomb;
 }
 );
-width = 372;
+width = 370;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,7 +24,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (-17,0);
+pos = (74,0);
 ref = commaaccentcomb;
 }
 );
@@ -36,11 +37,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (186,0);
+pos = (213,0);
 ref = commaaccentcomb;
 }
 );
-width = 655;
+width = 647;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (211,0);
+pos = (200,0);
 ref = commaaccentcomb;
 }
 );
-width = 759;
+width = 753;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,11 +63,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (205,0);
+pos = (248,0);
 ref = commaaccentcomb;
 }
 );
-width = 695;
+width = 696;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -75,11 +76,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (254,0);
+pos = (247,0);
 ref = commaaccentcomb;
 }
 );
-width = 876;
+width = 867;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (95,0);
+pos = (100,0);
 ref = commaaccentcomb;
 }
 );
-width = 369;
+width = 366;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,7 +102,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (-57,0);
+pos = (82,0);
 ref = commaaccentcomb;
 }
 );
@@ -114,11 +115,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (213,0);
+pos = (209,0);
 ref = commaaccentcomb;
 }
 );
-width = 649;
+width = 641;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (204,0);
+pos = (201,0);
 ref = commaaccentcomb;
 }
 );
-width = 748;
+width = 741;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,11 +141,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (131,0);
+pos = (253,0);
 ref = commaaccentcomb;
 }
 );
-width = 687;
+width = 688;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -153,11 +154,11 @@ shapes = (
 ref = K;
 },
 {
-pos = (155,0);
+pos = (258,0);
 ref = commaaccentcomb;
 }
 );
-width = 867;
+width = 857;
 }
 );
 unicode = 310;

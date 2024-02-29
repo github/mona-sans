@@ -1,5 +1,4 @@
 {
-color = 6;
 glyphname = checkmark;
 layers = (
 {
@@ -209,6 +208,10 @@ width = 919;
 );
 unicode = 10003;
 userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
 com.schriftgestaltung.Glyphs.lastChange = "2017-05-03 17:15:08 +0000";
 };
 }

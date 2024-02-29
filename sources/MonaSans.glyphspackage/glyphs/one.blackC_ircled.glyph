@@ -1,9 +1,9 @@
 {
-color = 6;
+color = 0;
 glyphname = one.blackCircled;
 layers = (
 {
-layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+background = {
 shapes = (
 {
 closed = 1;
@@ -38,10 +38,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (234,189);
+ref = oneinferior;
+}
+);
 width = 706;
 },
 {
-layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+background = {
 shapes = (
 {
 closed = 1;
@@ -76,10 +91,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (282,188);
+ref = oneinferior;
+}
+);
 width = 698;
 },
 {
-layerId = master01;
+background = {
 shapes = (
 {
 closed = 1;
@@ -112,6 +142,21 @@ nodes = (
 (468,149,l),
 (434,149,l)
 );
+}
+);
+};
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (307,189);
+ref = oneinferior;
 }
 );
 userData = {
@@ -239,7 +284,7 @@ type = Stem;
 width = 871;
 },
 {
-layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+background = {
 shapes = (
 {
 closed = 1;
@@ -274,10 +319,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (274,191);
+ref = oneinferior;
+}
+);
 width = 855;
 },
 {
-layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+background = {
 shapes = (
 {
 closed = 1;
@@ -312,10 +372,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (313,189);
+ref = oneinferior;
+}
+);
 width = 884;
 },
 {
-layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+background = {
 shapes = (
 {
 closed = 1;
@@ -350,10 +425,26 @@ nodes = (
 );
 }
 );
+};
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+Weight = 900;
+};
+pos = (276,190);
+ref = oneinferior;
+}
+);
 width = 860;
 },
 {
-layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+background = {
 shapes = (
 {
 closed = 1;
@@ -388,10 +479,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (319,188);
+ref = oneinferior;
+}
+);
 width = 727;
 },
 {
-layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+background = {
 shapes = (
 {
 closed = 1;
@@ -426,10 +532,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (266,189);
+ref = oneinferior;
+}
+);
 width = 731;
 },
 {
-layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+background = {
 shapes = (
 {
 closed = 1;
@@ -464,10 +585,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (339,189);
+ref = oneinferior;
+}
+);
 width = 891;
 },
 {
-layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+background = {
 shapes = (
 {
 closed = 1;
@@ -502,10 +638,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (302,191);
+ref = oneinferior;
+}
+);
 width = 873;
 },
 {
-layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+background = {
 shapes = (
 {
 closed = 1;
@@ -540,10 +691,25 @@ nodes = (
 );
 }
 );
+};
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (344,189);
+ref = oneinferior;
+}
+);
 width = 903;
 },
 {
-layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+background = {
 shapes = (
 {
 closed = 1;
@@ -578,11 +744,26 @@ nodes = (
 );
 }
 );
+};
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+piece = {
+Slant = 0;
+};
+pos = (305,190);
+ref = oneinferior;
+}
+);
 width = 880;
 }
 );
-metricLeft = one.sansSerifCircled;
-metricRight = one.sansSerifCircled;
+metricLeft = one.circled;
+metricRight = one.circled;
 unicode = 10102;
 userData = {
 RMXScaler = {

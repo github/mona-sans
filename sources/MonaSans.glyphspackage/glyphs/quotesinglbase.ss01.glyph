@@ -1,5 +1,5 @@
 {
-color = 5;
+color = 6;
 glyphname = quotesinglbase.ss01;
 kernLeft = comma.ss01;
 kernRight = quotedblbase.ss01;
@@ -12,7 +12,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 138;
+width = 122;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -22,7 +22,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 221;
+width = 206;
 },
 {
 layerId = master01;
@@ -32,7 +32,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 163;
+width = 162;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -42,7 +42,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 255;
+width = 254;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -52,7 +52,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 143;
+width = 137;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -62,7 +62,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 274;
+width = 272;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -72,7 +72,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 138;
+width = 121;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -82,7 +82,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 216;
+width = 203;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -92,7 +92,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 152;
+width = 163;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -102,7 +102,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 269;
+width = 252;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -112,7 +112,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 150;
+width = 136;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -122,7 +122,7 @@ alignment = 1;
 ref = comma.ss01;
 }
 );
-width = 275;
+width = 268;
 }
 );
 }

@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = kcommaaccent;
 kernLeft = l;
 kernRight = k;
@@ -10,11 +11,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (1,0);
+pos = (44,0);
 ref = commaaccentcomb;
 }
 );
-width = 282;
+width = 280;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -23,11 +24,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (-40,0);
+pos = (49,0);
 ref = commaaccentcomb;
 }
 );
-width = 463;
+width = 465;
 },
 {
 layerId = master01;
@@ -36,11 +37,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (120,0);
+pos = (156,0);
 ref = commaaccentcomb;
 }
 );
-width = 523;
+width = 511;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -49,11 +50,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (164,0);
+pos = (163,0);
 ref = commaaccentcomb;
 }
 );
-width = 666;
+width = 653;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -62,7 +63,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (139,0);
+pos = (181,0);
 ref = commaaccentcomb;
 }
 );
@@ -79,7 +80,7 @@ pos = (187,0);
 ref = commaaccentcomb;
 }
 );
-width = 741;
+width = 732;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -88,11 +89,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (50,0);
+pos = (55,0);
 ref = commaaccentcomb;
 }
 );
-width = 284;
+width = 281;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -101,11 +102,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (-79,0);
+pos = (57,0);
 ref = commaaccentcomb;
 }
 );
-width = 460;
+width = 461;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -114,11 +115,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (154,0);
+pos = (159,0);
 ref = commaaccentcomb;
 }
 );
-width = 509;
+width = 497;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -127,11 +128,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (158,0);
+pos = (165,0);
 ref = commaaccentcomb;
 }
 );
-width = 651;
+width = 638;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -140,7 +141,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (66,0);
+pos = (187,0);
 ref = commaaccentcomb;
 }
 );
@@ -153,11 +154,11 @@ shapes = (
 ref = k;
 },
 {
-pos = (89,0);
+pos = (199,0);
 ref = commaaccentcomb;
 }
 );
-width = 733;
+width = 724;
 }
 );
 unicode = 311;
