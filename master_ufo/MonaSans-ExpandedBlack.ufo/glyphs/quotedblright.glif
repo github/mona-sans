@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright" format="2">
+  <advance width="544"/>
+  <unicode hex="201D"/>
+  <anchor x="-21" y="565" name="#entry_1"/>
+  <anchor x="256" y="565" name="#entry_2"/>
+  <anchor x="256" y="565" name="#exit_1"/>
+  <anchor x="533" y="565" name="#exit_2"/>
+  <anchor x="133" y="1119" name="top_1"/>
+  <anchor x="410" y="1119" name="top_2"/>
+  <outline>
+    <component base="quotedblbase" yOffset="565"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>3</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>quotedblbase</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>comma</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

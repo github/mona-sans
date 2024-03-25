@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t_t.liga" format="2">
+  <advance width="547"/>
+  <outline>
+    <contour>
+      <point x="135" y="0" type="curve" smooth="yes"/>
+      <point x="215" y="0" type="line"/>
+      <point x="243" y="134" type="line"/>
+      <point x="229" y="133" type="line" smooth="yes"/>
+      <point x="203" y="131"/>
+      <point x="197" y="139"/>
+      <point x="203" y="166" type="curve" smooth="yes"/>
+      <point x="252" y="401" type="line"/>
+      <point x="336" y="401" type="line"/>
+      <point x="281" y="136" type="line" smooth="yes"/>
+      <point x="262" y="44"/>
+      <point x="293" y="0"/>
+      <point x="394" y="0" type="curve" smooth="yes"/>
+      <point x="474" y="0" type="line"/>
+      <point x="503" y="134" type="line"/>
+      <point x="489" y="133" type="line" smooth="yes"/>
+      <point x="462" y="131"/>
+      <point x="456" y="139"/>
+      <point x="462" y="166" type="curve" smooth="yes"/>
+      <point x="511" y="401" type="line"/>
+      <point x="557" y="399" type="line"/>
+      <point x="586" y="541" type="line"/>
+      <point x="541" y="539" type="line"/>
+      <point x="570" y="683" type="line"/>
+      <point x="392" y="668" type="line"/>
+      <point x="364" y="539" type="line"/>
+      <point x="281" y="539" type="line"/>
+      <point x="311" y="683" type="line"/>
+      <point x="132" y="668" type="line"/>
+      <point x="105" y="539" type="line"/>
+      <point x="68" y="541" type="line"/>
+      <point x="38" y="399" type="line"/>
+      <point x="76" y="401" type="line"/>
+      <point x="22" y="136" type="line" smooth="yes"/>
+      <point x="3" y="44"/>
+      <point x="34" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

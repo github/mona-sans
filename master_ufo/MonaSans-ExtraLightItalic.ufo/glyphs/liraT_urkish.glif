@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="liraTurkish" format="2">
+  <advance width="628"/>
+  <unicode hex="20BA"/>
+  <outline>
+    <contour>
+      <point x="106" y="0" type="line"/>
+      <point x="145" y="0" type="line" smooth="yes"/>
+      <point x="356" y="0"/>
+      <point x="515" y="105"/>
+      <point x="586" y="317" type="curve"/>
+      <point x="545" y="317" type="line"/>
+      <point x="487" y="146"/>
+      <point x="359" y="36"/>
+      <point x="151" y="36" type="curve"/>
+      <point x="296" y="729" type="line"/>
+      <point x="259" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="65" y="286" type="line"/>
+      <point x="467" y="436" type="line"/>
+      <point x="474" y="471" type="line"/>
+      <point x="72" y="321" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="445" type="line"/>
+      <point x="500" y="595" type="line"/>
+      <point x="508" y="630" type="line"/>
+      <point x="105" y="479" type="line"/>
+    </contour>
+  </outline>
+</glyph>

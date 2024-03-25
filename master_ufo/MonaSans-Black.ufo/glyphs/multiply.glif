@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply" format="2">
+  <advance width="600"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="171" y="129" type="line"/>
+      <point x="302" y="260" type="line"/>
+      <point x="432" y="129" type="line"/>
+      <point x="533" y="230" type="line"/>
+      <point x="403" y="361" type="line"/>
+      <point x="533" y="491" type="line"/>
+      <point x="432" y="592" type="line"/>
+      <point x="302" y="462" type="line"/>
+      <point x="171" y="592" type="line"/>
+      <point x="70" y="491" type="line"/>
+      <point x="201" y="361" type="line"/>
+      <point x="70" y="230" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

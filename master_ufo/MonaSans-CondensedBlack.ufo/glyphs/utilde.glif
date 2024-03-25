@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="utilde" format="2">
+  <advance width="474"/>
+  <unicode hex="0169"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <anchor x="447" y="0" name="ogonek"/>
+  <anchor x="235" y="541" name="top"/>
+  <anchor x="327" y="541" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="tildecomb" yOffset="-138"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

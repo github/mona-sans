@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeroinferior" format="2">
+  <advance width="408"/>
+  <unicode hex="2080"/>
+  <anchor x="184" y="177" name="_center"/>
+  <outline>
+    <contour>
+      <point x="154" y="-46" type="curve" smooth="yes"/>
+      <point x="252" y="-46"/>
+      <point x="324" y="21"/>
+      <point x="350" y="142" type="curve" smooth="yes"/>
+      <point x="384" y="300"/>
+      <point x="334" y="397"/>
+      <point x="214" y="397" type="curve" smooth="yes"/>
+      <point x="120" y="397"/>
+      <point x="46" y="336"/>
+      <point x="18" y="208" type="curve" smooth="yes"/>
+      <point x="-15" y="55"/>
+      <point x="36" y="-46"/>
+    </contour>
+    <contour>
+      <point x="164" y="61" type="curve" smooth="yes"/>
+      <point x="127" y="61"/>
+      <point x="126" y="107"/>
+      <point x="142" y="187" type="curve" smooth="yes"/>
+      <point x="160" y="275"/>
+      <point x="179" y="291"/>
+      <point x="205" y="291" type="curve" smooth="yes"/>
+      <point x="241" y="291"/>
+      <point x="243" y="243"/>
+      <point x="227" y="167" type="curve" smooth="yes"/>
+      <point x="209" y="77"/>
+      <point x="189" y="61"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>weight</key>
+        <integer>-300</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>75</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>125</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>200</integer>
+          <key>name</key>
+          <string>Weight</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>900</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>-12</integer>
+          <key>name</key>
+          <string>Slant</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

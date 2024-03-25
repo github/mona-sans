@@ -1,0 +1,194 @@
+{
+glyphname = underscore;
+kernLeft = underscore;
+layers = (
+{
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,-25,l),
+(292,0,l),
+(42,0,l),
+(42,-25,l)
+);
+}
+);
+width = 334;
+},
+{
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+closed = 1;
+nodes = (
+(383,-150,l),
+(383,0,l),
+(19,0,l),
+(19,-150,l)
+);
+}
+);
+width = 402;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,-33,l),
+(390,0,l),
+(60,0,l),
+(60,-33,l)
+);
+}
+);
+width = 450;
+},
+{
+layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(442,-160,l),
+(442,0,l),
+(38,0,l),
+(38,-160,l)
+);
+}
+);
+width = 480;
+},
+{
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+closed = 1;
+nodes = (
+(402,-32,l),
+(402,0,l),
+(46,0,l),
+(46,-32,l)
+);
+}
+);
+width = 448;
+},
+{
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(458,-158,l),
+(458,0,l),
+(30,0,l),
+(30,-158,l)
+);
+}
+);
+width = 488;
+},
+{
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+closed = 1;
+nodes = (
+(231,-25,l),
+(236,0,l),
+(-11,0,l),
+(-16,-25,l)
+);
+}
+);
+width = 332;
+},
+{
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,-150,l),
+(323,0,l),
+(-37,0,l),
+(-68,-150,l)
+);
+}
+);
+width = 398;
+},
+{
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,-32,l),
+(358,0,l),
+(6,0,l),
+(-1,-32,l)
+);
+}
+);
+width = 471;
+},
+{
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+closed = 1;
+nodes = (
+(348,-160,l),
+(382,0,l),
+(-18,0,l),
+(-52,-160,l)
+);
+}
+);
+width = 475;
+},
+{
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+closed = 1;
+nodes = (
+(338,-32,l),
+(345,0,l),
+(-7,0,l),
+(-14,-32,l)
+);
+}
+);
+width = 445;
+},
+{
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+shapes = (
+{
+closed = 1;
+nodes = (
+(364,-158,l),
+(397,0,l),
+(-26,0,l),
+(-60,-158,l)
+);
+}
+);
+width = 483;
+}
+);
+unicode = 95;
+userData = {
+KernOnName = underscore;
+KernOnSpecialSpacing = {
+L = underscore;
+R = underscore;
+};
+};
+}

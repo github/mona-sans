@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglleft" format="2">
+  <advance width="221"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="125" y="80" type="line"/>
+      <point x="154" y="80" type="line"/>
+      <point x="81" y="298" type="line"/>
+      <point x="227" y="517" type="line"/>
+      <point x="192" y="517" type="line"/>
+      <point x="44" y="298" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>guillemetleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>guillemetleft</string>
+    </dict>
+  </lib>
+</glyph>

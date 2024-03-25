@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ" format="2">
+  <advance width="795"/>
+  <unicode hex="0132"/>
+  <anchor x="162" y="0" name="bottom_1"/>
+  <anchor x="538" y="0" name="bottom_2"/>
+  <anchor x="276" y="0" name="ogonek"/>
+  <anchor x="162" y="729" name="top_1"/>
+  <anchor x="642" y="729" name="top_2"/>
+  <anchor x="13" y="729" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="J" xOffset="323"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

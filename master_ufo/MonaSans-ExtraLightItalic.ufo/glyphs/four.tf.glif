@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.tf" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="340" y="0" type="line"/>
+      <point x="376" y="0" type="line"/>
+      <point x="526" y="721" type="line"/>
+      <point x="487" y="721" type="line"/>
+      <point x="27" y="230" type="line"/>
+      <point x="20" y="196" type="line"/>
+      <point x="555" y="196" type="line"/>
+      <point x="562" y="229" type="line"/>
+      <point x="70" y="229" type="line"/>
+      <point x="479" y="662" type="line"/>
+      <point x="477" y="662" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>monoWidth</key>
+        <integer>600</integer>
+        <key>useSpacing</key>
+        <integer>85</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period.ss01" format="2">
+  <advance width="165"/>
+  <anchor x="-3" y="0" name="#entry"/>
+  <anchor x="183" y="0" name="#exit"/>
+  <anchor x="83" y="61" name="_top"/>
+  <anchor x="83" y="517" name="top"/>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="105" y="0" type="line"/>
+      <point x="105" y="61" type="line"/>
+      <point x="60" y="61" type="line"/>
+    </contour>
+  </outline>
+</glyph>

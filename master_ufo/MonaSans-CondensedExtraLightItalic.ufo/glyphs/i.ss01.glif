@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.ss01" format="2">
+  <advance width="151"/>
+  <anchor x="22" y="0" name="bottom"/>
+  <anchor x="36" y="0" name="ogonek"/>
+  <anchor x="128" y="516" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb.ss01" xOffset="-12" yOffset="-156"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

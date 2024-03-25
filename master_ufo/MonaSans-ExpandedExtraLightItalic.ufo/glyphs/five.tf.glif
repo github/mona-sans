@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.tf" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="326" y="-10" type="curve" smooth="yes"/>
+      <point x="509" y="-10"/>
+      <point x="642" y="83"/>
+      <point x="642" y="262" type="curve" smooth="yes"/>
+      <point x="642" y="394"/>
+      <point x="554" y="470"/>
+      <point x="391" y="470" type="curve" smooth="yes"/>
+      <point x="304" y="470"/>
+      <point x="213" y="437"/>
+      <point x="163" y="386" type="curve"/>
+      <point x="160" y="387" type="line"/>
+      <point x="241" y="687" type="line"/>
+      <point x="708" y="687" type="line"/>
+      <point x="714" y="721" type="line"/>
+      <point x="214" y="721" type="line"/>
+      <point x="115" y="345" type="line"/>
+      <point x="153" y="345" type="line"/>
+      <point x="200" y="401"/>
+      <point x="286" y="437"/>
+      <point x="385" y="437" type="curve" smooth="yes"/>
+      <point x="522" y="437"/>
+      <point x="601" y="379"/>
+      <point x="601" y="263" type="curve" smooth="yes"/>
+      <point x="601" y="125"/>
+      <point x="517" y="24"/>
+      <point x="329" y="24" type="curve" smooth="yes"/>
+      <point x="188" y="24"/>
+      <point x="100" y="103"/>
+      <point x="110" y="224" type="curve"/>
+      <point x="73" y="224" type="line"/>
+      <point x="61" y="82"/>
+      <point x="164" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>monoWidth</key>
+        <integer>640</integer>
+        <key>useSpacing</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

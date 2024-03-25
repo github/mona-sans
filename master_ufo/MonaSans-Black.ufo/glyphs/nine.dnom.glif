@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.dnom" format="2">
+  <advance width="386"/>
+  <outline>
+    <component base="six.dnom" xScale="-1.0" yScale="-1.0" xOffset="386" yOffset="375"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>52</integer>
+        <key>weight</key>
+        <integer>-370</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

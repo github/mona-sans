@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="150"/>
+  <unicode hex="006A"/>
+  <anchor x="-8" y="-200" name="bottom"/>
+  <anchor x="129" y="516" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="dotaccent" xOffset="-25" yOffset="-156"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

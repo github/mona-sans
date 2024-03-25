@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.tf" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="368" y="-9" type="curve" smooth="yes"/>
+      <point x="562" y="-9"/>
+      <point x="693" y="84"/>
+      <point x="693" y="250" type="curve" smooth="yes"/>
+      <point x="693" y="395"/>
+      <point x="591" y="477"/>
+      <point x="438" y="477" type="curve" smooth="yes"/>
+      <point x="355" y="477"/>
+      <point x="288" y="445"/>
+      <point x="256" y="397" type="curve"/>
+      <point x="247" y="399" type="line"/>
+      <point x="250" y="509"/>
+      <point x="295" y="562"/>
+      <point x="375" y="562" type="curve" smooth="yes"/>
+      <point x="419" y="562"/>
+      <point x="453" y="552"/>
+      <point x="470" y="518" type="curve"/>
+      <point x="684" y="518" type="line"/>
+      <point x="663" y="645"/>
+      <point x="552" y="730"/>
+      <point x="382" y="730" type="curve" smooth="yes"/>
+      <point x="188" y="730"/>
+      <point x="29" y="629"/>
+      <point x="29" y="351" type="curve" smooth="yes"/>
+      <point x="29" y="68"/>
+      <point x="191" y="-9"/>
+    </contour>
+    <contour>
+      <point x="371" y="158" type="curve" smooth="yes"/>
+      <point x="310" y="158"/>
+      <point x="269" y="185"/>
+      <point x="269" y="241" type="curve" smooth="yes"/>
+      <point x="269" y="292"/>
+      <point x="302" y="327"/>
+      <point x="372" y="327" type="curve" smooth="yes"/>
+      <point x="439" y="327"/>
+      <point x="476" y="298"/>
+      <point x="476" y="242" type="curve" smooth="yes"/>
+      <point x="476" y="191"/>
+      <point x="441" y="158"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>monoWidth</key>
+        <integer>700</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreveacute.ss04" format="2">
+  <advance width="476"/>
+  <anchor x="216" y="0" name="bottom"/>
+  <anchor x="410" y="0" name="ogonek"/>
+  <anchor x="263" y="541" name="top"/>
+  <outline>
+    <component base="a.ss04"/>
+    <component base="brevecomb_acutecomb" xOffset="-17" yOffset="-137"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

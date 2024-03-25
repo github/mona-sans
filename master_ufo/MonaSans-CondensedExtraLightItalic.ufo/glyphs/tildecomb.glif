@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="225" y="672" name="_top"/>
+  <outline>
+    <contour>
+      <point x="291" y="777" type="curve" smooth="yes"/>
+      <point x="312" y="777"/>
+      <point x="336" y="787"/>
+      <point x="357" y="825" type="curve"/>
+      <point x="342" y="836" type="line"/>
+      <point x="328" y="817"/>
+      <point x="313" y="807"/>
+      <point x="294" y="807" type="curve" smooth="yes"/>
+      <point x="266" y="807"/>
+      <point x="243" y="835"/>
+      <point x="213" y="835" type="curve" smooth="yes"/>
+      <point x="190" y="835"/>
+      <point x="169" y="820"/>
+      <point x="149" y="786" type="curve"/>
+      <point x="164" y="775" type="line"/>
+      <point x="181" y="797"/>
+      <point x="197" y="804"/>
+      <point x="210" y="804" type="curve" smooth="yes"/>
+      <point x="238" y="804"/>
+      <point x="257" y="777"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>280</integer>
+    </dict>
+  </lib>
+</glyph>

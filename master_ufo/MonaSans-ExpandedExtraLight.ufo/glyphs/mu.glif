@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mu" format="2">
+  <advance width="638"/>
+  <unicode hex="03BC"/>
+  <outline>
+    <contour>
+      <point x="66" y="-132" type="line"/>
+      <point x="103" y="-132" type="line"/>
+      <point x="103" y="143" type="line"/>
+      <point x="87" y="133" type="line"/>
+      <point x="104" y="45"/>
+      <point x="186" y="-8"/>
+      <point x="302" y="-8" type="curve" smooth="yes"/>
+      <point x="402" y="-8"/>
+      <point x="494" y="40"/>
+      <point x="530" y="130" type="curve"/>
+      <point x="535" y="130" type="line"/>
+      <point x="535" y="0" type="line"/>
+      <point x="572" y="0" type="line"/>
+      <point x="572" y="517" type="line"/>
+      <point x="535" y="517" type="line"/>
+      <point x="535" y="262" type="line" smooth="yes"/>
+      <point x="535" y="120"/>
+      <point x="455" y="26"/>
+      <point x="307" y="26" type="curve" smooth="yes"/>
+      <point x="177" y="26"/>
+      <point x="103" y="86"/>
+      <point x="103" y="234" type="curve" smooth="yes"/>
+      <point x="103" y="517" type="line"/>
+      <point x="66" y="517" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

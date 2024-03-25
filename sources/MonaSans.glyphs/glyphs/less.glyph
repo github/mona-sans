@@ -1,0 +1,189 @@
+{
+color = 6;
+glyphname = less;
+layers = (
+{
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (480,721);
+ref = greater;
+}
+);
+width = 480;
+},
+{
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (480,722);
+ref = greater;
+}
+);
+width = 480;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (600,722);
+ref = greater;
+}
+);
+userData = {
+com.schriftgestaltung.hints = (
+{
+horizontal = 1;
+options = 0;
+place = (
+-1,
+-20
+);
+stem = -2;
+target = (
+d,
+o,
+w,
+n
+);
+type = TopGhost;
+},
+{
+horizontal = 0;
+options = 0;
+place = (
+-1,
+-1
+);
+stem = -2;
+type = Stem;
+}
+);
+};
+width = 600;
+},
+{
+layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (600,721);
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (720,722);
+ref = greater;
+}
+);
+width = 720;
+},
+{
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (720,722);
+ref = greater;
+}
+);
+width = 720;
+},
+{
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (523,722);
+ref = greater;
+}
+);
+width = 480;
+},
+{
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (517,721);
+ref = greater;
+}
+);
+width = 480;
+},
+{
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (642,722);
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (637,721);
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (762,722);
+ref = greater;
+}
+);
+width = 720;
+},
+{
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (757,722);
+ref = greater;
+}
+);
+width = 720;
+}
+);
+metricLeft = "=|greater";
+metricRight = "=|greater";
+unicode = 60;
+userData = {
+KernOnSpecialSpacing = {
+L = math;
+R = math;
+};
+};
+}

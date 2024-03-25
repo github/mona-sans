@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring.ss04" format="2">
+  <advance width="313"/>
+  <anchor x="106" y="0" name="bottom"/>
+  <anchor x="236" y="0" name="ogonek"/>
+  <anchor x="198" y="516" name="top"/>
+  <outline>
+    <component base="a.ss04"/>
+    <component base="ringcomb" xOffset="10" yOffset="-156"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_tildecomb" format="2">
+  <anchor x="341" y="673" name="_top"/>
+  <outline>
+    <contour>
+      <point x="359" y="709" type="curve" smooth="yes"/>
+      <point x="484" y="709"/>
+      <point x="560" y="771"/>
+      <point x="567" y="845" type="curve"/>
+      <point x="412" y="845" type="line"/>
+      <point x="410" y="822"/>
+      <point x="389" y="808"/>
+      <point x="364" y="808" type="curve" smooth="yes"/>
+      <point x="339" y="808"/>
+      <point x="323" y="823"/>
+      <point x="323" y="845" type="curve"/>
+      <point x="169" y="845" type="line"/>
+      <point x="177" y="758"/>
+      <point x="247" y="709"/>
+    </contour>
+    <contour>
+      <point x="439" y="865" type="curve" smooth="yes"/>
+      <point x="493" y="865"/>
+      <point x="556" y="892"/>
+      <point x="601" y="961" type="curve"/>
+      <point x="533" y="995" type="line"/>
+      <point x="514" y="979"/>
+      <point x="489" y="965"/>
+      <point x="458" y="965" type="curve" smooth="yes"/>
+      <point x="408" y="965"/>
+      <point x="391" y="996"/>
+      <point x="332" y="996" type="curve" smooth="yes"/>
+      <point x="278" y="996"/>
+      <point x="215" y="969"/>
+      <point x="170" y="900" type="curve"/>
+      <point x="238" y="866" type="line"/>
+      <point x="257" y="882"/>
+      <point x="282" y="896"/>
+      <point x="313" y="896" type="curve" smooth="yes"/>
+      <point x="363" y="896"/>
+      <point x="380" y="865"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>498</integer>
+    </dict>
+  </lib>
+</glyph>

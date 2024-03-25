@@ -1,0 +1,196 @@
+{
+glyphname = fraction;
+kernLeft = fraction;
+kernRight = fraction;
+layers = (
+{
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-58,0,l),
+(298,721,l),
+(186,721,l),
+(-170,0,l)
+);
+}
+);
+width = 128;
+},
+{
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-135,0,l),
+(220,721,l),
+(191,721,l),
+(-164,0,l)
+);
+}
+);
+width = 56;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-172,0,l),
+(325,721,l),
+(287,721,l),
+(-209,0,l)
+);
+}
+);
+width = 116;
+},
+{
+layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-102,0,l),
+(395,721,l),
+(257,721,l),
+(-239,0,l)
+);
+}
+);
+width = 156;
+},
+{
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-221,0,l),
+(361,721,l),
+(320,721,l),
+(-261,0,l)
+);
+}
+);
+width = 100;
+},
+{
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-150,0,l),
+(432,721,l),
+(283,721,l),
+(-298,0,l)
+);
+}
+);
+width = 134;
+},
+{
+layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-196,0,l),
+(333,721,l),
+(300,721,l),
+(-229,0,l)
+);
+}
+);
+width = 61;
+},
+{
+layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-96,0,l),
+(388,721,l),
+(268,721,l),
+(-216,0,l)
+);
+}
+);
+width = 135;
+},
+{
+layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-212,0,l),
+(413,721,l),
+(372,721,l),
+(-252,0,l)
+);
+}
+);
+width = 119;
+},
+{
+layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-136,0,l),
+(489,721,l),
+(339,721,l),
+(-285,0,l)
+);
+}
+);
+width = 167;
+},
+{
+layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-261,0,l),
+(449,721,l),
+(405,721,l),
+(-304,0,l)
+);
+}
+);
+width = 103;
+},
+{
+layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-182,0,l),
+(528,721,l),
+(365,721,l),
+(-344,0,l)
+);
+}
+);
+width = 147;
+}
+);
+metricRight = "=|";
+unicode = 8260;
+userData = {
+KernOnName = fraction;
+KernOnSpecialSpacing = {
+L = fraction;
+R = fraction;
+};
+};
+}

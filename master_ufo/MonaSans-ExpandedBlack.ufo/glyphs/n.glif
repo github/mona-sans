@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n" format="2">
+  <advance width="722"/>
+  <unicode hex="006E"/>
+  <anchor x="367" y="0" name="bottom"/>
+  <anchor x="367" y="544" name="top"/>
+  <outline>
+    <contour>
+      <point x="43" y="0" type="line"/>
+      <point x="264" y="0" type="line"/>
+      <point x="264" y="271" type="line" smooth="yes"/>
+      <point x="264" y="339"/>
+      <point x="306" y="389"/>
+      <point x="376" y="389" type="curve" smooth="yes"/>
+      <point x="452" y="389"/>
+      <point x="470" y="336"/>
+      <point x="470" y="260" type="curve" smooth="yes"/>
+      <point x="470" y="0" type="line"/>
+      <point x="691" y="0" type="line"/>
+      <point x="691" y="299" type="line" smooth="yes"/>
+      <point x="691" y="491"/>
+      <point x="596" y="554"/>
+      <point x="456" y="554" type="curve" smooth="yes"/>
+      <point x="382" y="554"/>
+      <point x="306" y="521"/>
+      <point x="274" y="465" type="curve"/>
+      <point x="264" y="465" type="line"/>
+      <point x="256" y="544" type="line"/>
+      <point x="43" y="544" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

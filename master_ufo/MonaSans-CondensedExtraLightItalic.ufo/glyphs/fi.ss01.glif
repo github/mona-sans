@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fi.ss01" format="2">
+  <advance width="321"/>
+  <outline>
+    <contour>
+      <point x="9" y="0" type="line"/>
+      <point x="38" y="0" type="line"/>
+      <point x="140" y="489" type="line"/>
+      <point x="279" y="489" type="line"/>
+      <point x="177" y="0" type="line"/>
+      <point x="206" y="0" type="line"/>
+      <point x="314" y="516" type="line"/>
+      <point x="146" y="516" type="line"/>
+      <point x="173" y="648" type="line" smooth="yes"/>
+      <point x="181" y="688"/>
+      <point x="196" y="700"/>
+      <point x="225" y="700" type="curve" smooth="yes"/>
+      <point x="240" y="700" type="line"/>
+      <point x="245" y="729" type="line"/>
+      <point x="229" y="729" type="line" smooth="yes"/>
+      <point x="187" y="729"/>
+      <point x="158" y="710"/>
+      <point x="146" y="654" type="curve" smooth="yes"/>
+      <point x="117" y="516" type="line"/>
+      <point x="78" y="516" type="line"/>
+      <point x="72" y="489" type="line"/>
+      <point x="111" y="489" type="line"/>
+    </contour>
+    <contour>
+      <point x="304" y="614" type="line"/>
+      <point x="332" y="614" type="line"/>
+      <point x="357" y="729" type="line"/>
+      <point x="328" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i.ss01</string>
+    </dict>
+  </lib>
+</glyph>

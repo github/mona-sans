@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek.dotless" format="2">
+  <advance width="299"/>
+  <anchor x="150" y="0" name="bottom"/>
+  <anchor x="245" y="0" name="ogonek"/>
+  <anchor x="150" y="544" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="ogonekcomb" xOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

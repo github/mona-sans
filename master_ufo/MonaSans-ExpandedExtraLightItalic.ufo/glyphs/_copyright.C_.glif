@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_copyright.C" format="2">
+  <advance width="502"/>
+  <anchor x="268" y="363" name="_center"/>
+  <outline>
+    <contour>
+      <point x="272" y="161" type="curve" smooth="yes"/>
+      <point x="372" y="161"/>
+      <point x="456" y="217"/>
+      <point x="470" y="300" type="curve"/>
+      <point x="433" y="300" type="line"/>
+      <point x="418" y="237"/>
+      <point x="355" y="193"/>
+      <point x="273" y="193" type="curve" smooth="yes"/>
+      <point x="165" y="193"/>
+      <point x="103" y="260"/>
+      <point x="103" y="362" type="curve" smooth="yes"/>
+      <point x="103" y="465"/>
+      <point x="172" y="533"/>
+      <point x="275" y="533" type="curve" smooth="yes"/>
+      <point x="351" y="533"/>
+      <point x="411" y="500"/>
+      <point x="430" y="434" type="curve"/>
+      <point x="466" y="434" type="line"/>
+      <point x="454" y="513"/>
+      <point x="377" y="565"/>
+      <point x="275" y="565" type="curve" smooth="yes"/>
+      <point x="151" y="565"/>
+      <point x="67" y="483"/>
+      <point x="67" y="362" type="curve" smooth="yes"/>
+      <point x="67" y="238"/>
+      <point x="147" y="161"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

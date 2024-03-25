@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.ss03" format="2">
+  <advance width="307"/>
+  <anchor x="154" y="0" name="bottom"/>
+  <anchor x="154" y="365" name="center"/>
+  <anchor x="154" y="729" name="top"/>
+  <anchor x="264" y="729" name="topright"/>
+  <outline>
+    <contour>
+      <point x="43" y="0" type="line"/>
+      <point x="264" y="0" type="line"/>
+      <point x="264" y="729" type="line"/>
+      <point x="-13" y="729" type="line"/>
+      <point x="-13" y="569" type="line"/>
+      <point x="43" y="569" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="question.ss01" format="2">
+  <advance width="578"/>
+  <outline>
+    <contour>
+      <point x="210" y="228" type="line"/>
+      <point x="380" y="228" type="line"/>
+      <point x="380" y="234" type="line" smooth="yes"/>
+      <point x="380" y="322"/>
+      <point x="553" y="378"/>
+      <point x="553" y="533" type="curve" smooth="yes"/>
+      <point x="553" y="656"/>
+      <point x="470" y="738"/>
+      <point x="295" y="738" type="curve" smooth="yes"/>
+      <point x="129" y="738"/>
+      <point x="19" y="646"/>
+      <point x="20" y="508" type="curve"/>
+      <point x="206" y="508" type="line"/>
+      <point x="206" y="550"/>
+      <point x="238" y="578"/>
+      <point x="286" y="578" type="curve" smooth="yes"/>
+      <point x="329" y="578"/>
+      <point x="357" y="554"/>
+      <point x="357" y="512" type="curve" smooth="yes"/>
+      <point x="357" y="426"/>
+      <point x="210" y="372"/>
+      <point x="210" y="247" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="205" y="0" type="line"/>
+      <point x="385" y="0" type="line"/>
+      <point x="385" y="164" type="line"/>
+      <point x="205" y="164" type="line"/>
+    </contour>
+  </outline>
+</glyph>

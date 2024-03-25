@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot.ss02" format="2">
+  <advance width="405"/>
+  <anchor x="56" y="0" name="bottom"/>
+  <anchor x="131" y="365" name="center"/>
+  <anchor x="206" y="729" name="top"/>
+  <anchor x="294" y="729" name="topright"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="periodcentered.loclCAT" xOffset="238"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>periodcentered.loclCAT</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide" format="2">
+  <advance width="480"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="47" y="347" type="line"/>
+      <point x="433" y="347" type="line"/>
+      <point x="433" y="375" type="line"/>
+      <point x="47" y="375" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="196" type="line"/>
+      <point x="259" y="196" type="line"/>
+      <point x="259" y="250" type="line"/>
+      <point x="221" y="250" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="472" type="line"/>
+      <point x="259" y="472" type="line"/>
+      <point x="259" y="526" type="line"/>
+      <point x="221" y="526" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>
