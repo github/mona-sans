@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblbase.ss01" format="2">
+  <advance width="302"/>
+  <anchor x="2" y="0" name="#entry_1"/>
+  <anchor x="142" y="0" name="#entry_2"/>
+  <anchor x="142" y="0" name="#exit_1"/>
+  <anchor x="282" y="0" name="#exit_2"/>
+  <anchor x="81" y="517" name="top_1"/>
+  <anchor x="221" y="517" name="top_2"/>
+  <outline>
+    <component base="comma.ss01"/>
+    <component base="comma.ss01" xOffset="140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>comma.ss01</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>comma.ss01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>comma.ss01</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>comma.ss01</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

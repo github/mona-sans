@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.loclCAT.case" format="2">
+  <outline>
+    <contour>
+      <point x="-95" y="292" type="curve" smooth="yes"/>
+      <point x="-37" y="292"/>
+      <point x="2" y="333"/>
+      <point x="2" y="388" type="curve" smooth="yes"/>
+      <point x="2" y="443"/>
+      <point x="-37" y="484"/>
+      <point x="-95" y="484" type="curve" smooth="yes"/>
+      <point x="-151" y="484"/>
+      <point x="-192" y="443"/>
+      <point x="-192" y="388" type="curve" smooth="yes"/>
+      <point x="-192" y="333"/>
+      <point x="-151" y="292"/>
+    </contour>
+  </outline>
+</glyph>

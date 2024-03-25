@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_acutecomb" format="2">
+  <anchor x="310" y="678" name="_top"/>
+  <outline>
+    <contour>
+      <point x="323" y="709" type="curve" smooth="yes"/>
+      <point x="431" y="709"/>
+      <point x="505" y="763"/>
+      <point x="516" y="845" type="curve"/>
+      <point x="387" y="845" type="line"/>
+      <point x="384" y="816"/>
+      <point x="363" y="802"/>
+      <point x="334" y="802" type="curve" smooth="yes"/>
+      <point x="306" y="802"/>
+      <point x="288" y="819"/>
+      <point x="288" y="845" type="curve"/>
+      <point x="159" y="845" type="line"/>
+      <point x="157" y="763"/>
+      <point x="223" y="709"/>
+    </contour>
+    <contour>
+      <point x="284" y="875" type="line"/>
+      <point x="402" y="875" type="line"/>
+      <point x="520" y="984" type="line"/>
+      <point x="363" y="984" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>438</integer>
+    </dict>
+  </lib>
+</glyph>

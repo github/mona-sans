@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ubreve" format="2">
+  <advance width="712"/>
+  <unicode hex="016C"/>
+  <anchor x="317" y="0" name="bottom"/>
+  <anchor x="360" y="0" name="ogonek"/>
+  <anchor x="452" y="729" name="top"/>
+  <anchor x="689" y="729" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="brevecomb" xOffset="196" yOffset="57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

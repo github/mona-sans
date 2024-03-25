@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet.ss01" format="2">
+  <advance width="278"/>
+  <outline>
+    <contour>
+      <point x="46" y="185" type="line"/>
+      <point x="232" y="185" type="line"/>
+      <point x="232" y="375" type="line"/>
+      <point x="46" y="375" type="line"/>
+    </contour>
+  </outline>
+</glyph>

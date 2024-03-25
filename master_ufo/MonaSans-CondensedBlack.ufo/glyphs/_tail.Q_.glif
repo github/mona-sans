@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_tail.Q" format="2">
+  <advance width="290"/>
+  <anchor x="84" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="71" y="92" type="line"/>
+      <point x="71" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="347" y="137" type="line"/>
+      <point x="322" y="137" type="line"/>
+    </contour>
+  </outline>
+</glyph>

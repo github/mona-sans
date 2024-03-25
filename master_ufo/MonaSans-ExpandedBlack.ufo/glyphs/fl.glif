@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fl" format="2">
+  <advance width="752"/>
+  <unicode hex="FB02"/>
+  <outline>
+    <contour>
+      <point x="93" y="0" type="line"/>
+      <point x="314" y="0" type="line"/>
+      <point x="314" y="379" type="line"/>
+      <point x="488" y="379" type="line"/>
+      <point x="488" y="0" type="line"/>
+      <point x="709" y="0" type="line"/>
+      <point x="709" y="729" type="line"/>
+      <point x="488" y="729" type="line"/>
+      <point x="488" y="544" type="line"/>
+      <point x="314" y="544" type="line"/>
+      <point x="314" y="558" type="line" smooth="yes"/>
+      <point x="314" y="579"/>
+      <point x="326" y="589"/>
+      <point x="354" y="589" type="curve" smooth="yes"/>
+      <point x="440" y="589" type="line"/>
+      <point x="440" y="729" type="line"/>
+      <point x="274" y="729" type="line" smooth="yes"/>
+      <point x="157" y="729"/>
+      <point x="93" y="675"/>
+      <point x="93" y="576" type="curve" smooth="yes"/>
+      <point x="93" y="544" type="line"/>
+      <point x="4" y="544" type="line"/>
+      <point x="4" y="379" type="line"/>
+      <point x="93" y="379" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

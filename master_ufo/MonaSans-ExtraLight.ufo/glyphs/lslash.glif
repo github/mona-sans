@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="244"/>
+  <unicode hex="0142"/>
+  <anchor x="122" y="0" name="bottom"/>
+  <anchor x="122" y="365" name="center"/>
+  <anchor x="122" y="729" name="top"/>
+  <anchor x="140" y="729" name="topright"/>
+  <outline>
+    <component base="l" xOffset="18"/>
+    <component base="slashshortcomb" xOffset="-12" yOffset="23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

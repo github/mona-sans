@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashlongcomb.case" format="2">
+  <anchor x="409" y="324" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-33" y="-81" type="line"/>
+      <point x="120" y="-81" type="line"/>
+      <point x="877" y="729" type="line"/>
+      <point x="726" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>822</integer>
+    </dict>
+  </lib>
+</glyph>

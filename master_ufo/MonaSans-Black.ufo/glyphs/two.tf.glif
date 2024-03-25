@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.tf" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="557" y="0" type="line"/>
+      <point x="557" y="165" type="line"/>
+      <point x="247" y="165" type="line"/>
+      <point x="306" y="243"/>
+      <point x="560" y="312"/>
+      <point x="560" y="511" type="curve" smooth="yes"/>
+      <point x="560" y="639"/>
+      <point x="462" y="729"/>
+      <point x="311" y="729" type="curve" smooth="yes"/>
+      <point x="149" y="729"/>
+      <point x="42" y="639"/>
+      <point x="32" y="487" type="curve"/>
+      <point x="220" y="487" type="line"/>
+      <point x="221" y="532"/>
+      <point x="247" y="568"/>
+      <point x="301" y="568" type="curve" smooth="yes"/>
+      <point x="340" y="568"/>
+      <point x="370" y="544"/>
+      <point x="370" y="503" type="curve" smooth="yes"/>
+      <point x="370" y="367"/>
+      <point x="33" y="322"/>
+      <point x="33" y="35" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>keepStroke</key>
+        <integer>40</integer>
+        <key>monoWidth</key>
+        <integer>600</integer>
+        <key>useSpacing</key>
+        <integer>70</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonekcomb.e" format="2">
+  <anchor x="79" y="0" name="_ogonek"/>
+  <outline>
+    <contour>
+      <point x="47" y="-211" type="curve" smooth="yes"/>
+      <point x="72" y="-211"/>
+      <point x="102" y="-206"/>
+      <point x="112" y="-201" type="curve"/>
+      <point x="117" y="-173" type="line"/>
+      <point x="100" y="-179"/>
+      <point x="75" y="-182"/>
+      <point x="56" y="-182" type="curve" smooth="yes"/>
+      <point x="13" y="-182"/>
+      <point x="-8" y="-167"/>
+      <point x="-8" y="-134" type="curve" smooth="yes"/>
+      <point x="-8" y="-69"/>
+      <point x="84" y="-18"/>
+      <point x="168" y="35" type="curve"/>
+      <point x="125" y="34" type="line"/>
+      <point x="44" y="-10"/>
+      <point x="-41" y="-68"/>
+      <point x="-41" y="-141" type="curve" smooth="yes"/>
+      <point x="-41" y="-184"/>
+      <point x="-8" y="-211"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>254</integer>
+    </dict>
+  </lib>
+</glyph>

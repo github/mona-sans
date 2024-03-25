@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_baht.bar" format="2">
+  <advance width="161"/>
+  <anchor x="123" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="-33" y="-85" type="line"/>
+      <point x="47" y="-85" type="line"/>
+      <point x="83" y="90" type="line"/>
+      <point x="3" y="90" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="689" type="line"/>
+      <point x="207" y="689" type="line"/>
+      <point x="233" y="815" type="line"/>
+      <point x="154" y="815" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

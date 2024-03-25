@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelowcomb.ss01" format="2">
+  <anchor x="136" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="40" y="-178" type="line"/>
+      <point x="231" y="-178" type="line"/>
+      <point x="231" y="-50" type="line"/>
+      <point x="40" y="-50" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>271</integer>
+    </dict>
+  </lib>
+</glyph>

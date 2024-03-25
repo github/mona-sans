@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seveninferior" format="2">
+  <advance width="384"/>
+  <unicode hex="2087"/>
+  <anchor x="203" y="177" name="_center"/>
+  <outline>
+    <contour>
+      <point x="45" y="-40" type="curve"/>
+      <point x="178" y="-40" type="line"/>
+      <point x="227" y="117"/>
+      <point x="298" y="207"/>
+      <point x="373" y="301" type="curve"/>
+      <point x="392" y="393" type="line"/>
+      <point x="50" y="393" type="line"/>
+      <point x="14" y="220" type="line"/>
+      <point x="115" y="220" type="line"/>
+      <point x="128" y="282" type="line"/>
+      <point x="231" y="282" type="line"/>
+      <point x="158" y="204"/>
+      <point x="85" y="81"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>weight</key>
+        <integer>-300</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>75</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>125</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>200</integer>
+          <key>name</key>
+          <string>Weight</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>900</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>-12</integer>
+          <key>name</key>
+          <string>Slant</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

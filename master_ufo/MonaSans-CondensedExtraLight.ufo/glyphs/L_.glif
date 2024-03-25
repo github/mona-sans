@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L" format="2">
+  <advance width="260"/>
+  <unicode hex="004C"/>
+  <anchor x="142" y="0" name="bottom"/>
+  <anchor x="192" y="365" name="center"/>
+  <anchor x="82" y="729" name="top"/>
+  <anchor x="119" y="729" name="topright"/>
+  <outline>
+    <contour>
+      <point x="66" y="0" type="line"/>
+      <point x="260" y="0" type="line"/>
+      <point x="260" y="29" type="line"/>
+      <point x="83" y="29" type="line"/>
+      <point x="97" y="17" type="line"/>
+      <point x="97" y="729" type="line"/>
+      <point x="66" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

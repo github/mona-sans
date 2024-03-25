@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ahookabove.ss04" format="2">
+  <advance width="599"/>
+  <anchor x="258" y="0" name="bottom"/>
+  <anchor x="523" y="0" name="ogonek"/>
+  <anchor x="322" y="544" name="top"/>
+  <outline>
+    <component base="a.ss04"/>
+    <component base="hookabovecomb" xOffset="67" yOffset="-135"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

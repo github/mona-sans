@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_hookabovecomb" format="2">
+  <anchor x="290" y="678" name="_top"/>
+  <outline>
+    <contour>
+      <point x="136" y="735" type="line"/>
+      <point x="274" y="735" type="line"/>
+      <point x="312" y="803" type="line"/>
+      <point x="329" y="735" type="line"/>
+      <point x="460" y="735" type="line"/>
+      <point x="408" y="884" type="line"/>
+      <point x="236" y="884" type="line"/>
+    </contour>
+    <contour>
+      <point x="476" y="768" type="line"/>
+      <point x="539" y="799"/>
+      <point x="585" y="844"/>
+      <point x="585" y="908" type="curve" smooth="yes"/>
+      <point x="585" y="962"/>
+      <point x="545" y="998"/>
+      <point x="486" y="998" type="curve" smooth="yes"/>
+      <point x="470" y="998"/>
+      <point x="452" y="997"/>
+      <point x="435" y="991" type="curve"/>
+      <point x="422" y="913" type="line"/>
+      <point x="426" y="915"/>
+      <point x="433" y="916"/>
+      <point x="440" y="916" type="curve" smooth="yes"/>
+      <point x="457" y="916"/>
+      <point x="468" y="906"/>
+      <point x="468" y="888" type="curve" smooth="yes"/>
+      <point x="468" y="872"/>
+      <point x="459" y="855"/>
+      <point x="442" y="843" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>496</integer>
+    </dict>
+  </lib>
+</glyph>

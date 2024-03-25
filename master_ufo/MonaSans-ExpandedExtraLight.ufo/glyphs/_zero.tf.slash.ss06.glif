@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_zero.tf.slash.ss06" format="2">
+  <advance width="599"/>
+  <anchor x="299" y="370" name="_center"/>
+  <outline>
+    <contour>
+      <point x="40" y="343" type="line"/>
+      <point x="559" y="343" type="line"/>
+      <point x="559" y="376" type="line"/>
+      <point x="40" y="376" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

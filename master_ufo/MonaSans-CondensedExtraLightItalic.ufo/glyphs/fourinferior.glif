@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fourinferior" format="2">
+  <advance width="254"/>
+  <unicode hex="2084"/>
+  <anchor x="94" y="177" name="_center"/>
+  <outline>
+    <contour>
+      <point x="96" y="-40" type="line"/>
+      <point x="125" y="-40" type="line"/>
+      <point x="216" y="393" type="line"/>
+      <point x="177" y="393" type="line"/>
+      <point x="-23" y="98" type="line"/>
+      <point x="-28" y="74" type="line"/>
+      <point x="192" y="74" type="line"/>
+      <point x="197" y="100" type="line"/>
+      <point x="6" y="100" type="line"/>
+      <point x="181" y="360" type="line"/>
+      <point x="180" y="360" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>weight</key>
+        <integer>-30</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>75</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>125</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>200</integer>
+          <key>name</key>
+          <string>Weight</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>900</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>-12</integer>
+          <key>name</key>
+          <string>Slant</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncaron" format="2">
+  <advance width="444"/>
+  <unicode hex="0147"/>
+  <anchor x="169" y="0" name="bottom"/>
+  <anchor x="320" y="729" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="caroncomb" xOffset="106" yOffset="57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

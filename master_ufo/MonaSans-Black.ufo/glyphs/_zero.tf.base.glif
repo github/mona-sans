@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_zero.tf.base" format="2">
+  <advance width="600"/>
+  <anchor x="300" y="368" name="center"/>
+  <outline>
+    <contour>
+      <point x="299" y="-6" type="curve" smooth="yes"/>
+      <point x="471" y="-6"/>
+      <point x="586" y="126"/>
+      <point x="586" y="362" type="curve" smooth="yes"/>
+      <point x="586" y="583"/>
+      <point x="484" y="730"/>
+      <point x="303" y="730" type="curve" smooth="yes"/>
+      <point x="130" y="730"/>
+      <point x="14" y="598"/>
+      <point x="14" y="364" type="curve" smooth="yes"/>
+      <point x="14" y="142"/>
+      <point x="117" y="-6"/>
+    </contour>
+    <contour>
+      <point x="300" y="154" type="curve" smooth="yes"/>
+      <point x="248" y="154"/>
+      <point x="204" y="181"/>
+      <point x="204" y="363" type="curve" smooth="yes"/>
+      <point x="204" y="544"/>
+      <point x="248" y="571"/>
+      <point x="300" y="571" type="curve" smooth="yes"/>
+      <point x="352" y="571"/>
+      <point x="396" y="544"/>
+      <point x="396" y="363" type="curve" smooth="yes"/>
+      <point x="396" y="181"/>
+      <point x="352" y="154"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=600</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
+</glyph>

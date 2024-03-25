@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.ss01" format="2">
+  <advance width="255"/>
+  <outline>
+    <contour>
+      <point x="38" y="200" type="line"/>
+      <point x="217" y="200" type="line"/>
+      <point x="217" y="364" type="line"/>
+      <point x="38" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

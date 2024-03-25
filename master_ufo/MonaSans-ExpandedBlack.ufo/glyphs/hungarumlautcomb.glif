@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="217" y="673" name="_top"/>
+  <outline>
+    <contour>
+      <point x="40" y="729" type="line"/>
+      <point x="184" y="729" type="line"/>
+      <point x="278" y="878" type="line"/>
+      <point x="91" y="878" type="line"/>
+    </contour>
+    <contour>
+      <point x="250" y="729" type="line"/>
+      <point x="409" y="729" type="line"/>
+      <point x="541" y="878" type="line"/>
+      <point x="341" y="878" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>581</integer>
+    </dict>
+  </lib>
+</glyph>

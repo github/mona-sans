@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tenge" format="2">
+  <advance width="689"/>
+  <unicode hex="20B8"/>
+  <outline>
+    <contour>
+      <point x="253" y="357" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="393" y="0" type="line"/>
+      <point x="466" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="675" y="342" type="line"/>
+      <point x="708" y="502" type="line"/>
+      <point x="76" y="502" type="line"/>
+      <point x="43" y="342" type="line"/>
+    </contour>
+    <contour>
+      <point x="720" y="559" type="line"/>
+      <point x="755" y="729" type="line"/>
+      <point x="123" y="729" type="line"/>
+      <point x="88" y="559" type="line"/>
+    </contour>
+  </outline>
+</glyph>

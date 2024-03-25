@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashshortcomb" format="2">
+  <unicode hex="0337"/>
+  <anchor x="134" y="342" name="_center"/>
+  <outline>
+    <contour>
+      <point x="40" y="270" type="line"/>
+      <point x="228" y="376" type="line"/>
+      <point x="228" y="413" type="line"/>
+      <point x="40" y="308" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>268</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_y.liga" format="2">
+  <advance width="898"/>
+  <outline>
+    <contour>
+      <point x="274" y="-167" type="line"/>
+      <point x="359" y="-167" type="line" smooth="yes"/>
+      <point x="531" y="-167"/>
+      <point x="596" y="-109"/>
+      <point x="656" y="2" type="curve" smooth="yes"/>
+      <point x="946" y="544" type="line"/>
+      <point x="732" y="544" type="line"/>
+      <point x="628" y="296" type="line"/>
+      <point x="598" y="218" type="line"/>
+      <point x="591" y="218" type="line"/>
+      <point x="587" y="296" type="line"/>
+      <point x="569" y="544" type="line"/>
+      <point x="343" y="544" type="line"/>
+      <point x="347" y="560" type="line" smooth="yes"/>
+      <point x="354" y="591"/>
+      <point x="375" y="599"/>
+      <point x="412" y="599" type="curve" smooth="yes"/>
+      <point x="467" y="599" type="line"/>
+      <point x="494" y="729" type="line"/>
+      <point x="360" y="729" type="line" smooth="yes"/>
+      <point x="240" y="729"/>
+      <point x="181" y="676"/>
+      <point x="164" y="593" type="curve" smooth="yes"/>
+      <point x="154" y="544" type="line"/>
+      <point x="73" y="544" type="line"/>
+      <point x="42" y="391" type="line"/>
+      <point x="122" y="391" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="229" y="0" type="line"/>
+      <point x="311" y="391" type="line"/>
+      <point x="402" y="391" type="line"/>
+      <point x="463" y="41" type="line"/>
+      <point x="472" y="77" type="line"/>
+      <point x="454" y="41" type="line" smooth="yes"/>
+      <point x="434" y="2"/>
+      <point x="400" y="-10"/>
+      <point x="353" y="-10" type="curve" smooth="yes"/>
+      <point x="305" y="-10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>y</string>
+    </dict>
+  </lib>
+</glyph>

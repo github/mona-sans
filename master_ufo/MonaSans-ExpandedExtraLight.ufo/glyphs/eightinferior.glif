@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eightinferior" format="2">
+  <advance width="440"/>
+  <unicode hex="2088"/>
+  <anchor x="220" y="173" name="_center"/>
+  <outline>
+    <contour>
+      <point x="220" y="-45" type="curve" smooth="yes"/>
+      <point x="332" y="-45"/>
+      <point x="400" y="-2"/>
+      <point x="400" y="75" type="curve" smooth="yes"/>
+      <point x="400" y="137"/>
+      <point x="354" y="179"/>
+      <point x="288" y="182" type="curve"/>
+      <point x="288" y="185" type="line"/>
+      <point x="351" y="194"/>
+      <point x="391" y="228"/>
+      <point x="391" y="286" type="curve" smooth="yes"/>
+      <point x="391" y="364"/>
+      <point x="316" y="397"/>
+      <point x="220" y="397" type="curve" smooth="yes"/>
+      <point x="125" y="397"/>
+      <point x="50" y="365"/>
+      <point x="50" y="286" type="curve" smooth="yes"/>
+      <point x="50" y="227"/>
+      <point x="92" y="193"/>
+      <point x="152" y="185" type="curve"/>
+      <point x="152" y="182" type="line"/>
+      <point x="89" y="179"/>
+      <point x="40" y="138"/>
+      <point x="40" y="75" type="curve" smooth="yes"/>
+      <point x="40" y="-2"/>
+      <point x="108" y="-45"/>
+    </contour>
+    <contour>
+      <point x="220" y="-14" type="curve" smooth="yes"/>
+      <point x="126" y="-14"/>
+      <point x="79" y="19"/>
+      <point x="79" y="79" type="curve" smooth="yes"/>
+      <point x="79" y="143"/>
+      <point x="131" y="169"/>
+      <point x="220" y="169" type="curve" smooth="yes"/>
+      <point x="310" y="169"/>
+      <point x="362" y="143"/>
+      <point x="362" y="79" type="curve" smooth="yes"/>
+      <point x="362" y="19"/>
+      <point x="314" y="-14"/>
+    </contour>
+    <contour>
+      <point x="220" y="197" type="curve" smooth="yes"/>
+      <point x="123" y="197"/>
+      <point x="87" y="232"/>
+      <point x="87" y="282" type="curve" smooth="yes"/>
+      <point x="87" y="343"/>
+      <point x="143" y="367"/>
+      <point x="220" y="367" type="curve" smooth="yes"/>
+      <point x="297" y="367"/>
+      <point x="353" y="343"/>
+      <point x="353" y="282" type="curve" smooth="yes"/>
+      <point x="353" y="232"/>
+      <point x="317" y="197"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>weight</key>
+        <integer>-25</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>75</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>125</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>200</integer>
+          <key>name</key>
+          <string>Weight</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>900</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>-12</integer>
+          <key>name</key>
+          <string>Slant</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

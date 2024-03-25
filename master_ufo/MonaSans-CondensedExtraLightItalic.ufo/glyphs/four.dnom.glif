@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.dnom" format="2">
+  <advance width="241"/>
+  <outline>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="121" y="0" type="line"/>
+      <point x="205" y="397" type="line"/>
+      <point x="169" y="397" type="line"/>
+      <point x="-15" y="126" type="line"/>
+      <point x="-19" y="104" type="line"/>
+      <point x="182" y="104" type="line"/>
+      <point x="187" y="129" type="line"/>
+      <point x="12" y="129" type="line"/>
+      <point x="179" y="376" type="line"/>
+      <point x="175" y="378" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>55</integer>
+        <key>weight</key>
+        <integer>-45</integer>
+        <key>width</key>
+        <integer>55</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

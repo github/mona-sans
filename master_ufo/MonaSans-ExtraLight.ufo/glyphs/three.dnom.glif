@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.dnom" format="2">
+  <advance width="374"/>
+  <outline>
+    <contour>
+      <point x="175" y="-5" type="curve" smooth="yes"/>
+      <point x="254" y="-5"/>
+      <point x="307" y="40"/>
+      <point x="307" y="108" type="curve" smooth="yes"/>
+      <point x="307" y="161"/>
+      <point x="278" y="196"/>
+      <point x="234" y="205" type="curve"/>
+      <point x="234" y="208" type="line"/>
+      <point x="277" y="221"/>
+      <point x="305" y="255"/>
+      <point x="305" y="300" type="curve" smooth="yes"/>
+      <point x="305" y="361"/>
+      <point x="258" y="402"/>
+      <point x="183" y="402" type="curve" smooth="yes"/>
+      <point x="114" y="402"/>
+      <point x="61" y="361"/>
+      <point x="58" y="292" type="curve"/>
+      <point x="89" y="292" type="line"/>
+      <point x="92" y="341"/>
+      <point x="129" y="374"/>
+      <point x="183" y="374" type="curve" smooth="yes"/>
+      <point x="237" y="374"/>
+      <point x="273" y="346"/>
+      <point x="273" y="297" type="curve" smooth="yes"/>
+      <point x="273" y="250"/>
+      <point x="238" y="218"/>
+      <point x="177" y="218" type="curve" smooth="yes"/>
+      <point x="148" y="218" type="line"/>
+      <point x="148" y="193" type="line"/>
+      <point x="185" y="193" type="line" smooth="yes"/>
+      <point x="239" y="193"/>
+      <point x="274" y="165"/>
+      <point x="274" y="110" type="curve" smooth="yes"/>
+      <point x="274" y="57"/>
+      <point x="235" y="23"/>
+      <point x="175" y="23" type="curve" smooth="yes"/>
+      <point x="121" y="23"/>
+      <point x="83" y="56"/>
+      <point x="80" y="106" type="curve"/>
+      <point x="49" y="106" type="line"/>
+      <point x="52" y="40"/>
+      <point x="102" y="-5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>55</integer>
+        <key>weight</key>
+        <integer>-40</integer>
+        <key>width</key>
+        <integer>55</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

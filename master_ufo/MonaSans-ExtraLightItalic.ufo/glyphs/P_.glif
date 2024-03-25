@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P" format="2">
+  <advance width="646"/>
+  <unicode hex="0050"/>
+  <anchor x="264" y="0" name="bottom"/>
+  <anchor x="415" y="729" name="top"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+      <point x="224" y="702" type="line"/>
+      <point x="210" y="693" type="line"/>
+      <point x="428" y="693" type="line" smooth="yes"/>
+      <point x="546" y="693"/>
+      <point x="614" y="632"/>
+      <point x="614" y="533" type="curve" smooth="yes"/>
+      <point x="614" y="401"/>
+      <point x="519" y="322"/>
+      <point x="363" y="322" type="curve" smooth="yes"/>
+      <point x="135" y="322" type="line"/>
+      <point x="128" y="286" type="line"/>
+      <point x="362" y="286" type="line" smooth="yes"/>
+      <point x="540" y="286"/>
+      <point x="653" y="380"/>
+      <point x="653" y="532" type="curve" smooth="yes"/>
+      <point x="653" y="652"/>
+      <point x="566" y="729"/>
+      <point x="427" y="729" type="curve" smooth="yes"/>
+      <point x="191" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

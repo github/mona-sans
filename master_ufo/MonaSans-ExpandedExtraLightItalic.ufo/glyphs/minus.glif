@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minus" format="2">
+  <advance width="720"/>
+  <unicode hex="2212"/>
+  <outline>
+    <contour>
+      <point x="133" y="345" type="line"/>
+      <point x="623" y="345" type="line"/>
+      <point x="630" y="377" type="line"/>
+      <point x="140" y="377" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.tf" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="352" y="-8" type="curve" smooth="yes"/>
+      <point x="530" y="-8"/>
+      <point x="643" y="67"/>
+      <point x="643" y="195" type="curve" smooth="yes"/>
+      <point x="643" y="300"/>
+      <point x="575" y="363"/>
+      <point x="466" y="373" type="curve"/>
+      <point x="466" y="377" type="line"/>
+      <point x="559" y="391"/>
+      <point x="627" y="453"/>
+      <point x="627" y="547" type="curve" smooth="yes"/>
+      <point x="627" y="676"/>
+      <point x="511" y="729"/>
+      <point x="358" y="729" type="curve" smooth="yes"/>
+      <point x="200" y="729"/>
+      <point x="79" y="640"/>
+      <point x="87" y="504" type="curve"/>
+      <point x="122" y="504" type="line"/>
+      <point x="121" y="623"/>
+      <point x="220" y="695"/>
+      <point x="357" y="695" type="curve" smooth="yes"/>
+      <point x="493" y="695"/>
+      <point x="589" y="652"/>
+      <point x="589" y="546" type="curve" smooth="yes"/>
+      <point x="589" y="454"/>
+      <point x="527" y="391"/>
+      <point x="373" y="391" type="curve" smooth="yes"/>
+      <point x="289" y="391" type="line"/>
+      <point x="289" y="358" type="line"/>
+      <point x="385" y="358" type="line" smooth="yes"/>
+      <point x="515" y="358"/>
+      <point x="603" y="316"/>
+      <point x="603" y="196" type="curve" smooth="yes"/>
+      <point x="603" y="94"/>
+      <point x="519" y="26"/>
+      <point x="352" y="26" type="curve" smooth="yes"/>
+      <point x="206" y="26"/>
+      <point x="108" y="91"/>
+      <point x="108" y="220" type="curve"/>
+      <point x="71" y="220" type="line"/>
+      <point x="71" y="85"/>
+      <point x="172" y="-8"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>monoWidth</key>
+        <integer>640</integer>
+        <key>useSpacing</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

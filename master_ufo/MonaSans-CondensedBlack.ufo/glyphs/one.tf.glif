@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.tf" format="2">
+  <advance width="480"/>
+  <outline>
+    <contour>
+      <point x="163" y="132" type="line"/>
+      <point x="343" y="132" type="line"/>
+      <point x="343" y="721" type="line"/>
+      <point x="177" y="721" type="line"/>
+      <point x="170" y="643"/>
+      <point x="121" y="591"/>
+      <point x="58" y="591" type="curve" smooth="yes"/>
+      <point x="21" y="591" type="line"/>
+      <point x="21" y="446" type="line"/>
+      <point x="163" y="446" type="line"/>
+    </contour>
+    <contour>
+      <point x="12" y="0" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="470" y="148" type="line"/>
+      <point x="12" y="148" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+    </dict>
+  </lib>
+</glyph>

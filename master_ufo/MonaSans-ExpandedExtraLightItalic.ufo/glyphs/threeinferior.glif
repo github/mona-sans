@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threeinferior" format="2">
+  <advance width="425"/>
+  <unicode hex="2083"/>
+  <anchor x="189" y="177" name="_center"/>
+  <outline>
+    <contour>
+      <point x="163" y="-46" type="curve" smooth="yes"/>
+      <point x="266" y="-46"/>
+      <point x="344" y="3"/>
+      <point x="347" y="83" type="curve" smooth="yes"/>
+      <point x="349" y="141"/>
+      <point x="316" y="174"/>
+      <point x="262" y="182" type="curve"/>
+      <point x="263" y="184" type="line"/>
+      <point x="329" y="191"/>
+      <point x="379" y="231"/>
+      <point x="381" y="290" type="curve" smooth="yes"/>
+      <point x="384" y="358"/>
+      <point x="325" y="397"/>
+      <point x="224" y="397" type="curve" smooth="yes"/>
+      <point x="130" y="397"/>
+      <point x="55" y="351"/>
+      <point x="41" y="269" type="curve"/>
+      <point x="75" y="269" type="line"/>
+      <point x="89" y="332"/>
+      <point x="147" y="367"/>
+      <point x="220" y="367" type="curve" smooth="yes"/>
+      <point x="303" y="367"/>
+      <point x="345" y="340"/>
+      <point x="343" y="285" type="curve" smooth="yes"/>
+      <point x="341" y="229"/>
+      <point x="286" y="198"/>
+      <point x="205" y="198" type="curve" smooth="yes"/>
+      <point x="150" y="198" type="line"/>
+      <point x="144" y="170" type="line"/>
+      <point x="197" y="170" type="line" smooth="yes"/>
+      <point x="273" y="170"/>
+      <point x="311" y="142"/>
+      <point x="309" y="84" type="curve" smooth="yes"/>
+      <point x="307" y="27"/>
+      <point x="256" y="-15"/>
+      <point x="165" y="-15" type="curve" smooth="yes"/>
+      <point x="80" y="-15"/>
+      <point x="29" y="24"/>
+      <point x="33" y="92" type="curve"/>
+      <point x="-3" y="92" type="line"/>
+      <point x="-7" y="9"/>
+      <point x="49" y="-46"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>60</integer>
+        <key>weight</key>
+        <integer>-25</integer>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>75</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>125</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>200</integer>
+          <key>name</key>
+          <string>Weight</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>900</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string></string>
+          <key>bottomValue</key>
+          <integer>-12</integer>
+          <key>name</key>
+          <string>Slant</string>
+          <key>topName</key>
+          <string></string>
+          <key>topValue</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

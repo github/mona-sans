@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.dnom" format="2">
+  <advance width="386"/>
+  <outline>
+    <contour>
+      <point x="193" y="-5" type="curve" smooth="yes"/>
+      <point x="288" y="-5"/>
+      <point x="350" y="50"/>
+      <point x="350" y="129" type="curve" smooth="yes"/>
+      <point x="350" y="199"/>
+      <point x="301" y="246"/>
+      <point x="228" y="246" type="curve" smooth="yes"/>
+      <point x="191" y="246"/>
+      <point x="163" y="236"/>
+      <point x="147" y="221" type="curve"/>
+      <point x="143" y="221" type="line"/>
+      <point x="142" y="265"/>
+      <point x="168" y="285"/>
+      <point x="200" y="285" type="curve" smooth="yes"/>
+      <point x="218" y="285"/>
+      <point x="237" y="278"/>
+      <point x="241" y="267" type="curve"/>
+      <point x="355" y="267" type="line"/>
+      <point x="345" y="335"/>
+      <point x="289" y="380"/>
+      <point x="201" y="380" type="curve" smooth="yes"/>
+      <point x="94" y="380"/>
+      <point x="32" y="311"/>
+      <point x="32" y="186" type="curve" smooth="yes"/>
+      <point x="32" y="49"/>
+      <point x="97" y="-5"/>
+    </contour>
+    <contour>
+      <point x="196" y="93" type="curve" smooth="yes"/>
+      <point x="171" y="93"/>
+      <point x="154" y="108"/>
+      <point x="154" y="129" type="curve" smooth="yes"/>
+      <point x="154" y="150"/>
+      <point x="171" y="163"/>
+      <point x="196" y="163" type="curve" smooth="yes"/>
+      <point x="221" y="163"/>
+      <point x="238" y="149"/>
+      <point x="238" y="128" type="curve" smooth="yes"/>
+      <point x="238" y="107"/>
+      <point x="221" y="93"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>52</integer>
+        <key>weight</key>
+        <integer>-370</integer>
+        <key>width</key>
+        <integer>54</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

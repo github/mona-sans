@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.ss02" format="2">
+  <advance width="250"/>
+  <anchor x="112" y="0" name="bottom"/>
+  <anchor x="112" y="365" name="center"/>
+  <anchor x="112" y="729" name="top"/>
+  <anchor x="200" y="729" name="topright"/>
+  <outline>
+    <contour>
+      <point x="151" y="0" type="curve" smooth="yes"/>
+      <point x="239" y="0" type="line"/>
+      <point x="239" y="132" type="line"/>
+      <point x="221" y="132" type="line" smooth="yes"/>
+      <point x="203" y="132"/>
+      <point x="200" y="137"/>
+      <point x="200" y="160" type="curve" smooth="yes"/>
+      <point x="200" y="729" type="line"/>
+      <point x="24" y="729" type="line"/>
+      <point x="24" y="124" type="line" smooth="yes"/>
+      <point x="24" y="40"/>
+      <point x="62" y="0"/>
+    </contour>
+  </outline>
+</glyph>

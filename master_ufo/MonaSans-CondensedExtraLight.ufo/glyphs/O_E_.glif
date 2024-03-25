@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OE" format="2">
+  <advance width="526"/>
+  <unicode hex="0152"/>
+  <anchor x="263" y="0" name="bottom"/>
+  <anchor x="263" y="729" name="top"/>
+  <outline>
+    <contour>
+      <point x="215" y="-10" type="curve" smooth="yes"/>
+      <point x="236" y="-10"/>
+      <point x="256" y="-7"/>
+      <point x="274" y="0" type="curve"/>
+      <point x="516" y="0" type="line"/>
+      <point x="516" y="28" type="line"/>
+      <point x="311" y="28" type="line"/>
+      <point x="311" y="361" type="line"/>
+      <point x="481" y="361" type="line"/>
+      <point x="481" y="389" type="line"/>
+      <point x="311" y="389" type="line"/>
+      <point x="311" y="701" type="line"/>
+      <point x="516" y="701" type="line"/>
+      <point x="516" y="729" type="line"/>
+      <point x="274" y="729" type="line"/>
+      <point x="256" y="736"/>
+      <point x="236" y="739"/>
+      <point x="215" y="739" type="curve" smooth="yes"/>
+      <point x="114" y="739"/>
+      <point x="45" y="668"/>
+      <point x="45" y="365" type="curve" smooth="yes"/>
+      <point x="45" y="61"/>
+      <point x="114" y="-10"/>
+    </contour>
+    <contour>
+      <point x="215" y="19" type="curve" smooth="yes"/>
+      <point x="105" y="19"/>
+      <point x="78" y="158"/>
+      <point x="78" y="365" type="curve" smooth="yes"/>
+      <point x="78" y="571"/>
+      <point x="105" y="710"/>
+      <point x="215" y="710" type="curve" smooth="yes"/>
+      <point x="241" y="710"/>
+      <point x="263" y="705"/>
+      <point x="280" y="695" type="curve"/>
+      <point x="280" y="34" type="line"/>
+      <point x="263" y="24"/>
+      <point x="241" y="19"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+    </dict>
+  </lib>
+</glyph>
