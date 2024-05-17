@@ -117,11 +117,13 @@ lookup ccmp_Other_2 {
 	lookupflag 0;
 	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
 	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
 
 lookup ccmp_Other_3 {
 	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_3;
 
@@ -410,6 +412,8 @@ sub exclam by exclam.ss01;
 sub exclamdown by exclamdown.ss01;
 sub question by question.ss01;
 sub questiondown by questiondown.ss01;
+sub periodcentered by periodcentered.ss01;
+sub bullet by bullet.ss01;
 sub periodcentered.loclCAT by periodcentered.loclCAT.ss01;
 sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss01;
 sub quotesinglbase by quotesinglbase.ss01;
