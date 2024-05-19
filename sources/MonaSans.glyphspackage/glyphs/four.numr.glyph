@@ -40,7 +40,7 @@ width = 242;
 layerId = master01;
 shapes = (
 {
-pos = (0,333);
+pos = (0,332);
 ref = four.dnom;
 }
 );
@@ -200,7 +200,7 @@ width = 281;
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 shapes = (
 {
-pos = (69,333);
+pos = (69,332);
 ref = four.dnom;
 }
 );

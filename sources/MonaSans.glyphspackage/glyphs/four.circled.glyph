@@ -72,8 +72,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-};
 pos = (228,188);
 ref = fourinferior;
 }
@@ -157,8 +155,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-};
 pos = (194,189);
 ref = fourinferior;
 }
@@ -242,8 +238,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-};
 pos = (238,189);
 ref = fourinferior;
 }
@@ -327,8 +321,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-};
 pos = (218,191);
 ref = fourinferior;
 }
@@ -412,8 +404,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-};
 pos = (222,190);
 ref = fourinferior;
 }
@@ -490,8 +480,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-};
 pos = (209,193);
 ref = fourinferior;
 }
@@ -569,8 +557,6 @@ ref = whiteCircle;
 },
 {
 masterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
-piece = {
-};
 pos = (265,188);
 ref = fourinferior;
 }
@@ -648,8 +634,6 @@ ref = whiteCircle;
 },
 {
 masterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
-piece = {
-};
 pos = (226,189);
 ref = fourinferior;
 }
@@ -727,8 +711,6 @@ ref = whiteCircle;
 },
 {
 masterId = master01;
-piece = {
-};
 pos = (270,189);
 ref = fourinferior;
 }
@@ -806,8 +788,6 @@ ref = whiteCircle;
 },
 {
 masterId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
-piece = {
-};
 pos = (246,191);
 ref = fourinferior;
 }
@@ -885,8 +865,6 @@ ref = whiteCircle;
 },
 {
 masterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
-piece = {
-};
 pos = (253,190);
 ref = fourinferior;
 }
@@ -964,8 +942,6 @@ ref = whiteCircle;
 },
 {
 masterId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
-piece = {
-};
 pos = (238,193);
 ref = fourinferior;
 }

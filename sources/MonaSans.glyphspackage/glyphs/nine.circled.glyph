@@ -732,8 +732,6 @@ ref = whiteCircle;
 {
 angle = 180;
 masterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
-piece = {
-};
 pos = (529,542);
 ref = sixinferior;
 }
@@ -836,8 +834,6 @@ ref = whiteCircle;
 {
 angle = 180;
 masterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
-piece = {
-};
 pos = (539,543);
 ref = sixinferior;
 }
@@ -940,8 +936,6 @@ ref = whiteCircle;
 {
 angle = 180;
 masterId = master01;
-piece = {
-};
 pos = (678,537);
 ref = sixinferior;
 }
@@ -1044,8 +1038,6 @@ ref = whiteCircle;
 {
 angle = 180;
 masterId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
-piece = {
-};
 pos = (667,539);
 ref = sixinferior;
 }
@@ -1148,8 +1140,6 @@ ref = whiteCircle;
 {
 angle = 180;
 masterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
-piece = {
-};
 pos = (699,536);
 ref = sixinferior;
 }
@@ -1252,8 +1242,6 @@ ref = whiteCircle;
 {
 angle = 180;
 masterId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
-piece = {
-};
 pos = (690,535);
 ref = sixinferior;
 }

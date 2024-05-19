@@ -153,7 +153,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (283,0);
+pos = (365,0);
 ref = ogonekcomb;
 }
 );

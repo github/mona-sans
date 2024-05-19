@@ -49,8 +49,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-};
 pos = (201,189);
 ref = seveninferior;
 }
@@ -104,8 +102,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-};
 pos = (235,188);
 ref = seveninferior;
 }
@@ -159,8 +155,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-};
 pos = (254,189);
 ref = seveninferior;
 }
@@ -370,8 +364,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-};
 pos = (232,191);
 ref = seveninferior;
 }
@@ -425,8 +417,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-};
 pos = (250,190);
 ref = seveninferior;
 }
@@ -480,8 +470,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-};
 pos = (230,193);
 ref = seveninferior;
 }
@@ -536,8 +524,6 @@ ref = blackCircle;
 },
 {
 masterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
-piece = {
-};
 pos = (272,188);
 ref = seveninferior;
 }
@@ -592,8 +578,6 @@ ref = blackCircle;
 },
 {
 masterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
-piece = {
-};
 pos = (233,189);
 ref = seveninferior;
 }
@@ -648,8 +632,6 @@ ref = blackCircle;
 },
 {
 masterId = master01;
-piece = {
-};
 pos = (286,189);
 ref = seveninferior;
 }
@@ -704,8 +686,6 @@ ref = blackCircle;
 },
 {
 masterId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
-piece = {
-};
 pos = (260,191);
 ref = seveninferior;
 }
@@ -760,8 +740,6 @@ ref = blackCircle;
 },
 {
 masterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
-piece = {
-};
 pos = (281,190);
 ref = seveninferior;
 }
@@ -816,8 +794,6 @@ ref = blackCircle;
 },
 {
 masterId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
-piece = {
-};
 pos = (259,193);
 ref = seveninferior;
 }
