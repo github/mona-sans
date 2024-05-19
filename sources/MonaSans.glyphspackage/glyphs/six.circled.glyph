@@ -97,9 +97,6 @@ ref = whiteCircle;
 },
 {
 piece = {
-Slant = 0;
-Weight = 200;
-Width = 75;
 };
 pos = (206,188);
 ref = sixinferior;
@@ -209,9 +206,6 @@ ref = whiteCircle;
 },
 {
 piece = {
-Slant = 0;
-Weight = 900;
-Width = 75;
 };
 pos = (199,189);
 ref = sixinferior;
@@ -321,11 +315,8 @@ ref = whiteCircle;
 },
 {
 piece = {
-Slant = 0;
-Weight = 200;
-Width = 100;
 };
-pos = (258,188);
+pos = (224,189);
 ref = sixinferior;
 }
 );
@@ -433,11 +424,8 @@ ref = whiteCircle;
 },
 {
 piece = {
-Slant = 0;
-Weight = 900;
-Width = 100;
 };
-pos = (246,190);
+pos = (217,191);
 ref = sixinferior;
 }
 );
@@ -545,11 +533,8 @@ ref = whiteCircle;
 },
 {
 piece = {
-Slant = 0;
-Weight = 200;
-Width = 125;
 };
-pos = (231,189);
+pos = (216,190);
 ref = sixinferior;
 }
 );
@@ -650,11 +635,8 @@ ref = whiteCircle;
 },
 {
 piece = {
-Slant = 0;
-Weight = 900;
-Width = 125;
 };
-pos = (219,190);
+pos = (199,193);
 ref = sixinferior;
 }
 );
@@ -754,10 +736,8 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
+masterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 piece = {
-Slant = 0;
-Weight = 200;
-Width = 75;
 };
 pos = (243,188);
 ref = sixinferior;
@@ -859,10 +839,8 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
+masterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 piece = {
-Slant = 0;
-Weight = 900;
-Width = 75;
 };
 pos = (231,189);
 ref = sixinferior;
@@ -964,12 +942,10 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
+masterId = master01;
 piece = {
-Slant = 0;
-Weight = 200;
-Width = 100;
 };
-pos = (290,188);
+pos = (256,189);
 ref = sixinferior;
 }
 );
@@ -1069,12 +1045,10 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
+masterId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 piece = {
-Slant = 0;
-Weight = 900;
-Width = 100;
 };
-pos = (274,190);
+pos = (245,191);
 ref = sixinferior;
 }
 );
@@ -1174,12 +1148,10 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
+masterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 piece = {
-Slant = 0;
-Weight = 200;
-Width = 125;
 };
-pos = (262,189);
+pos = (247,190);
 ref = sixinferior;
 }
 );
@@ -1279,12 +1251,10 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
+masterId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 piece = {
-Slant = 0;
-Weight = 900;
-Width = 125;
 };
-pos = (248,190);
+pos = (228,193);
 ref = sixinferior;
 }
 );
