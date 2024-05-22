@@ -3181,11 +3181,27 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "MonaSansVariable-Regular";
+value = "MonaSansVF-Regular";
 },
 {
 name = "Variable Font Origin";
 value = master01;
+},
+{
+name = "Italic Style Linking";
+value = 1;
+},
+{
+name = "Axis Values";
+value = "wdth; 75.0=Cnd, 100.0=Normal*, 125.0=Exp";
+},
+{
+name = "Axis Values";
+value = "wght; 200.0=XLt, 300.0=Light, 400.0>700.0=Regular*, 500.0=Medium, 600.0=SBd, 700.0=Bold, 800.0=XBd, 900.0=Black";
+},
+{
+name = "Axis Values";
+value = "ital; 0.0>1.0=Roman*, 1.0=Italic";
 }
 );
 name = Regular;
@@ -3195,7 +3211,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Mona Sans Variable";
+value = "Mona Sans VF";
 }
 );
 }
@@ -4784,7 +4800,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd XLt Italic";
+value = "Cnd XLt It";
 }
 );
 }
@@ -4853,7 +4869,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Light Italic";
+value = "Cnd Light It";
 }
 );
 }
@@ -4887,7 +4903,7 @@ name = "Axis Location";
 value = (
 {
 Axis = Width;
-Location = 100;
+Location = 75;
 },
 {
 Axis = Weight;
@@ -4921,7 +4937,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Italic";
+value = "Cnd It";
 }
 );
 }
@@ -4989,7 +5005,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Medium Italic";
+value = "Cnd Medium It";
 }
 );
 }
@@ -5058,7 +5074,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd SBd Italic";
+value = "Cnd SBd It";
 }
 );
 }
@@ -5127,7 +5143,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Bold Italic";
+value = "Cnd Bold It";
 }
 );
 }
@@ -5196,7 +5212,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd XBd Italic";
+value = "Cnd XBd It";
 }
 );
 }
@@ -5264,7 +5280,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Black Italic";
+value = "Cnd Black It";
 }
 );
 }
@@ -5323,7 +5339,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "XLt Italic";
+value = "XLt It";
 }
 );
 }
@@ -5382,7 +5398,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Light Italic";
+value = "Light It";
 }
 );
 }
@@ -5414,6 +5430,14 @@ s
 name = "Axis Location";
 value = (
 {
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
 Axis = Italic;
 Location = 1;
 }
@@ -5432,7 +5456,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = Italic;
+value = It;
 }
 );
 }
@@ -5490,7 +5514,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Medium Italic";
+value = "Medium It";
 }
 );
 }
@@ -5549,7 +5573,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SBd Italic";
+value = "SBd It";
 }
 );
 }
@@ -5609,7 +5633,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Bold Italic";
+value = "Bold It";
 }
 );
 }
@@ -5668,7 +5692,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "XBd Italic";
+value = "XBd It";
 }
 );
 }
@@ -5726,7 +5750,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Black Italic";
+value = "Black It";
 }
 );
 }
@@ -5793,7 +5817,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp XLt Italic";
+value = "Exp XLt It";
 }
 );
 }
@@ -5862,7 +5886,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Light Italic";
+value = "Exp Light It";
 }
 );
 }
@@ -5899,6 +5923,10 @@ Axis = Width;
 Location = 125;
 },
 {
+Axis = Weight;
+Location = 400;
+},
+{
 Axis = Italic;
 Location = 1;
 }
@@ -5926,7 +5954,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Italic";
+value = "Exp It";
 }
 );
 }
@@ -5994,7 +6022,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Medium Italic";
+value = "Exp Medium It";
 }
 );
 }
@@ -6063,7 +6091,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp SBd Italic";
+value = "Exp SBd It";
 }
 );
 }
@@ -6132,7 +6160,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Bold Italic";
+value = "Exp Bold It";
 }
 );
 }
@@ -6201,7 +6229,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp XBd Italic";
+value = "Exp XBd It";
 }
 );
 }
@@ -6269,7 +6297,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Black Italic";
+value = "Exp Black It";
 }
 );
 }
