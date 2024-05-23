@@ -11,7 +11,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (219,213);
+pos = (262,183);
 ref = horncomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (279,167);
+pos = (299,167);
 ref = horncomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (438,207);
+pos = (532,190);
 ref = horncomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (463,139);
+pos = (519,119);
 ref = horncomb;
 }
 );
@@ -63,7 +63,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (457,207);
+pos = (530,184);
 ref = horncomb;
 }
 );
@@ -76,7 +76,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (511,119);
+pos = (579,99);
 ref = horncomb;
 }
 );
@@ -89,7 +89,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (253,210);
+pos = (294,183);
 ref = horncomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (286,159);
+pos = (323,167);
 ref = horncomb;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (430,201);
+pos = (520,189);
 ref = horncomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (430,128);
+pos = (432,139);
 ref = horncomb;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (474,201);
+pos = (535,184);
 ref = horncomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (481,107);
+pos = (547,87);
 ref = horncomb;
 }
 );

@@ -24,7 +24,7 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (4,50);
+pos = (6,50);
 ref = tildecomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (130,51);
+pos = (113,51);
 ref = tildecomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (14,50);
+pos = (15,50);
 ref = tildecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (133,51);
+pos = (111,51);
 ref = tildecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (144,56);
+pos = (146,51);
 ref = tildecomb;
 }
 );

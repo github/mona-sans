@@ -68,9 +68,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (203,189);
 ref = fiveinferior;
 }
@@ -143,9 +140,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (207,188);
 ref = fiveinferior;
 }
@@ -218,9 +212,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (227,189);
 ref = fiveinferior;
 }
@@ -497,9 +488,6 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (223,191);
 ref = fiveinferior;
 }
@@ -572,10 +560,7 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (233,189);
+pos = (216,190);
 ref = fiveinferior;
 }
 );
@@ -647,10 +632,7 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (225,190);
+pos = (202,193);
 ref = fiveinferior;
 }
 );
@@ -722,9 +704,7 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 pos = (244,188);
 ref = fiveinferior;
 }
@@ -797,9 +777,7 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 pos = (235,189);
 ref = fiveinferior;
 }
@@ -872,9 +850,7 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = master01;
 pos = (259,189);
 ref = fiveinferior;
 }
@@ -947,9 +923,7 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 pos = (251,191);
 ref = fiveinferior;
 }
@@ -1022,10 +996,8 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (264,189);
+masterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+pos = (247,190);
 ref = fiveinferior;
 }
 );
@@ -1097,10 +1069,8 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (254,190);
+masterId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+pos = (231,193);
 ref = fiveinferior;
 }
 );

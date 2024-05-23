@@ -101,7 +101,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (3,-137);
+pos = (6,-137);
 ref = brevecomb_tildecomb;
 }
 );

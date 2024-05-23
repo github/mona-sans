@@ -10,11 +10,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (560,541);
+pos = (540,641);
 ref = guillemetleft;
 }
 );
-width = 560;
+width = 540;
 },
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -22,7 +22,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (325,516);
+pos = (325,616);
 ref = guillemetleft;
 }
 );
@@ -34,7 +34,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (402,517);
+pos = (402,597);
 ref = guillemetleft;
 }
 );
@@ -46,7 +46,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (597,544);
+pos = (597,608);
 ref = guillemetleft;
 }
 );
@@ -58,7 +58,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (366,517);
+pos = (366,597);
 ref = guillemetleft;
 }
 );
@@ -70,7 +70,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (598,544);
+pos = (598,616);
 ref = guillemetleft;
 }
 );
@@ -82,11 +82,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (330,516);
+pos = (419,594);
 ref = guillemetleft;
 }
 );
-width = 330;
+width = 403;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -94,11 +94,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (556,541);
+pos = (607,641);
 ref = guillemetleft;
 }
 );
-width = 556;
+width = 586;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -106,11 +106,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (396,517);
+pos = (420,601);
 ref = guillemetleft;
 }
 );
-width = 396;
+width = 403;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -118,11 +118,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (596,544);
+pos = (622,624);
 ref = guillemetleft;
 }
 );
-width = 596;
+width = 605;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -130,11 +130,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (358,517);
+pos = (382,597);
 ref = guillemetleft;
 }
 );
-width = 358;
+width = 365;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -142,11 +142,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (597,544);
+pos = (657,608);
 ref = guillemetleft;
 }
 );
-width = 597;
+width = 644;
 }
 );
 metricLeft = "=|guillemetleft";

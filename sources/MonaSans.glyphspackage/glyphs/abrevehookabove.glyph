@@ -10,7 +10,7 @@ shapes = (
 ref = a;
 },
 {
-pos = (52,-156);
+pos = (53,-156);
 ref = brevecomb_hookabovecomb;
 }
 );

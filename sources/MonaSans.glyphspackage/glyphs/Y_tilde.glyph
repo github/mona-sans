@@ -24,7 +24,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (14,50);
+pos = (16,50);
 ref = tildecomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (140,51);
+pos = (123,51);
 ref = tildecomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (16,50);
+pos = (17,50);
 ref = tildecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (135,51);
+pos = (113,51);
 ref = tildecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (158,56);
+pos = (160,51);
 ref = tildecomb;
 }
 );

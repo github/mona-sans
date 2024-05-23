@@ -24,7 +24,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-7,-138);
+pos = (-5,-138);
 ref = tildecomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (63,-134);
+pos = (46,-134);
 ref = tildecomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-39,-138);
+pos = (-38,-138);
 ref = tildecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (25,-134);
+pos = (3,-134);
 ref = tildecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (44,-129);
+pos = (46,-134);
 ref = tildecomb;
 }
 );

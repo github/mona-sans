@@ -63,9 +63,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (282,188);
 ref = oneinferior;
 }
@@ -140,9 +137,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (234,189);
 ref = oneinferior;
 }
@@ -217,9 +211,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
 pos = (306,189);
 ref = oneinferior;
 }
@@ -294,10 +285,6 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-Width = 125;
-};
 pos = (274,191);
 ref = oneinferior;
 }
@@ -372,10 +359,7 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (313,189);
+pos = (325,190);
 ref = oneinferior;
 }
 );
@@ -442,10 +426,7 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (276,190);
+pos = (272,193);
 ref = oneinferior;
 }
 );
@@ -512,9 +493,7 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 pos = (319,188);
 ref = oneinferior;
 }
@@ -582,9 +561,7 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 pos = (266,189);
 ref = oneinferior;
 }
@@ -652,9 +629,7 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = master01;
 pos = (338,189);
 ref = oneinferior;
 }
@@ -722,9 +697,7 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
+masterId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 pos = (302,191);
 ref = oneinferior;
 }
@@ -792,10 +765,8 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-};
-pos = (344,189);
+masterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+pos = (356,190);
 ref = oneinferior;
 }
 );
@@ -862,12 +833,8 @@ alignment = 1;
 ref = whiteCircle;
 },
 {
-piece = {
-Slant = 0;
-Weight = 900;
-Width = 125;
-};
-pos = (305,190);
+masterId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+pos = (301,193);
 ref = oneinferior;
 }
 );
