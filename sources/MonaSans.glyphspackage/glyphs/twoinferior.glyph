@@ -10,9 +10,6 @@ pos = (142,177);
 );
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 partSelection = {
-Width = 1;
-Weight = 2;
-Slant = 2;
 };
 shapes = (
 {
@@ -62,9 +59,6 @@ pos = (120,177);
 );
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 partSelection = {
-Width = 1;
-Weight = 1;
-Slant = 2;
 };
 shapes = (
 {
@@ -114,8 +108,6 @@ pos = (185,174);
 );
 layerId = master01;
 partSelection = {
-Weight = 1;
-Slant = 2;
 };
 shapes = (
 {
@@ -223,8 +215,6 @@ pos = (191,174);
 );
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
 partSelection = {
-Weight = 2;
-Slant = 2;
 };
 shapes = (
 {
@@ -274,9 +264,6 @@ pos = (199,173);
 );
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 partSelection = {
-Width = 2;
-Weight = 1;
-Slant = 2;
 };
 shapes = (
 {
@@ -326,9 +313,6 @@ pos = (201,171);
 );
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
 partSelection = {
-Width = 2;
-Weight = 2;
-Slant = 2;
 };
 shapes = (
 {
@@ -378,9 +362,6 @@ pos = (90,177);
 );
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 partSelection = {
-Width = 1;
-Weight = 1;
-Slant = 1;
 };
 shapes = (
 {
@@ -430,9 +411,6 @@ pos = (113,177);
 );
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
 partSelection = {
-Width = 1;
-Weight = 2;
-Slant = 1;
 };
 shapes = (
 {
@@ -482,8 +460,6 @@ pos = (161,177);
 );
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
 partSelection = {
-Weight = 1;
-Slant = 1;
 };
 shapes = (
 {
@@ -533,8 +509,6 @@ pos = (155,177);
 );
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
 partSelection = {
-Weight = 2;
-Slant = 1;
 };
 shapes = (
 {
@@ -584,9 +558,6 @@ pos = (166,177);
 );
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 partSelection = {
-Width = 2;
-Weight = 1;
-Slant = 1;
 };
 shapes = (
 {
@@ -636,9 +607,6 @@ pos = (175,177);
 );
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 partSelection = {
-Width = 2;
-Weight = 2;
-Slant = 1;
 };
 shapes = (
 {
@@ -678,23 +646,6 @@ width = 60;
 };
 };
 width = 426;
-}
-);
-partsSettings = (
-{
-bottomValue = 75;
-name = Width;
-topValue = 125;
-},
-{
-bottomValue = 200;
-name = Weight;
-topValue = 900;
-},
-{
-bottomValue = -12;
-name = Slant;
-topValue = 0;
 }
 );
 unicode = 8322;

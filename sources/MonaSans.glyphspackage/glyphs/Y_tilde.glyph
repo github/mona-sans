@@ -24,7 +24,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (13,50);
+pos = (16,50);
 ref = tildecomb;
 }
 );

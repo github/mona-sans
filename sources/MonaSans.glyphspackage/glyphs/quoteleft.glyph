@@ -34,7 +34,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (179,583);
+pos = (179,605);
 ref = quotesinglbase;
 }
 );
@@ -78,7 +78,7 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (267,561);
+pos = (267,562);
 ref = quotesinglbase;
 }
 );

@@ -24,7 +24,7 @@ shapes = (
 ref = a.ss04;
 },
 {
-pos = (11,-138);
+pos = (14,-138);
 ref = tildecomb;
 }
 );

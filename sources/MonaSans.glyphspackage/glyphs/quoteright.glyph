@@ -31,7 +31,7 @@ layerId = master01;
 shapes = (
 {
 alignment = 3;
-pos = (0,668);
+pos = (0,685);
 ref = quotesinglbase;
 }
 );
