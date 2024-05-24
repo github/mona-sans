@@ -82,6 +82,19 @@ html {
 }
 ```
 
+## Ligatures
+
+Mona Sans comes with seven ligatures:
+
+| Character combination | Examples |
+| --- | --- | 
+| ff | tbd | 
+| ffi | tbd | 
+| fy | tbd | 
+| fi | tbd | 
+| fl | tbd | 
+| ti | tbd | 
+| tt | tbd | 
 
 ## License
 Mona Sans is licensed under the [SIL Open Font License v1.1](https://scripts.sil.org/OFL).
