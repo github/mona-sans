@@ -61,5 +61,18 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 | ExtraBold Wide | ExtraBold Wide Italic | 800 | 125 |
 | Black Wide | Black Wide Italic | 900 | 125 |
 
+## Stylistic sets
+
+Mona Sans has five stylistic sets:
+
+| Set | Description | Examples |
+| --- | --- | --- | 
+| ss01 | Square diacritical marks (i, j, ä, etc; defaults to round) | tbd |
+| ss02 | Small latin letter L distinct from capital I | tbd |
+| ss03 | Small latin letter L distinct from capital I | tbd |
+| ss04 | Alternative (open) small letter a | tbd |
+| ss05 | Alternative small letter g | tbd |
+
+
 ## License
 Mona Sans is licensed under the [SIL Open Font License v1.1](https://scripts.sil.org/OFL).
