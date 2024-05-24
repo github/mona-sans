@@ -68,10 +68,19 @@ Mona Sans has five stylistic sets:
 | Set | Description | Examples |
 | --- | --- | --- | 
 | ss01 | Square diacritical marks (i, j, ä, etc; defaults to round) | tbd |
-| ss02 | Small latin letter L distinct from capital I | tbd |
-| ss03 | Small latin letter L distinct from capital I | tbd |
+| ss02 | Small latin letter L distinct from capital I (option 1) | tbd |
+| ss03 | Small latin letter L distinct from capital I (option 2) | tbd |
 | ss04 | Alternative (open) small letter a | tbd |
 | ss05 | Alternative small letter g | tbd |
+
+When using Mona Sans on the web, you can control each stylistic set with the syntax `"ssXX" on/off`, e.g.:
+
+```css
+html {
+  font-family: 'Mona Sans';
+  font-feature-settings: "ss01" on, "ss03" on, "ss05" on; /* Turns on square diacritical marks, small letter L distinct from capital I, and alternative small letter g */
+}
+```
 
 
 ## License
