@@ -5,7 +5,6 @@ buildOTF: False
 buildWebfont: False
 buildTTF: false
 axisOrder:
-  - ital
   - wdth
   - wght
 familyName: "Mona Sans"
@@ -47,12 +46,3 @@ stat:
       value: 800
     - name: Black
       value: 900
-  - name: Italic
-    tag: ital
-    values:
-    - name: Default
-      value: 0
-      flags: 2
-      linkedValue: 1
-    - name: Italic
-      value: 1
