@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = lacute.ss03;
+kernRight = l.ss02;
 layers = (
 {
 layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
@@ -9,11 +10,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (19,57);
+pos = (18,57);
 ref = acutecomb;
 }
 );
-width = 149;
+width = 152;
 },
 {
 layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
@@ -22,11 +23,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (4,51);
+pos = (0,51);
 ref = acutecomb;
 }
 );
-width = 231;
+width = 250;
 },
 {
 layerId = master01;
@@ -35,11 +36,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (49,57);
+pos = (48,57);
 ref = acutecomb;
 }
 );
-width = 207;
+width = 235;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
@@ -48,11 +49,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (38,51);
+pos = (33,51);
 ref = acutecomb;
 }
 );
-width = 299;
+width = 320;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -61,11 +62,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (26,57);
+pos = (24,57);
 ref = acutecomb;
 }
 );
-width = 169;
+width = 233;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
@@ -74,11 +75,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (37,56);
+pos = (31,56);
 ref = acutecomb;
 }
 );
-width = 307;
+width = 337;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -91,7 +92,7 @@ pos = (30,57);
 ref = acutecomb;
 }
 );
-width = 148;
+width = 153;
 },
 {
 layerId = "2D4E69BA-A319-45D0-84B7-5297BCF4B7A0";
@@ -100,11 +101,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (13,51);
+pos = (11,51);
 ref = acutecomb;
 }
 );
-width = 227;
+width = 250;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -113,11 +114,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (58,57);
+pos = (57,57);
 ref = acutecomb;
 }
 );
-width = 206;
+width = 228;
 },
 {
 layerId = "63AAE8D6-1DFF-4DD4-BD9A-49272FE52904";
@@ -126,11 +127,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (48,51);
+pos = (46,51);
 ref = acutecomb;
 }
 );
-width = 298;
+width = 310;
 },
 {
 layerId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
@@ -139,11 +140,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (38,57);
+pos = (33,57);
 ref = acutecomb;
 }
 );
-width = 169;
+width = 223;
 },
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
@@ -152,11 +153,11 @@ shapes = (
 ref = l.ss03;
 },
 {
-pos = (48,56);
+pos = (37,56);
 ref = acutecomb;
 }
 );
-width = 305;
+width = 336;
 }
 );
 }
