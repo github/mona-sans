@@ -43,6 +43,10 @@ value = 1;
 {
 name = "Write DisplayStrings";
 value = 0;
+},
+{
+name = "Variable Font Origin";
+value = master01;
 }
 );
 date = "2017-05-31 15:56:58 +0000";
