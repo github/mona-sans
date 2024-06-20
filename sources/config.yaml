@@ -1,12 +1,12 @@
 sources:
-  - MonaSans.glyphs
-# buildOTF: False
-# buildWebfont: False
-# buildTTF: false
+  - MonaSans.glyphspackage
+outputDir: "../googlefonts"
+buildOTF: False
+buildWebfont: False
+buildTTF: false
 axisOrder:
   - wdth
   - wght
-  - slnt
 familyName: "Mona Sans"
 stat:
   - name: Width
@@ -46,12 +46,3 @@ stat:
       value: 800
     - name: Black
       value: 900
-  - name: Slant
-    tag: slnt
-    values:
-    - name: Default
-      value: 0
-      flags: 2
-      linkedValue: -12
-    - name: Italic
-      value: -12
