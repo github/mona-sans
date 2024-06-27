@@ -65,13 +65,15 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 
 Mona Sans has five stylistic sets:
 
-| Set | Description | Examples |
+| Set | Description | Example |
 | --- | --- | --- | 
 | ss01 | Square diacritical marks (i, j, ä, etc; defaults to round) | tbd |
-| ss02 | Small latin letter L distinct from capital I (option 1) | tbd |
-| ss03 | Small latin letter L distinct from capital I (option 2) | tbd |
-| ss04 | Alternative (open) small letter a | tbd |
-| ss05 | Alternative small letter g | tbd |
+| ss02 | Wide uppercase I | tbd |
+| ss03 | Lowercase l with tail | tbd |
+| ss04 | Lowercase l with top serif | tbd |
+| ss05 | Double-storey a | tbd |
+| ss06 | Double-storey g | tbd |
+| ss07 | Round G | tbd |
 
 When using Mona Sans on the web, you can control each stylistic set with the syntax `"ssXX" on/off`, e.g.:
 
@@ -86,7 +88,7 @@ html {
 
 Mona Sans comes with seven ligatures:
 
-| Character combination | Examples |
+| Character combination | Example |
 | --- | --- | 
 | ff | tbd | 
 | ffi | tbd | 
