@@ -63,17 +63,18 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 
 ## Stylistic sets
 
-Mona Sans has five stylistic sets:
+Mona Sans has eight stylistic sets:
 
 | Set | Description | Example |
 | --- | --- | --- | 
-| ss01 | Square diacritical marks (i, j, ä, etc; defaults to round) | tbd |
-| ss02 | Wide uppercase I | tbd |
-| ss03 | Lowercase l with tail | tbd |
-| ss04 | Lowercase l with top serif | tbd |
-| ss05 | Double-storey a | tbd |
-| ss06 | Double-storey g | tbd |
-| ss07 | Round G | tbd |
+| ss01 | Square diacritical marks | ![ss01](https://github.com/user-attachments/assets/18fa3132-6839-4ef9-afd9-c75a082899ef) |
+| ss02 | Wide uppercase I | ![ss02](https://github.com/user-attachments/assets/a0de7f9c-f9c0-4583-ac32-a10d25a54328) |
+| ss03 | Lowercase l with tail | ![ss03](https://github.com/user-attachments/assets/8594effd-0528-4af9-8c58-0dfba66b2b45) |
+| ss04 | Lowercase l with top serif | ![ss04](https://github.com/user-attachments/assets/7c7610a9-947e-45d5-80fc-71849a257d82) |
+| ss05 | Double-storey a | ![ss05](https://github.com/user-attachments/assets/d31a11b8-1809-4a34-bbcb-b8b7057ddef0) |
+| ss06 | Double-storey g | ![ss06](https://github.com/user-attachments/assets/ca8bef04-68d8-4c36-bfa6-8313d5642a9d) |
+| ss07 | Round G | ![ss07](https://github.com/user-attachments/assets/4d5fb045-df90-4dc7-8dbb-3f2a271477df) |
+| ss08 | Tabular zero with straight bar | ![ss08](https://github.com/user-attachments/assets/6c54f0eb-0054-4876-a366-1c00d955b89b) |
 
 When using Mona Sans on the web, you can control each stylistic set with the syntax `"ssXX" on/off`, e.g.:
 
@@ -88,7 +89,7 @@ html {
 
 Mona Sans comes with seven ligatures:
 
-| Character combination | Example |
+| Ligature | Example |
 | --- | --- | 
 | ff | tbd | 
 | ffi | tbd | 
