@@ -91,13 +91,20 @@ Mona Sans comes with seven ligatures:
 
 | Ligature | Example |
 | --- | --- | 
-| ff | tbd | 
-| ffi | tbd | 
-| fy | tbd | 
-| fi | tbd | 
-| fl | tbd | 
-| ti | tbd | 
-| tt | tbd | 
+| ff | ![ff](https://github.com/user-attachments/assets/257cf188-808c-4bfc-9087-61dedf4c1e6f)
+ | 
+| ffi | ![ffi](https://github.com/user-attachments/assets/f7c92ef1-90ef-4bec-9f00-1a4c522e1c73)
+ | 
+| fy | ![fy](https://github.com/user-attachments/assets/232ead1c-09bd-4567-b17f-9d2651edef63)
+ | 
+| fi | ![fi](https://github.com/user-attachments/assets/2cd901e4-f077-449d-ad6a-eec683b7f402)
+ | 
+| fl | ![fl](https://github.com/user-attachments/assets/c0591522-f273-48fd-a0f5-0e2c77df6e9a)
+ | 
+| ti | ![ti](https://github.com/user-attachments/assets/556aab9f-e8f5-40dd-b8d2-70903d0cab65)
+ | 
+| tt | ![tt](https://github.com/user-attachments/assets/d0392c30-2b8c-4646-b578-0ae66a328505)
+ | 
 
 ## License
 Mona Sans is licensed under the [SIL Open Font License v1.1](https://scripts.sil.org/OFL).
