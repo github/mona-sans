@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -137180,7 +137180,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;
