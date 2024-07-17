@@ -61,5 +61,43 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 | ExtraBold Wide | ExtraBold Wide Italic | 800 | 125 |
 | Black Wide | Black Wide Italic | 900 | 125 |
 
+## Stylistic sets
+
+Mona Sans has eight stylistic sets:
+
+| Set | Description | Example |
+| --- | --- | --- | 
+| ss01 | Square diacritical marks | ![ss01](https://github.com/user-attachments/assets/18fa3132-6839-4ef9-afd9-c75a082899ef) |
+| ss02 | Wide uppercase I | ![ss02](https://github.com/user-attachments/assets/a0de7f9c-f9c0-4583-ac32-a10d25a54328) |
+| ss03 | Lowercase l with tail | ![ss03](https://github.com/user-attachments/assets/8594effd-0528-4af9-8c58-0dfba66b2b45) |
+| ss04 | Lowercase l with top serif | ![ss04](https://github.com/user-attachments/assets/7c7610a9-947e-45d5-80fc-71849a257d82) |
+| ss05 | Double-storey a | ![ss05](https://github.com/user-attachments/assets/d31a11b8-1809-4a34-bbcb-b8b7057ddef0) |
+| ss06 | Double-storey g | ![ss06](https://github.com/user-attachments/assets/ca8bef04-68d8-4c36-bfa6-8313d5642a9d) |
+| ss07 | Round G | ![ss07](https://github.com/user-attachments/assets/4d5fb045-df90-4dc7-8dbb-3f2a271477df) |
+| ss08 | Tabular zero with straight bar | ![ss08](https://github.com/user-attachments/assets/6c54f0eb-0054-4876-a366-1c00d955b89b) |
+
+When using Mona Sans on the web, you can control each stylistic set with the syntax `"ssXX" on/off`, e.g.:
+
+```css
+html {
+  font-family: 'Mona Sans';
+  font-feature-settings: "ss01" on, "ss03" on, "ss05" on; /* Turns on square diacritical marks, small letter L distinct from capital I, and alternative small letter g */
+}
+```
+
+## Ligatures
+
+Mona Sans comes with seven ligatures:
+
+| Ligature | Example |
+| --- | --- | 
+| ff | ![ff](https://github.com/user-attachments/assets/257cf188-808c-4bfc-9087-61dedf4c1e6f) | 
+| ffi | ![ffi](https://github.com/user-attachments/assets/f7c92ef1-90ef-4bec-9f00-1a4c522e1c73) | 
+| fy | ![fy](https://github.com/user-attachments/assets/232ead1c-09bd-4567-b17f-9d2651edef63) | 
+| fi | ![fi](https://github.com/user-attachments/assets/2cd901e4-f077-449d-ad6a-eec683b7f402) | 
+| fl | ![fl](https://github.com/user-attachments/assets/c0591522-f273-48fd-a0f5-0e2c77df6e9a) | 
+| ti | ![ti](https://github.com/user-attachments/assets/556aab9f-e8f5-40dd-b8d2-70903d0cab65) | 
+| tt | ![tt](https://github.com/user-attachments/assets/d0392c30-2b8c-4646-b578-0ae66a328505) | 
+
 ## License
 Mona Sans is licensed under the [SIL Open Font License v1.1](https://scripts.sil.org/OFL).
