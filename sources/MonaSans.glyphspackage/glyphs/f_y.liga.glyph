@@ -4,6 +4,28 @@ kernLeft = f;
 kernRight = y;
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (102,0);
+},
+{
+name = bottom_2;
+pos = (305,0);
+},
+{
+name = caret_1;
+pos = (203,0);
+},
+{
+name = top_1;
+pos = (102,729);
+},
+{
+name = top_2;
+pos = (305,729);
+}
+);
 background = {
 shapes = (
 {
@@ -61,6 +83,28 @@ nodes = (
 width = 406;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (170,0);
+},
+{
+name = bottom_2;
+pos = (511,0);
+},
+{
+name = caret_1;
+pos = (340.5,0);
+},
+{
+name = top_1;
+pos = (170,729);
+},
+{
+name = top_2;
+pos = (511,729);
+}
+);
 background = {
 shapes = (
 {
@@ -118,6 +162,28 @@ nodes = (
 width = 681;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (189,0);
+},
+{
+name = bottom_2;
+pos = (568,0);
+},
+{
+name = caret_1;
+pos = (378.5,0);
+},
+{
+name = top_1;
+pos = (189,729);
+},
+{
+name = top_2;
+pos = (568,729);
+}
+);
 background = {
 shapes = (
 {
@@ -175,6 +241,28 @@ nodes = (
 width = 757;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (227,0);
+},
+{
+name = bottom_2;
+pos = (680,0);
+},
+{
+name = caret_1;
+pos = (453,0);
+},
+{
+name = top_1;
+pos = (227,729);
+},
+{
+name = top_2;
+pos = (680,729);
+}
+);
 background = {
 shapes = (
 {
@@ -232,6 +320,28 @@ nodes = (
 width = 906;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (202,0);
+},
+{
+name = bottom_2;
+pos = (607,0);
+},
+{
+name = caret_1;
+pos = (404.5,0);
+},
+{
+name = top_1;
+pos = (202,729);
+},
+{
+name = top_2;
+pos = (607,729);
+}
+);
 background = {
 shapes = (
 {
@@ -289,6 +399,28 @@ nodes = (
 width = 809;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (247,0);
+},
+{
+name = bottom_2;
+pos = (742,0);
+},
+{
+name = caret_1;
+pos = (494.5,0);
+},
+{
+name = top_1;
+pos = (247,729);
+},
+{
+name = top_2;
+pos = (742,729);
+}
+);
 background = {
 shapes = (
 {
@@ -346,6 +478,28 @@ nodes = (
 width = 989;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (47,0);
+},
+{
+name = bottom_2;
+pos = (246,0);
+},
+{
+name = caret_1;
+pos = (199.5,0);
+},
+{
+name = top_1;
+pos = (198,729);
+},
+{
+name = top_2;
+pos = (397,729);
+}
+);
 background = {
 shapes = (
 {
@@ -403,6 +557,28 @@ nodes = (
 width = 399;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (114,0);
+},
+{
+name = bottom_2;
+pos = (453,0);
+},
+{
+name = caret_1;
+pos = (339,0);
+},
+{
+name = top_1;
+pos = (265,729);
+},
+{
+name = top_2;
+pos = (604,729);
+}
+);
 background = {
 shapes = (
 {
@@ -460,6 +636,28 @@ nodes = (
 width = 678;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (131,0);
+},
+{
+name = bottom_2;
+pos = (500,0);
+},
+{
+name = caret_1;
+pos = (369.5,0);
+},
+{
+name = top_1;
+pos = (282,729);
+},
+{
+name = top_2;
+pos = (651,729);
+}
+);
 background = {
 shapes = (
 {
@@ -517,6 +715,28 @@ nodes = (
 width = 739;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (169,0);
+},
+{
+name = bottom_2;
+pos = (618,0);
+},
+{
+name = caret_1;
+pos = (449,0);
+},
+{
+name = top_1;
+pos = (320,729);
+},
+{
+name = top_2;
+pos = (769,729);
+}
+);
 background = {
 shapes = (
 {
@@ -574,6 +794,28 @@ nodes = (
 width = 898;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (149,0);
+},
+{
+name = bottom_2;
+pos = (554,0);
+},
+{
+name = caret_1;
+pos = (405,0);
+},
+{
+name = top_1;
+pos = (300,729);
+},
+{
+name = top_2;
+pos = (705,729);
+}
+);
 background = {
 shapes = (
 {
@@ -631,6 +873,28 @@ nodes = (
 width = 810;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (195,0);
+},
+{
+name = bottom_2;
+pos = (697,0);
+},
+{
+name = caret_1;
+pos = (502,0);
+},
+{
+name = top_1;
+pos = (346,729);
+},
+{
+name = top_2;
+pos = (848,729);
+}
+);
 background = {
 shapes = (
 {
@@ -688,6 +952,28 @@ nodes = (
 width = 1004;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (119,0);
+},
+{
+name = bottom_2;
+pos = (356,0);
+},
+{
+name = caret_1;
+pos = (237.5,0);
+},
+{
+name = top_1;
+pos = (119,729);
+},
+{
+name = top_2;
+pos = (356,729);
+}
+);
 associatedMasterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 attr = {
 coordinates = (
@@ -746,6 +1032,28 @@ nodes = (
 width = 475;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (195,0);
+},
+{
+name = bottom_2;
+pos = (584,0);
+},
+{
+name = caret_1;
+pos = (389,0);
+},
+{
+name = top_1;
+pos = (195,729);
+},
+{
+name = top_2;
+pos = (584,729);
+}
+);
 associatedMasterId = master01;
 attr = {
 coordinates = (
@@ -804,6 +1112,28 @@ nodes = (
 width = 778;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (216,0);
+},
+{
+name = bottom_2;
+pos = (648,0);
+},
+{
+name = caret_1;
+pos = (432,0);
+},
+{
+name = top_1;
+pos = (216,729);
+},
+{
+name = top_2;
+pos = (648,729);
+}
+);
 associatedMasterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 attr = {
 coordinates = (
@@ -862,6 +1192,28 @@ nodes = (
 width = 864;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (61,0);
+},
+{
+name = bottom_2;
+pos = (290,0);
+},
+{
+name = caret_1;
+pos = (229,0);
+},
+{
+name = top_1;
+pos = (212,729);
+},
+{
+name = top_2;
+pos = (441,729);
+}
+);
 associatedMasterId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 attr = {
 coordinates = (
@@ -920,6 +1272,28 @@ nodes = (
 width = 458;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (135,0);
+},
+{
+name = bottom_2;
+pos = (512,0);
+},
+{
+name = caret_1;
+pos = (377,0);
+},
+{
+name = top_1;
+pos = (286,729);
+},
+{
+name = top_2;
+pos = (663,729);
+}
+);
 associatedMasterId = "095FE76F-1953-440B-9108-AA0678D151F9";
 attr = {
 coordinates = (
@@ -978,6 +1352,28 @@ nodes = (
 width = 754;
 },
 {
+anchors = (
+{
+name = bottom_1;
+pos = (160,0);
+},
+{
+name = bottom_2;
+pos = (587,0);
+},
+{
+name = caret_1;
+pos = (427,0);
+},
+{
+name = top_1;
+pos = (311,729);
+},
+{
+name = top_2;
+pos = (738,729);
+}
+);
 associatedMasterId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 attr = {
 coordinates = (
