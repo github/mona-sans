@@ -47,6 +47,13 @@ value = 0;
 {
 name = "Variable Font Origin";
 value = master01;
+},
+{
+disabled = 1;
+name = unicodeRanges;
+value = (
+0
+);
 }
 );
 date = "2017-05-31 15:56:58 +0000";
