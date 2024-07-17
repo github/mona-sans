@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.53">
+
+  <name>
+    <namerecord nameID="282" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight Italic
+    </namerecord>
+    <namerecord nameID="283" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light Italic
+    </namerecord>
+    <namerecord nameID="284" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Italic
+    </namerecord>
+    <namerecord nameID="285" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium Italic
+    </namerecord>
+    <namerecord nameID="286" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold Italic
+    </namerecord>
+    <namerecord nameID="287" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold Italic
+    </namerecord>
+    <namerecord nameID="288" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold Italic
+    </namerecord>
+    <namerecord nameID="289" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black Italic
+    </namerecord>
+    <namerecord nameID="290" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Width
+    </namerecord>
+    <namerecord nameID="291" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Condensed
+    </namerecord>
+    <namerecord nameID="292" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiCondensed
+    </namerecord>
+    <namerecord nameID="293" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Normal
+    </namerecord>
+    <namerecord nameID="294" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiExpanded
+    </namerecord>
+    <namerecord nameID="295" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Expanded
+    </namerecord>
+    <namerecord nameID="296" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Weight
+    </namerecord>
+    <namerecord nameID="297" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Thin
+    </namerecord>
+    <namerecord nameID="298" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight
+    </namerecord>
+    <namerecord nameID="299" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light
+    </namerecord>
+    <namerecord nameID="300" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="301" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium
+    </namerecord>
+    <namerecord nameID="302" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold
+    </namerecord>
+    <namerecord nameID="303" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold
+    </namerecord>
+    <namerecord nameID="304" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold
+    </namerecord>
+    <namerecord nameID="305" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      Copyright 2022 The Mona Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name "Mona"
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Mona Sans
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Italic
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      2.000;GTHB;MonaSans-Italic
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Mona Sans Italic
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 2.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      MonaSans-Italic
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      GitHub
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Deni Anggara
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      www.github.com
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      www.degarism.com
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      https://openfontlicense.org
+    </namerecord>
+    <namerecord nameID="25" platformID="3" platEncID="1" langID="0x409">
+      MonaSansItalic
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      Width
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Weight
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      Italic
+    </namerecord>
+    <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
+      Square dots
+    </namerecord>
+    <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
+      Wider uppercase I
+    </namerecord>
+    <namerecord nameID="276" platformID="3" platEncID="1" langID="0x409">
+      Lowercase l with tail
+    </namerecord>
+    <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
+      Lowercase l with top serif
+    </namerecord>
+    <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
+      Double-storey a
+    </namerecord>
+    <namerecord nameID="279" platformID="3" platEncID="1" langID="0x409">
+      Double-storey g
+    </namerecord>
+    <namerecord nameID="280" platformID="3" platEncID="1" langID="0x409">
+      Round G
+    </namerecord>
+    <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
+      Tabular zero with straight bar
+    </namerecord>
+    <namerecord nameID="282" platformID="3" platEncID="1" langID="0x409">
+      ExtraLight Italic
+    </namerecord>
+    <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
+      Light Italic
+    </namerecord>
+    <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
+      Italic
+    </namerecord>
+    <namerecord nameID="285" platformID="3" platEncID="1" langID="0x409">
+      Medium Italic
+    </namerecord>
+    <namerecord nameID="286" platformID="3" platEncID="1" langID="0x409">
+      SemiBold Italic
+    </namerecord>
+    <namerecord nameID="287" platformID="3" platEncID="1" langID="0x409">
+      Bold Italic
+    </namerecord>
+    <namerecord nameID="288" platformID="3" platEncID="1" langID="0x409">
+      ExtraBold Italic
+    </namerecord>
+    <namerecord nameID="289" platformID="3" platEncID="1" langID="0x409">
+      Black Italic
+    </namerecord>
+    <namerecord nameID="290" platformID="3" platEncID="1" langID="0x409">
+      Width
+    </namerecord>
+    <namerecord nameID="291" platformID="3" platEncID="1" langID="0x409">
+      Condensed
+    </namerecord>
+    <namerecord nameID="292" platformID="3" platEncID="1" langID="0x409">
+      SemiCondensed
+    </namerecord>
+    <namerecord nameID="293" platformID="3" platEncID="1" langID="0x409">
+      Normal
+    </namerecord>
+    <namerecord nameID="294" platformID="3" platEncID="1" langID="0x409">
+      SemiExpanded
+    </namerecord>
+    <namerecord nameID="295" platformID="3" platEncID="1" langID="0x409">
+      Expanded
+    </namerecord>
+    <namerecord nameID="296" platformID="3" platEncID="1" langID="0x409">
+      Weight
+    </namerecord>
+    <namerecord nameID="297" platformID="3" platEncID="1" langID="0x409">
+      Thin
+    </namerecord>
+    <namerecord nameID="298" platformID="3" platEncID="1" langID="0x409">
+      ExtraLight
+    </namerecord>
+    <namerecord nameID="299" platformID="3" platEncID="1" langID="0x409">
+      Light
+    </namerecord>
+    <namerecord nameID="300" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="301" platformID="3" platEncID="1" langID="0x409">
+      Medium
+    </namerecord>
+    <namerecord nameID="302" platformID="3" platEncID="1" langID="0x409">
+      SemiBold
+    </namerecord>
+    <namerecord nameID="303" platformID="3" platEncID="1" langID="0x409">
+      Bold
+    </namerecord>
+    <namerecord nameID="304" platformID="3" platEncID="1" langID="0x409">
+      ExtraBold
+    </namerecord>
+    <namerecord nameID="305" platformID="3" platEncID="1" langID="0x409">
+      Black
+    </namerecord>
+  </name>
+
+</ttFont>
