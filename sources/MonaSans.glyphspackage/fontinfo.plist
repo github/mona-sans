@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -47,6 +47,13 @@ value = 0;
 {
 name = "Variable Font Origin";
 value = master01;
+},
+{
+disabled = 1;
+name = unicodeRanges;
+value = (
+0
+);
 }
 );
 date = "2017-05-31 15:56:58 +0000";
@@ -137180,7 +137187,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;

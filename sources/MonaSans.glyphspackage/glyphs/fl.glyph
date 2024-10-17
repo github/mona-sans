@@ -4,6 +4,12 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (270.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -47,6 +53,12 @@ nodes = (
 width = 541;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (161,0);
+}
+);
 background = {
 shapes = (
 {
@@ -90,6 +102,12 @@ nodes = (
 width = 322;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (272,0);
+}
+);
 background = {
 shapes = (
 {
@@ -241,6 +259,12 @@ type = Stem;
 width = 544;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (347.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -288,6 +312,12 @@ com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = l;
 width = 695;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (257,0);
+}
+);
 background = {
 shapes = (
 {
@@ -331,6 +361,12 @@ nodes = (
 width = 514;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (376,0);
+}
+);
 background = {
 shapes = (
 {
@@ -374,6 +410,12 @@ nodes = (
 width = 752;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (159.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -417,6 +459,12 @@ nodes = (
 width = 319;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (267,0);
+}
+);
 background = {
 shapes = (
 {
@@ -460,6 +508,12 @@ nodes = (
 width = 534;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (269,0);
+}
+);
 background = {
 shapes = (
 {
@@ -503,6 +557,12 @@ nodes = (
 width = 538;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (353.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -546,6 +606,12 @@ nodes = (
 width = 707;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (255.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -589,6 +655,12 @@ nodes = (
 width = 511;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (373.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -632,6 +704,12 @@ nodes = (
 width = 747;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (187.5,0);
+}
+);
 associatedMasterId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
 attr = {
 coordinates = (
@@ -676,6 +754,12 @@ nodes = (
 width = 375;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (273.5,0);
+}
+);
 associatedMasterId = master01;
 attr = {
 coordinates = (
@@ -828,6 +912,12 @@ type = Stem;
 width = 547;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (292.5,0);
+}
+);
 associatedMasterId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
 attr = {
 coordinates = (
@@ -872,6 +962,12 @@ nodes = (
 width = 585;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (180.5,0);
+}
+);
 associatedMasterId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
 attr = {
 coordinates = (
@@ -916,6 +1012,12 @@ nodes = (
 width = 361;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (278,0);
+}
+);
 associatedMasterId = "095FE76F-1953-440B-9108-AA0678D151F9";
 attr = {
 coordinates = (
@@ -960,6 +1062,12 @@ nodes = (
 width = 556;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (283,0);
+}
+);
 associatedMasterId = "C17B1F32-8075-45B4-AA59-7DAFF0D7E404";
 attr = {
 coordinates = (
