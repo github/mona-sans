@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3337";
 .formatVersion = 3;
 axes = (
 {
@@ -6329,6 +6329,2201 @@ value = "Exp Black It";
 );
 weightClass = 900;
 widthClass = 7;
+},
+{
+axesValues = (
+88,
+200,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.48;
+master01 = 0.52;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd XLt";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+300,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.07429;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.41143;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.06857;
+master01 = 0.44571;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Light";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+400,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.14857;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.34286;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.13714;
+master01 = 0.37143;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Regular";
+}
+);
+}
+);
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+500,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.22286;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.27429;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.20571;
+master01 = 0.29714;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Medium";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+600,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.29714;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.20571;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.27429;
+master01 = 0.22286;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd SBd";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+700,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.37143;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.13714;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.34286;
+master01 = 0.14857;
+};
+isBold = 1;
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Bold";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+800,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.44571;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.06857;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.41143;
+master01 = 0.07429;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd XBd";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+900,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.52;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.48;
+};
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Black";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 4;
+},
+{
+axesValues = (
+113,
+200,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.52;
+master01 = 0.48;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp XLt";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+300,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.06857;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.44571;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.07429;
+master01 = 0.41143;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Light";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+400,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.13714;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.37143;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.14857;
+master01 = 0.34286;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Regular";
+}
+);
+}
+);
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+500,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.20571;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.29714;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.22286;
+master01 = 0.27429;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Medium";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+600,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.27429;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.22286;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.29714;
+master01 = 0.20571;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp SBd";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+700,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.34286;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.14857;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.37143;
+master01 = 0.13714;
+};
+isBold = 1;
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Bold";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+800,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.41143;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.07429;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.44571;
+master01 = 0.06857;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp XBd";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+900,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.48;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.52;
+};
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Black";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 6;
+},
+{
+axesValues = (
+88,
+200,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.52;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.48;
+};
+name = "ExtraLight Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd XLt It";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+300,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.44571;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.41143;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.06857;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.07429;
+};
+name = "Light Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Light It";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+400,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.37143;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.34286;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.13714;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.14857;
+};
+isItalic = 1;
+name = Italic;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd It";
+}
+);
+}
+);
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+500,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.29714;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.27429;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.20571;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.22286;
+};
+name = "Medium Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Medium It";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+600,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.22286;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.20571;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.27429;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.29714;
+};
+name = "SemiBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd SBd It";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+700,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.14857;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.13714;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.34286;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.37143;
+};
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Bold It";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+800,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.07429;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.06857;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.41143;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.44571;
+};
+name = "ExtraBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd XBd It";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 4;
+},
+{
+axesValues = (
+88,
+900,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 88;
+},
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.48;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.52;
+};
+name = "Black Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SCnd Black It";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 4;
+},
+{
+axesValues = (
+113,
+200,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.48;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.52;
+};
+name = "ExtraLight Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp XLt It";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+300,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.41143;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.07429;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.06857;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.44571;
+};
+name = "Light Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Light It";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+400,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.34286;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.14857;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.13714;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.37143;
+};
+name = Italic;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp It";
+}
+);
+}
+);
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+500,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.27429;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.22286;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.20571;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.29714;
+};
+name = "Medium Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Medium It";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+600,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.20571;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.29714;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.27429;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.22286;
+};
+name = "SemiBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp SBd It";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+700,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.13714;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.37143;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.34286;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.14857;
+};
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Bold It";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+800,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.06857;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.44571;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.41143;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.07429;
+};
+name = "ExtraBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp XBd It";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 6;
+},
+{
+axesValues = (
+113,
+900,
+1
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 113;
+},
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+}
+);
+instanceInterpolations = {
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.52;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.48;
+};
+name = "Black Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SExp Black It";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 6;
 }
 );
 kerningLTR = {
