@@ -3206,7 +3206,7 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "MonaSansVF-Regular";
+value = "MonaSansVF[wdth,wght]";
 },
 {
 name = "Variable Font Origin";
@@ -3215,18 +3215,6 @@ value = master01;
 {
 name = "Italic Style Linking";
 value = 1;
-},
-{
-name = "Axis Values";
-value = "wdth; 75.0=Cnd, 87.5=SCnd, 100.0=Normal*, 112.5=SExp, 125.0=Exp";
-},
-{
-name = "Axis Values";
-value = "wght; 200.0=XLt, 300.0=Light, 400.0>700.0=Regular*, 500.0=Medium, 600.0=SBd, 700.0=Bold, 800.0=XBd, 900.0=Black";
-},
-{
-name = "Axis Values";
-value = "ital; 0.0>1.0=Roman*, 1.0=Italic";
 }
 );
 name = Regular;
@@ -3301,7 +3289,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd XLt";
+value = "Condensed ExtraLight";
 }
 );
 }
@@ -3368,7 +3356,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Light";
+value = "Condensed Light";
 }
 );
 }
@@ -3435,7 +3423,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = Cnd;
+value = "Condensed Regular";
 }
 );
 }
@@ -3501,7 +3489,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Medium";
+value = "Condensed Medium";
 }
 );
 }
@@ -3568,7 +3556,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd SBd";
+value = "Condensed SemiBold";
 }
 );
 }
@@ -3636,7 +3624,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Bold";
+value = "Condensed Bold";
 }
 );
 }
@@ -3703,7 +3691,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd XBd";
+value = "Condensed ExtraBold";
 }
 );
 }
@@ -3769,13 +3757,561 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Black";
+value = "Condensed Black";
 }
 );
 }
 );
 weightClass = 900;
 widthClass = 3;
+},
+{
+axesValues = (
+87.5,
+200,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.5;
+master01 = 0.5;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed ExtraLight";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+300,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.07143;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.42857;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.07143;
+master01 = 0.42857;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed Light";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+400,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.14286;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.35714;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.14286;
+master01 = 0.35714;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed Regular";
+}
+);
+}
+);
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+500,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.21429;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.28571;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.21429;
+master01 = 0.28571;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed Medium";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+600,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.28571;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.21429;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.28571;
+master01 = 0.21429;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed SemiBold";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+700,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.35714;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.14286;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.35714;
+master01 = 0.14286;
+};
+isBold = 1;
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed Bold";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+800,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.42857;
+"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.07143;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.42857;
+master01 = 0.07143;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed ExtraBold";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 4;
+},
+{
+axesValues = (
+87.5,
+900,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 87.5;
+},
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.5;
+"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.5;
+};
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiCondensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiCondensed Black";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 4;
 },
 {
 axesValues = (
@@ -3826,7 +4362,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = XLt;
+value = ExtraLight;
 }
 );
 }
@@ -4053,7 +4589,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = SBd;
+value = SemiBold;
 }
 );
 }
@@ -4168,7 +4704,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = XBd;
+value = ExtraBold;
 }
 );
 }
@@ -4233,6 +4769,554 @@ weightClass = 900;
 },
 {
 axesValues = (
+112.5,
+200,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.5;
+master01 = 0.5;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded ExtraLight";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+300,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.07143;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.42857;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.07143;
+master01 = 0.42857;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded Light";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+400,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.14286;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.35714;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.14286;
+master01 = 0.35714;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded Regular";
+}
+);
+}
+);
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+500,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.21429;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.28571;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.21429;
+master01 = 0.28571;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded Medium";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+600,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.28571;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.21429;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.28571;
+master01 = 0.21429;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded SemiBold";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+700,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.35714;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.14286;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.35714;
+master01 = 0.14286;
+};
+isBold = 1;
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded Bold";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+800,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.42857;
+"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.07143;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.42857;
+master01 = 0.07143;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded ExtraBold";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 6;
+},
+{
+axesValues = (
+112.5,
+900,
+0
+);
+customParameters = (
+{
+name = "Instance Preview";
+value = (
+M,
+o,
+n,
+a,
+space,
+S,
+a,
+n,
+s
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 112.5;
+},
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+}
+);
+instanceInterpolations = {
+"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.5;
+"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.5;
+};
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Mona Sans SemiExpanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "SemiExpanded Black";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 6;
+},
+{
+axesValues = (
 125,
 200,
 0
@@ -4289,7 +5373,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp XLt";
+value = "Expanded ExtraLight";
 }
 );
 }
@@ -4356,7 +5440,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Light";
+value = "Expanded Light";
 }
 );
 }
@@ -4423,7 +5507,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = Exp;
+value = "Expanded Regular";
 }
 );
 }
@@ -4489,7 +5573,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Medium";
+value = "Expanded Medium";
 }
 );
 }
@@ -4556,7 +5640,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp SBd";
+value = "Expanded SemiBold";
 }
 );
 }
@@ -4624,7 +5708,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Bold";
+value = "Expanded Bold";
 }
 );
 }
@@ -4691,7 +5775,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp XBd";
+value = "Expanded ExtraBold";
 }
 );
 }
@@ -4757,7 +5841,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Black";
+value = "Expanded Black";
 }
 );
 }
@@ -4825,7 +5909,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd XLt It";
+value = "Condensed ExtraLight Italic";
 }
 );
 }
@@ -4894,7 +5978,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Light It";
+value = "Condensed Light Italic";
 }
 );
 }
@@ -4962,7 +6046,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd It";
+value = "Condensed Italic";
 }
 );
 }
@@ -5030,7 +6114,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Medium It";
+value = "Condensed Medium Italic";
 }
 );
 }
@@ -5099,7 +6183,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd SBd It";
+value = "Condensed SemiBold Italic";
 }
 );
 }
@@ -5168,7 +6252,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Bold It";
+value = "Condensed Bold Italic";
 }
 );
 }
@@ -5237,7 +6321,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd XBd It";
+value = "Condensed ExtraBold Italic";
 }
 );
 }
@@ -5305,7 +6389,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Cnd Black It";
+value = "Condensed Black Italic";
 }
 );
 }
@@ -5364,7 +6448,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "XLt It";
+value = "ExtraLight Italic";
 }
 );
 }
@@ -5423,7 +6507,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Light It";
+value = "Light Italic";
 }
 );
 }
@@ -5481,7 +6565,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = It;
+value = Italic;
 }
 );
 }
@@ -5539,7 +6623,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Medium It";
+value = "Medium Italic";
 }
 );
 }
@@ -5598,7 +6682,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SBd It";
+value = "SemiBold Italic";
 }
 );
 }
@@ -5658,7 +6742,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Bold It";
+value = "Bold Italic";
 }
 );
 }
@@ -5717,7 +6801,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "XBd It";
+value = "ExtraBold Italic";
 }
 );
 }
@@ -5775,7 +6859,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Black It";
+value = "Black Italic";
 }
 );
 }
@@ -5842,7 +6926,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp XLt It";
+value = "Expanded ExtraLight Italic";
 }
 );
 }
@@ -5911,7 +6995,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Light It";
+value = "Expanded Light Italic";
 }
 );
 }
@@ -5979,7 +7063,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp It";
+value = "Expanded Italic";
 }
 );
 }
@@ -6047,7 +7131,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Medium It";
+value = "Expanded Medium Italic";
 }
 );
 }
@@ -6116,7 +7200,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp SBd It";
+value = "Expanded SemiBold Italic";
 }
 );
 }
@@ -6185,7 +7269,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Bold It";
+value = "Expanded Bold Italic";
 }
 );
 }
@@ -6254,7 +7338,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp XBd It";
+value = "Expanded ExtraBold Italic";
 }
 );
 }
@@ -6322,7 +7406,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "Exp Black It";
+value = "Expanded Black Italic";
 }
 );
 }
@@ -6334,1102 +7418,6 @@ widthClass = 7;
 axesValues = (
 87.5,
 200,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.48;
-master01 = 0.52;
-};
-name = ExtraLight;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd XLt";
-}
-);
-}
-);
-weightClass = 200;
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-300,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.07429;
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.41143;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.06857;
-master01 = 0.44571;
-};
-name = Light;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd Light";
-}
-);
-}
-);
-weightClass = 300;
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-400,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.14857;
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.34286;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.13714;
-master01 = 0.37143;
-};
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd Regular";
-}
-);
-}
-);
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-500,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.22286;
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.27429;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.20571;
-master01 = 0.29714;
-};
-name = Medium;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd Medium";
-}
-);
-}
-);
-weightClass = 500;
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-600,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.29714;
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.20571;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.27429;
-master01 = 0.22286;
-};
-name = SemiBold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd SBd";
-}
-);
-}
-);
-weightClass = 600;
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-700,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.37143;
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.13714;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.34286;
-master01 = 0.14857;
-};
-isBold = 1;
-name = Bold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd Bold";
-}
-);
-}
-);
-weightClass = 700;
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-800,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.44571;
-"5713303B-ED49-44A7-8230-B5CAE56DEB7E" = 0.06857;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.41143;
-master01 = 0.07429;
-};
-name = ExtraBold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd XBd";
-}
-);
-}
-);
-weightClass = 800;
-widthClass = 4;
-},
-{
-axesValues = (
-87.5,
-900,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 87.5;
-},
-{
-Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.52;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.48;
-};
-name = Black;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiCondensed";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SCnd Black";
-}
-);
-}
-);
-weightClass = 900;
-widthClass = 4;
-},
-{
-axesValues = (
-112.5,
-200,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.52;
-master01 = 0.48;
-};
-name = ExtraLight;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp XLt";
-}
-);
-}
-);
-weightClass = 200;
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-300,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.06857;
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.44571;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.07429;
-master01 = 0.41143;
-};
-name = Light;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp Light";
-}
-);
-}
-);
-weightClass = 300;
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-400,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.13714;
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.37143;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.14857;
-master01 = 0.34286;
-};
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp Regular";
-}
-);
-}
-);
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-500,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 500;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.20571;
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.29714;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.22286;
-master01 = 0.27429;
-};
-name = Medium;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp Medium";
-}
-);
-}
-);
-weightClass = 500;
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-600,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.27429;
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.22286;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.29714;
-master01 = 0.20571;
-};
-name = SemiBold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp SBd";
-}
-);
-}
-);
-weightClass = 600;
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-700,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.34286;
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.14857;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.37143;
-master01 = 0.13714;
-};
-isBold = 1;
-name = Bold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp Bold";
-}
-);
-}
-);
-weightClass = 700;
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-800,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 800;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.41143;
-"28A8A76A-23B4-40F5-83B9-DC51E48BF161" = 0.07429;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.44571;
-master01 = 0.06857;
-};
-name = ExtraBold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp XBd";
-}
-);
-}
-);
-weightClass = 800;
-widthClass = 6;
-},
-{
-axesValues = (
-112.5,
-900,
-0
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-M,
-o,
-n,
-a,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 112.5;
-},
-{
-Axis = Weight;
-Location = 900;
-},
-{
-Axis = Italic;
-Location = 0;
-}
-);
-}
-);
-instanceInterpolations = {
-"1EDCBF6C-9964-4A28-BC87-E86B534B8BE7" = 0.48;
-"D2144554-01B8-4B9B-B16A-E0E5B5794DFC" = 0.52;
-};
-name = Black;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Mona Sans SemiExpanded";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "SExp Black";
-}
-);
-}
-);
-weightClass = 900;
-widthClass = 6;
-},
-{
-axesValues = (
-87.5,
-200,
 1
 );
 customParameters = (
@@ -7466,8 +7454,8 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.52;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.48;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.5;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.5;
 };
 name = "ExtraLight Italic";
 properties = (
@@ -7485,7 +7473,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd XLt It";
+value = "SemiCondensed ExtraLight Italic";
 }
 );
 }
@@ -7533,10 +7521,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.44571;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.41143;
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.06857;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.07429;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.42857;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.42857;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.07143;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.07143;
 };
 name = "Light Italic";
 properties = (
@@ -7554,7 +7542,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd Light It";
+value = "SemiCondensed Light Italic";
 }
 );
 }
@@ -7602,10 +7590,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.37143;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.34286;
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.13714;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.14857;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.35714;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.35714;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.14286;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.14286;
 };
 isItalic = 1;
 name = Italic;
@@ -7624,7 +7612,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd It";
+value = "SemiCondensed Italic";
 }
 );
 }
@@ -7671,10 +7659,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.29714;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.27429;
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.20571;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.22286;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.28571;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.28571;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.21429;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.21429;
 };
 name = "Medium Italic";
 properties = (
@@ -7692,7 +7680,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd Medium It";
+value = "SemiCondensed Medium Italic";
 }
 );
 }
@@ -7740,10 +7728,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.22286;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.20571;
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.27429;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.29714;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.21429;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.21429;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.28571;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.28571;
 };
 name = "SemiBold Italic";
 properties = (
@@ -7761,7 +7749,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd SBd It";
+value = "SemiCondensed SemiBold Italic";
 }
 );
 }
@@ -7809,10 +7797,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.14857;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.13714;
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.34286;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.37143;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.14286;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.14286;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.35714;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.35714;
 };
 isBold = 1;
 isItalic = 1;
@@ -7832,7 +7820,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd Bold It";
+value = "SemiCondensed Bold Italic";
 }
 );
 }
@@ -7880,10 +7868,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.07429;
-"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.06857;
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.41143;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.44571;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.07143;
+"23BA42C1-D468-4A44-9BE5-E18AE60B7926" = 0.07143;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.42857;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.42857;
 };
 name = "ExtraBold Italic";
 properties = (
@@ -7901,7 +7889,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd XBd It";
+value = "SemiCondensed ExtraBold Italic";
 }
 );
 }
@@ -7949,8 +7937,8 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.48;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.52;
+"2D4E69BA-A319-45D0-84B7-5297BCF4B7A0" = 0.5;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.5;
 };
 name = "Black Italic";
 properties = (
@@ -7968,7 +7956,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SCnd Black It";
+value = "SemiCondensed Black Italic";
 }
 );
 }
@@ -8016,8 +8004,8 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.48;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.52;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.5;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.5;
 };
 name = "ExtraLight Italic";
 properties = (
@@ -8035,7 +8023,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp XLt It";
+value = "SemiExpanded ExtraLight Italic";
 }
 );
 }
@@ -8083,10 +8071,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.41143;
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.07429;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.06857;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.44571;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.42857;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.07143;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.07143;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.42857;
 };
 name = "Light Italic";
 properties = (
@@ -8104,7 +8092,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp Light It";
+value = "SemiExpanded Light Italic";
 }
 );
 }
@@ -8152,10 +8140,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.34286;
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.14857;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.13714;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.37143;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.35714;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.14286;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.14286;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.35714;
 };
 name = Italic;
 properties = (
@@ -8173,7 +8161,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp It";
+value = "SemiExpanded Italic";
 }
 );
 }
@@ -8220,10 +8208,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.27429;
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.22286;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.20571;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.29714;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.28571;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.21429;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.21429;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.28571;
 };
 name = "Medium Italic";
 properties = (
@@ -8241,7 +8229,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp Medium It";
+value = "SemiExpanded Medium Italic";
 }
 );
 }
@@ -8289,10 +8277,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.20571;
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.29714;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.27429;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.22286;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.21429;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.28571;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.28571;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.21429;
 };
 name = "SemiBold Italic";
 properties = (
@@ -8310,7 +8298,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp SBd It";
+value = "SemiExpanded SemiBold Italic";
 }
 );
 }
@@ -8358,10 +8346,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.13714;
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.37143;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.34286;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.14857;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.14286;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.35714;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.35714;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.14286;
 };
 isBold = 1;
 isItalic = 1;
@@ -8381,7 +8369,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp Bold It";
+value = "SemiExpanded Bold Italic";
 }
 );
 }
@@ -8429,10 +8417,10 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"095FE76F-1953-440B-9108-AA0678D151F9" = 0.06857;
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.44571;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.41143;
-"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.07429;
+"095FE76F-1953-440B-9108-AA0678D151F9" = 0.07143;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.42857;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.42857;
+"C17B1F32-8075-45B4-AA59-7DAFF0D7E404" = 0.07143;
 };
 name = "ExtraBold Italic";
 properties = (
@@ -8450,7 +8438,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp XBd It";
+value = "SemiExpanded ExtraBold Italic";
 }
 );
 }
@@ -8498,8 +8486,8 @@ Location = 1;
 }
 );
 instanceInterpolations = {
-"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.52;
-"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.48;
+"377EF8AC-8B0D-46C2-96BB-3B5B69A8F571" = 0.5;
+"63AAE8D6-1DFF-4DD4-BD9A-49272FE52904" = 0.5;
 };
 name = "Black Italic";
 properties = (
@@ -8517,7 +8505,7 @@ key = variableStyleNames;
 values = (
 {
 language = dflt;
-value = "SExp Black It";
+value = "SemiExpanded Black Italic";
 }
 );
 }
@@ -139524,7 +139512,7 @@ ed5cb22a9b09400187c0feacae1f0f8f = {
 case = 0;
 filter = "";
 referenceGlyph = H;
-subcategory = "Decimal Digit";
+subcategory = "Decimal DigitalicItalic";
 value = 1.1;
 };
 };
