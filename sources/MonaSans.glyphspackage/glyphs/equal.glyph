@@ -392,6 +392,218 @@ nodes = (
 }
 );
 width = 720;
+},
+{
+anchors = (
+{
+name = center;
+pos = (220,366);
+}
+);
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,447,l),
+(413,475,l),
+(27,475,l),
+(27,447,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(413,247,l),
+(413,275,l),
+(27,275,l),
+(27,247,l)
+);
+}
+);
+width = 440;
+},
+{
+anchors = (
+{
+name = center;
+pos = (230,366);
+}
+);
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(452,411,l),
+(452,551,l),
+(8,551,l),
+(8,411,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(452,171,l),
+(452,311,l),
+(8,311,l),
+(8,171,l)
+);
+}
+);
+width = 460;
+},
+{
+anchors = (
+{
+name = center;
+pos = (280,366);
+}
+);
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(519,455,l),
+(519,487,l),
+(41,487,l),
+(41,455,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(519,235,l),
+(519,267,l),
+(41,267,l),
+(41,235,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.hints = (
+{
+horizontal = 1;
+options = 0;
+origin = (
+1,
+2
+);
+stem = -2;
+target = (
+1,
+3
+);
+type = Stem;
+},
+{
+horizontal = 1;
+options = 0;
+origin = (
+0,
+2
+);
+stem = -2;
+target = (
+0,
+3
+);
+type = Stem;
+}
+);
+};
+width = 560;
+},
+{
+anchors = (
+{
+name = center;
+pos = (277,366);
+}
+);
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(513,406,l),
+(513,555,l),
+(40,555,l),
+(40,406,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(513,166,l),
+(513,315,l),
+(40,315,l),
+(40,166,l)
+);
+}
+);
+width = 552;
+},
+{
+anchors = (
+{
+name = center;
+pos = (350,366);
+}
+);
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(597,464,l),
+(597,496,l),
+(102,496,l),
+(102,464,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(597,227,l),
+(597,259,l),
+(102,259,l),
+(102,227,l)
+);
+}
+);
+width = 700;
+},
+{
+anchors = (
+{
+name = center;
+pos = (351,366);
+}
+);
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(601,411,l),
+(601,585,l),
+(100,585,l),
+(100,411,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(601,137,l),
+(601,311,l),
+(100,311,l),
+(100,137,l)
+);
+}
+);
+width = 700;
 }
 );
 metricWidth = zero.tf;

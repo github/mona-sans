@@ -123,6 +123,66 @@ ref = emdash;
 }
 );
 width = 761;
+},
+{
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+pos = (0,106);
+ref = emdash;
+}
+);
+width = 524;
+},
+{
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+pos = (0,94);
+ref = emdash;
+}
+);
+width = 654;
+},
+{
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+pos = (0,106);
+ref = emdash;
+}
+);
+width = 635;
+},
+{
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+pos = (0,93);
+ref = emdash;
+}
+);
+width = 732;
+},
+{
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+pos = (0,106);
+ref = emdash;
+}
+);
+width = 701;
+},
+{
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+pos = (0,93);
+ref = emdash;
+}
+);
+width = 768;
 }
 );
 metricLeft = emdash;

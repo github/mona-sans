@@ -157,6 +157,84 @@ ref = dotbelowcomb;
 }
 );
 width = 321;
+},
+{
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (15,0);
+ref = dotbelowcomb;
+}
+);
+width = 115;
+},
+{
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (4,0);
+ref = dotbelowcomb;
+}
+);
+width = 223;
+},
+{
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (37,0);
+ref = dotbelowcomb;
+}
+);
+width = 178;
+},
+{
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (28,0);
+ref = dotbelowcomb;
+}
+);
+width = 263;
+},
+{
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (19,0);
+ref = dotbelowcomb;
+}
+);
+width = 182;
+},
+{
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (9,0);
+ref = dotbelowcomb;
+}
+);
+width = 303;
 }
 );
 unicode = 7882;

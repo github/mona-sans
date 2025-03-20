@@ -157,6 +157,84 @@ ref = circumflexcomb;
 }
 );
 width = 429;
+},
+{
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (-18,57);
+ref = circumflexcomb;
+}
+);
+width = 146;
+},
+{
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (-43,51);
+ref = circumflexcomb;
+}
+);
+width = 273;
+},
+{
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (102,57);
+ref = circumflexcomb;
+}
+);
+width = 329;
+},
+{
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (31,51);
+ref = circumflexcomb;
+}
+);
+width = 388;
+},
+{
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (167,57);
+ref = circumflexcomb;
+}
+);
+width = 410;
+},
+{
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+ref = J;
+},
+{
+pos = (28,56);
+ref = circumflexcomb;
+}
+);
+width = 447;
 }
 );
 unicode = 308;

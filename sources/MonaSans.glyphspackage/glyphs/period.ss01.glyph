@@ -398,6 +398,204 @@ nodes = (
 }
 );
 width = 271;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (-28,0);
+},
+{
+name = "#exit";
+pos = (122,0);
+},
+{
+name = _top;
+pos = (41,54);
+},
+{
+name = top;
+pos = (41,516);
+}
+);
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,0,l),
+(60,54,l),
+(22,54,l),
+(22,0,l)
+);
+}
+);
+width = 82;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (-15,0);
+},
+{
+name = "#exit";
+pos = (215,0);
+},
+{
+name = _top;
+pos = (94,174);
+},
+{
+name = top;
+pos = (94,541);
+}
+);
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,0,l),
+(178,174,l),
+(9,174,l),
+(9,0,l)
+);
+}
+);
+width = 187;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (-23,0);
+},
+{
+name = "#exit";
+pos = (163,0);
+},
+{
+name = _top;
+pos = (63,61);
+},
+{
+name = top;
+pos = (63,517);
+}
+);
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(85,61,l),
+(40,61,l),
+(40,0,l)
+);
+}
+);
+width = 125;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (-28,0);
+},
+{
+name = "#exit";
+pos = (250,0);
+},
+{
+name = _top;
+pos = (107,164);
+},
+{
+name = top;
+pos = (107,544);
+}
+);
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(196,0,l),
+(196,164,l),
+(17,164,l),
+(17,0,l)
+);
+}
+);
+width = 213;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (-14,0);
+},
+{
+name = "#exit";
+pos = (145,0);
+},
+{
+name = _top;
+pos = (59,61);
+},
+{
+name = top;
+pos = (59,517);
+}
+);
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(81,0,l),
+(81,61,l),
+(36,61,l),
+(36,0,l)
+);
+}
+);
+width = 117;
+},
+{
+anchors = (
+{
+name = "#entry";
+pos = (-12,0);
+},
+{
+name = "#exit";
+pos = (288,0);
+},
+{
+name = _top;
+pos = (127,164);
+},
+{
+name = top;
+pos = (127,544);
+}
+);
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,0,l),
+(233,164,l),
+(20,164,l),
+(20,0,l)
+);
+}
+);
+width = 253;
 }
 );
 }

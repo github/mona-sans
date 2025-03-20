@@ -213,6 +213,116 @@ ref = eight.dnom;
 }
 );
 width = 829;
+},
+{
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (127,0);
+ref = fraction;
+},
+{
+pos = (167,0);
+ref = eight.dnom;
+}
+);
+width = 398;
+},
+{
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (195,0);
+ref = fraction;
+},
+{
+pos = (307,0);
+ref = eight.dnom;
+}
+);
+width = 550;
+},
+{
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (189,0);
+ref = fraction;
+},
+{
+pos = (259,0);
+ref = eight.dnom;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = one.numr;
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = one.numr;
+};
+width = 610;
+},
+{
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (250,0);
+ref = fraction;
+},
+{
+pos = (373,0);
+ref = eight.dnom;
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.glyph.leftMetricsKey = one.numr;
+com.schriftgestaltung.Glyphs.glyph.rightMetricsKey = one.numr;
+};
+width = 700;
+},
+{
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (214,0);
+ref = fraction;
+},
+{
+pos = (304,0);
+ref = eight.dnom;
+}
+);
+width = 699;
+},
+{
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (264,0);
+ref = fraction;
+},
+{
+pos = (383,0);
+ref = eight.dnom;
+}
+);
+width = 770;
 }
 );
 unicode = 8539;

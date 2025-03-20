@@ -351,6 +351,180 @@ ref = period.ss01;
 }
 );
 width = 883;
+},
+{
+background = {
+shapes = (
+{
+ref = ellipsis;
+}
+);
+};
+layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
+shapes = (
+{
+alignment = 1;
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (150,0);
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (300,0);
+ref = period.ss01;
+}
+);
+width = 422;
+},
+{
+background = {
+shapes = (
+{
+ref = ellipsis;
+}
+);
+};
+layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
+shapes = (
+{
+alignment = 1;
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (230,0);
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (460,0);
+ref = period.ss01;
+}
+);
+width = 667;
+},
+{
+background = {
+shapes = (
+{
+ref = ellipsis;
+}
+);
+};
+layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
+shapes = (
+{
+alignment = 1;
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (186,0);
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (372,0);
+ref = period.ss01;
+}
+);
+width = 537;
+},
+{
+background = {
+shapes = (
+{
+ref = ellipsis;
+}
+);
+};
+layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
+shapes = (
+{
+alignment = 1;
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (278,0);
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (556,0);
+ref = period.ss01;
+}
+);
+width = 791;
+},
+{
+background = {
+shapes = (
+{
+ref = ellipsis;
+}
+);
+};
+layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
+shapes = (
+{
+alignment = 1;
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (159,0);
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (318,0);
+ref = period.ss01;
+}
+);
+width = 455;
+},
+{
+background = {
+shapes = (
+{
+ref = ellipsis;
+}
+);
+};
+layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
+shapes = (
+{
+alignment = 1;
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (300,0);
+ref = period.ss01;
+},
+{
+alignment = 1;
+anchor = "#exit";
+pos = (600,0);
+ref = period.ss01;
+}
+);
+width = 873;
 }
 );
 }
