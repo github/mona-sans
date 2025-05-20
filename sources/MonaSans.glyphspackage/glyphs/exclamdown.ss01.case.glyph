@@ -121,66 +121,6 @@ ref = exclamdown.ss01;
 }
 );
 width = 277;
-},
-{
-layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
-shapes = (
-{
-pos = (0,213);
-ref = exclamdown.ss01;
-}
-);
-width = 168;
-},
-{
-layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
-shapes = (
-{
-pos = (0,188);
-ref = exclamdown.ss01;
-}
-);
-width = 222;
-},
-{
-layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
-shapes = (
-{
-pos = (0,213);
-ref = exclamdown.ss01;
-}
-);
-width = 181;
-},
-{
-layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
-shapes = (
-{
-pos = (0,184);
-ref = exclamdown.ss01;
-}
-);
-width = 273;
-},
-{
-layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
-shapes = (
-{
-pos = (0,213);
-ref = exclamdown.ss01;
-}
-);
-width = 182;
-},
-{
-layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
-shapes = (
-{
-pos = (0,185);
-ref = exclamdown.ss01;
-}
-);
-width = 279;
 }
 );
 metricLeft = exclamdown.ss01;

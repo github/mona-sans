@@ -54,36 +54,6 @@ width = 237;
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 width = 201;
-},
-{
-layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
-width = 199;
-},
-{
-layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
-width = 130;
-},
-{
-layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
-userData = {
-com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = space;
-};
-width = 199;
-},
-{
-layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
-userData = {
-com.schriftgestaltung.Glyphs.glyph.widthMetricsKey = space;
-};
-width = 161;
-},
-{
-layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
-width = 219;
-},
-{
-layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
-width = 183;
 }
 );
 metricWidth = space;

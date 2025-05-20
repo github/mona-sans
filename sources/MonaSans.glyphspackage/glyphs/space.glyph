@@ -11,19 +11,19 @@ width = 239;
 },
 {
 layerId = master01;
-width = 245;
+width = 239;
 },
 {
 layerId = "1EDCBF6C-9964-4A28-BC87-E86B534B8BE7";
-width = 220;
+width = 203;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
-width = 260;
+width = 239;
 },
 {
 layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
-width = 210;
+width = 203;
 },
 {
 layerId = "23BA42C1-D468-4A44-9BE5-E18AE60B7926";
@@ -48,30 +48,6 @@ width = 237;
 {
 layerId = "377EF8AC-8B0D-46C2-96BB-3B5B69A8F571";
 width = 201;
-},
-{
-layerId = "71D8B5AD-B400-4239-9672-E7BA455EF2D0";
-width = 180;
-},
-{
-layerId = "FFCA1F59-E305-4E0F-BBF9-E0C4511C19C1";
-width = 140;
-},
-{
-layerId = "5A048DDA-4734-4F8A-A53C-0BED34B57D1C";
-width = 215;
-},
-{
-layerId = "DED42A87-C949-4722-A202-2B551272A3FB";
-width = 183;
-},
-{
-layerId = "106FCE83-F343-403B-A314-646E4D059B3F";
-width = 250;
-},
-{
-layerId = "2D1A1AFE-39FB-4EBD-856C-88C6B057247F";
-width = 230;
 }
 );
 unicode = 32;
