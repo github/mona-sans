@@ -36,14 +36,22 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 ## Styles
 | Style Name | Italic Name | Weight | Width |
 | --- | --- | --- | --- |
-| UltraLight Narrow | UltraLight Narrow Italic | 200 | 75 |
-| Light Narrow | Light Narrow Italic | 300 | 75 |
-| Regular Narrow | Regular Narrow Italic | 400 | 75 |
-| Medium Narrow | Medium Narrow Italic | 500 | 75 |
-| SemiBold Narrow | SemiBold Narrow Italic | 600 | 75 |
-| Bold Narrow | Bold Narrow Italic | 700 | 75 |
-| ExtraBold Narrow | ExtraBold Narrow Italic | 800 | 75 |
-| Black Narrow | Black Narrow Italic | 900 | 75 |
+| UltraLight Condensed | UltraLight Condensed Italic | 200 | 75 |
+| Light Condensed | Light Condensed Italic | 300 | 75 |
+| Regular Condensed | Regular Condensed Italic | 400 | 75 |
+| Medium Condensed | Medium Condensed Italic | 500 | 75 |
+| SemiBold Condensed | SemiBold Condensed Italic | 600 | 75 |
+| Bold Condensed | Bold Condensed Italic | 700 | 75 |
+| ExtraBold Condensed | ExtraBold Condensed Italic | 800 | 75 |
+| Black Condensed | Black Condensed Italic | 900 | 75 |
+| UltraLight SemiCondensed | UltraLight SemiCondensed Italic | 200 | 87.5 |
+| Light SemiCondensed | Light SemiCondensed Italic | 300 | 87.5 |
+| Regular SemiCondensed | Regular SemiCondensed Italic | 400 | 87.5 |
+| Medium SemiCondensed | Medium SemiCondensed Italic | 500 | 87.5 |
+| SemiBold SemiCondensed | SemiBold SemiCondensed Italic | 600 | 87.5 |
+| Bold SemiCondensed | Bold SemiCondensed Italic | 700 | 87.5 |
+| ExtraBold SemiCondensed | ExtraBold SemiCondensed Italic | 800 | 87.5 |
+| Black SemiCondensed | Black SemiCondensed Italic | 900 | 87.5 |
 | UltraLight | UltraLight Italic | 200 | 100 |
 | Light | Light Italic | 300 | 100 |
 | Regular | Regular Italic | 400 | 100 |
@@ -52,14 +60,22 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 | Bold | Bold Italic | 700 | 100 |
 | ExtraBold | ExtraBold Italic | 800 | 100 |
 | Black | Black Italic | 900 | 100 |
-| UltraLight Wide | UltraLight Wide Italic | 200 | 125 |
-| Light Wide | Light Wide Italic | 300 | 125 |
-| Regular Wide | Regular Wide Italic | 400 | 125 |
-| Medium Wide | Medium Wide Italic | 500 | 125 |
-| SemiBold Wide | SemiBold Wide Italic | 600 | 125 |
-| Bold Wide | Bold Wide Italic | 700 | 125 |
-| ExtraBold Wide | ExtraBold Wide Italic | 800 | 125 |
-| Black Wide | Black Wide Italic | 900 | 125 |
+| UltraLight SemiExpanded | UltraLight SemiExpanded Italic | 200 | 112.5 |
+| Light SemiExpanded | Light SemiExpanded Italic | 300 | 112.5 |
+| Regular SemiExpanded | Regular SemiExpanded Italic | 400 | 112.5 |
+| Medium SemiExpanded | Medium SemiExpanded Italic | 500 | 112.5 |
+| SemiBold SemiExpanded | SemiBold SemiExpanded Italic | 600 | 112.5 |
+| Bold SemiExpanded | Bold SemiExpanded Italic | 700 | 112.5 |
+| ExtraBold SemiExpanded | ExtraBold SemiExpanded Italic | 800 | 112.5 |
+| Black SemiExpanded | Black SemiExpanded Italic | 900 | 112.5 |
+| UltraLight Expanded | UltraLight Expanded Italic | 200 | 125 |
+| Light Expanded | Light Expanded Italic | 300 | 125 |
+| Regular Expanded | Regular Expanded Italic | 400 | 125 |
+| Medium Expanded | Medium Expanded Italic | 500 | 125 |
+| SemiBold Expanded | SemiBold Expanded Italic | 600 | 125 |
+| Bold Expanded | Bold Expanded Italic | 700 | 125 |
+| ExtraBold Expanded | ExtraBold Expanded Italic | 800 | 125 |
+| Black Expanded | Black Expanded Italic | 900 | 125 |
 
 ## Stylistic sets
 

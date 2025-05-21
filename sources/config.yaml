@@ -1,9 +1,9 @@
 sources:
   - MonaSans.glyphspackage
-outputDir: "../googlefonts"
-buildOTF: False
-buildWebfont: False
-buildTTF: false
+outputDir: "../fonts"
+buildOTF: True
+buildWebfont: True
+buildTTF: True
 axisOrder:
   - wdth
   - wght
