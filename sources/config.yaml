@@ -1,14 +1,17 @@
 sources:
   - MonaSans.glyphspackage
+familyName: "Mona Sans"
 outputDir: "../fonts"
 buildOTF: True
+buildVariable: True
 buildWebfont: True
 buildTTF: True
 axisOrder:
   - wdth
   - wght
-familyName: "Mona Sans"
+  - ital
 stat:
+  MonaSans[wdth,wght].ttf:
   - name: Width
     tag: wdth
     values:
@@ -46,3 +49,54 @@ stat:
       value: 800
     - name: Black
       value: 900
+  - name: Italic
+    tag: ital
+    values:
+    - name: Roman
+      value: 0
+      flags: 2
+    - name: Italic
+      value: 1
+  MonaSans-Italic[wdth,wght].ttf:
+  - name: Width
+    tag: wdth
+    values:
+    - name: Condensed
+      value: 75
+    - name: SemiCondensed
+      value: 87.5
+    - name: Normal
+      value: 100
+      flags: 2
+    - name: SemiExpanded
+      value: 112.5
+    - name: Expanded
+      value: 125
+  - name: Weight
+    tag: wght
+    values:
+    - name: Thin
+      value: 100
+    - name: ExtraLight
+      value: 200
+    - name: Light
+      value: 300
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
+    - name: Bold
+      value: 700
+    - name: ExtraBold
+      value: 800
+    - name: Black
+      value: 900
+  - name: Italic
+    tag: ital
+    values:
+    - name: Italic
+      value: 1
