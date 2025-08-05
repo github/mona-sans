@@ -56,7 +56,7 @@ value = (
 );
 }
 );
-date = "2017-05-31 15:56:58 +0000";
+date = "2017-05-31 15:56:09 +0000";
 familyName = "Mona Sans";
 featurePrefixes = (
 {
@@ -649,7 +649,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 25;
 },
 {
 name = underlinePosition;
@@ -661,7 +661,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 25;
 },
 {
 name = "Master Icon Glyph Name";
@@ -867,7 +867,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 150;
 },
 {
 name = underlinePosition;
@@ -879,7 +879,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 150;
 },
 {
 name = "Master Icon Glyph Name";
@@ -1081,7 +1081,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 33;
 },
 {
 name = underlinePosition;
@@ -1093,7 +1093,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 33;
 },
 {
 name = "Master Icon Glyph Name";
@@ -1304,7 +1304,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 160;
 },
 {
 name = underlinePosition;
@@ -1316,7 +1316,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 160;
 },
 {
 name = "Master Icon Glyph Name";
@@ -1516,7 +1516,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 32;
 },
 {
 name = underlinePosition;
@@ -1528,7 +1528,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 32;
 },
 {
 name = "Master Icon Glyph Name";
@@ -1731,7 +1731,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 158;
 },
 {
 name = underlinePosition;
@@ -1743,7 +1743,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 162;
 },
 {
 name = "Master Icon Glyph Name";
@@ -1949,7 +1949,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 25;
 },
 {
 name = underlinePosition;
@@ -1961,7 +1961,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 25;
 },
 {
 name = "Master Icon Glyph Name";
@@ -2180,7 +2180,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 150;
 },
 {
 name = underlinePosition;
@@ -2192,7 +2192,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 150;
 },
 {
 name = "Master Icon Glyph Name";
@@ -2395,7 +2395,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 33;
 },
 {
 name = underlinePosition;
@@ -2407,7 +2407,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 33;
 },
 {
 name = "Master Icon Glyph Name";
@@ -2613,7 +2613,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 160;
 },
 {
 name = underlinePosition;
@@ -2625,7 +2625,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 160;
 },
 {
 name = "Master Icon Glyph Name";
@@ -2831,7 +2831,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 32;
 },
 {
 name = underlinePosition;
@@ -2843,7 +2843,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 32;
 },
 {
 name = "Master Icon Glyph Name";
@@ -3044,7 +3044,7 @@ value = 320;
 },
 {
 name = underlineThickness;
-value = 320;
+value = 158;
 },
 {
 name = underlinePosition;
@@ -3056,7 +3056,7 @@ value = 280;
 },
 {
 name = strikeoutSize;
-value = 70;
+value = 158;
 },
 {
 name = "Master Icon Glyph Name";
@@ -3206,7 +3206,7 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "MonaSansVF-Regular";
+value = "MonaSansVF[wdth,wght,ital]";
 },
 {
 name = "Variable Font Origin";
@@ -3215,18 +3215,6 @@ value = master01;
 {
 name = "Italic Style Linking";
 value = 1;
-},
-{
-name = "Axis Values";
-value = "wdth; 75.0=Cnd, 87.5=SCnd, 100.0=Normal*, 112.5=SExp, 125.0=Exp";
-},
-{
-name = "Axis Values";
-value = "wght; 200.0=XLt, 300.0=Light, 400.0>700.0=Regular*, 500.0=Medium, 600.0=SBd, 700.0=Bold, 800.0=XBd, 900.0=Black";
-},
-{
-name = "Axis Values";
-value = "ital; 0.0>1.0=Roman*, 1.0=Italic";
 }
 );
 name = Regular;
@@ -139626,5 +139614,5 @@ value = 1.3;
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
