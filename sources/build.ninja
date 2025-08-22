@@ -1,0 +1,3784 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# subspace: Run varLib.instancer to subspace a variable font
+rule subspace
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fonttools varLib.instancer $args -o $out $
+      $in $axes $stamp
+  description = subspace
+
+# fix: Run gftools-fix
+rule fix
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# exec: Run an arbitrary executable
+rule exec
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner $exe $args $stamp
+  description = exec
+
+# compress: Compress to webfont
+rule compress
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# buildOTF: Build a OTF from a source file
+rule buildOTF
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o otf $
+      $fontmake_type $in $args $stamp
+  description = buildOTF
+
+# copy: Copy a file
+rule copy
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_pxl6s9s
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_pxl6s9s: $
+    buildVariable MonaSans.glyphspackage
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/MonaSansCondensed-ExtraLight.ufo.json
+build instance_ufos/MonaSansCondensed-ExtraLight.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-Light.ufo.json
+build instance_ufos/MonaSansCondensed-Light.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-Regular.ufo.json
+build instance_ufos/MonaSansCondensed-Regular.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-Medium.ufo.json
+build instance_ufos/MonaSansCondensed-Medium.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-SemiBold.ufo.json
+build instance_ufos/MonaSansCondensed-SemiBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-Bold.ufo.json
+build instance_ufos/MonaSansCondensed-Bold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-ExtraBold.ufo.json
+build instance_ufos/MonaSansCondensed-ExtraBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-Black.ufo.json
+build instance_ufos/MonaSansCondensed-Black.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-ExtraLight.ufo.json
+build instance_ufos/MonaSansSemiCondensed-ExtraLight.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-Light.ufo.json
+build instance_ufos/MonaSansSemiCondensed-Light.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-Regular.ufo.json
+build instance_ufos/MonaSansSemiCondensed-Regular.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-Medium.ufo.json
+build instance_ufos/MonaSansSemiCondensed-Medium.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-SemiBold.ufo.json
+build instance_ufos/MonaSansSemiCondensed-SemiBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-Bold.ufo.json
+build instance_ufos/MonaSansSemiCondensed-Bold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-ExtraBold.ufo.json
+build instance_ufos/MonaSansSemiCondensed-ExtraBold.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-Black.ufo.json
+build instance_ufos/MonaSansSemiCondensed-Black.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-ExtraLight.ufo.json
+build instance_ufos/MonaSans-ExtraLight.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-Light.ufo.json
+build instance_ufos/MonaSans-Light.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-Regular.ufo.json
+build instance_ufos/MonaSans-Regular.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-Medium.ufo.json
+build instance_ufos/MonaSans-Medium.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-SemiBold.ufo.json
+build instance_ufos/MonaSans-SemiBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-Bold.ufo.json
+build instance_ufos/MonaSans-Bold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-ExtraBold.ufo.json
+build instance_ufos/MonaSans-ExtraBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-Black.ufo.json
+build instance_ufos/MonaSans-Black.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-ExtraLight.ufo.json
+build instance_ufos/MonaSansSemiExpanded-ExtraLight.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-Light.ufo.json
+build instance_ufos/MonaSansSemiExpanded-Light.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-Regular.ufo.json
+build instance_ufos/MonaSansSemiExpanded-Regular.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-Medium.ufo.json
+build instance_ufos/MonaSansSemiExpanded-Medium.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-SemiBold.ufo.json
+build instance_ufos/MonaSansSemiExpanded-SemiBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-Bold.ufo.json
+build instance_ufos/MonaSansSemiExpanded-Bold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-ExtraBold.ufo.json
+build instance_ufos/MonaSansSemiExpanded-ExtraBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-Black.ufo.json
+build instance_ufos/MonaSansSemiExpanded-Black.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-ExtraLight.ufo.json
+build instance_ufos/MonaSansExpanded-ExtraLight.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded ExtraLight
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-Light.ufo.json
+build instance_ufos/MonaSansExpanded-Light.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Light
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-Regular.ufo.json
+build instance_ufos/MonaSansExpanded-Regular.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-Medium.ufo.json
+build instance_ufos/MonaSansExpanded-Medium.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-SemiBold.ufo.json
+build instance_ufos/MonaSansExpanded-SemiBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-Bold.ufo.json
+build instance_ufos/MonaSansExpanded-Bold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-ExtraBold.ufo.json
+build instance_ufos/MonaSansExpanded-ExtraBold.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-Black.ufo.json
+build instance_ufos/MonaSansExpanded-Black.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-ExtraLightItalic.ufo.json
+build instance_ufos/MonaSansCondensed-ExtraLightItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-LightItalic.ufo.json
+build instance_ufos/MonaSansCondensed-LightItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-Italic.ufo.json
+build instance_ufos/MonaSansCondensed-Italic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-MediumItalic.ufo.json
+build instance_ufos/MonaSansCondensed-MediumItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-SemiBoldItalic.ufo.json
+build instance_ufos/MonaSansCondensed-SemiBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-BoldItalic.ufo.json
+build instance_ufos/MonaSansCondensed-BoldItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-ExtraBoldItalic.ufo.json
+build instance_ufos/MonaSansCondensed-ExtraBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansCondensed-BlackItalic.ufo.json
+build instance_ufos/MonaSansCondensed-BlackItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Condensed Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-ExtraLightItalic.ufo.json
+build instance_ufos/MonaSans-ExtraLightItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-LightItalic.ufo.json
+build instance_ufos/MonaSans-LightItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-Italic.ufo.json
+build instance_ufos/MonaSans-Italic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-MediumItalic.ufo.json
+build instance_ufos/MonaSans-MediumItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-SemiBoldItalic.ufo.json
+build instance_ufos/MonaSans-SemiBoldItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-BoldItalic.ufo.json
+build instance_ufos/MonaSans-BoldItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-ExtraBoldItalic.ufo.json
+build instance_ufos/MonaSans-ExtraBoldItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSans-BlackItalic.ufo.json
+build instance_ufos/MonaSans-BlackItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-ExtraLightItalic.ufo.json
+build instance_ufos/MonaSansExpanded-ExtraLightItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-LightItalic.ufo.json
+build instance_ufos/MonaSansExpanded-LightItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-Italic.ufo.json
+build instance_ufos/MonaSansExpanded-Italic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-MediumItalic.ufo.json
+build instance_ufos/MonaSansExpanded-MediumItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-SemiBoldItalic.ufo.json
+build instance_ufos/MonaSansExpanded-SemiBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-BoldItalic.ufo.json
+build instance_ufos/MonaSansExpanded-BoldItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-ExtraBoldItalic.ufo.json
+build instance_ufos/MonaSansExpanded-ExtraBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansExpanded-BlackItalic.ufo.json
+build instance_ufos/MonaSansExpanded-BlackItalic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans Expanded Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-ExtraLightItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-ExtraLightItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-LightItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-LightItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-Italic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-Italic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-MediumItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-MediumItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-SemiBoldItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-SemiBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-BoldItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-BoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-ExtraBoldItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-ExtraBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiCondensed-BlackItalic.ufo.json
+build instance_ufos/MonaSansSemiCondensed-BlackItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiCondensed Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-ExtraLightItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-ExtraLightItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded ExtraLight Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-LightItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-LightItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Light Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-Italic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-Italic.ufo.json: instantiateUfo $
+    MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-MediumItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-MediumItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-SemiBoldItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-SemiBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-BoldItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-BoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-ExtraBoldItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-ExtraBoldItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/MonaSansSemiExpanded-BlackItalic.ufo.json
+build instance_ufos/MonaSansSemiExpanded-BlackItalic.ufo.json: $
+    instantiateUfo MonaSans.glyphspackage
+  operation = instantiateUfo
+  instance_name = Mona Sans SemiExpanded Black Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpowuwrnnf.buildStatstamp: $
+    buildSTAT-postprocess $
+    ../fonts/googlefonts/variable/MonaSans[wdth,wght].ttf $
+    ../fonts/googlefonts/variable/MonaSans-Italic[wdth,wght].ttf | $
+    ../fonts/googlefonts/variable/MonaSans[wdth,wght].ttf $
+    ../fonts/googlefonts/variable/MonaSans-Italic[wdth,wght].ttf
+  stamp =  && touch $
+      /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpowuwrnnf.buildStatstamp
+  postprocess = buildStat
+  args = --src /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzb673ks0
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraLight.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraLight.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-Light.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-Light.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansCondensed-Light.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-Regular.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-Regular.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-Regular.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-Medium.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-Medium.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-Medium.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-SemiBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-SemiBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-Bold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-Bold.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansCondensed-Bold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-Black.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-Black.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansCondensed-Black.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraLight.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraLight.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Light.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Light.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Light.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Regular.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Regular.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Regular.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Medium.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Medium.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Medium.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-SemiBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-SemiBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Bold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Bold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Bold.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Black.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Black.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Black.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-ExtraLight.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-ExtraLight.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-Light.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-Light.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-Light.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-Regular.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-Regular.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-Regular.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-Medium.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-Medium.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-Medium.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-SemiBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-SemiBold.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-Bold.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-Bold.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-Bold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-ExtraBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-ExtraBold.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-Black.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-Black.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-Black.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraLight.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraLight.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Light.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Light.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Light.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Regular.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Regular.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Regular.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Medium.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Medium.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Medium.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-SemiBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-SemiBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Bold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Bold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Bold.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Black.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Black.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Black.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraLight.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraLight.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraLight.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-Light.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-Light.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansExpanded-Light.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-Regular.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-Regular.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-Regular.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-Medium.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-Medium.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansExpanded-Medium.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-SemiBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-SemiBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-Bold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-Bold.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansExpanded-Bold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraBold.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraBold.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraBold.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-Black.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-Black.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansExpanded-Black.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraLightItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraLightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraLightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-LightItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-LightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-Italic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-Italic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-Italic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansCondensed-MediumItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-MediumItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-MediumItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansCondensed-SemiBoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-SemiBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-SemiBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-BoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-BoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-BoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraBoldItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansCondensed-BlackItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansCondensed-BlackItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansCondensed-BlackItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-ExtraLightItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-ExtraLightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSans-ExtraLightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-LightItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-LightItalic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-Italic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-Italic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-Italic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-MediumItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-MediumItalic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-MediumItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-SemiBoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-SemiBoldItalic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-SemiBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-BoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-BoldItalic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-BoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-ExtraBoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-ExtraBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSans-ExtraBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSans-BlackItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSans-BlackItalic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSans-BlackItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraLightItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraLightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraLightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-LightItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-LightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-Italic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-Italic.woff2: compress $
+    ../fonts/googlefonts/ttf/MonaSansExpanded-Italic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-MediumItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-MediumItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-MediumItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansExpanded-SemiBoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-SemiBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-SemiBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-BoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-BoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-BoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraBoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraBoldItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansExpanded-BlackItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansExpanded-BlackItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansExpanded-BlackItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraLightItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraLightItalic.woff2: $
+    compress $
+    ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraLightItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-LightItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-LightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Italic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Italic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Italic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-MediumItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-MediumItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-MediumItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-SemiBoldItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-SemiBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-SemiBoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-BoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-BoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-BoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraBoldItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraBoldItalic.woff2: $
+    compress $
+    ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraBoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-BlackItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-BlackItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiCondensed-BlackItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraLightItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraLightItalic.woff2: $
+    compress $
+    ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraLightItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-LightItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-LightItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-LightItalic.ttf
+  operation = compress
+# Generating ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Italic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Italic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Italic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-MediumItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-MediumItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-MediumItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-SemiBoldItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-SemiBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-SemiBoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-BoldItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-BoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-BoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraBoldItalic.woff2
+build $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraBoldItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraBoldItalic.ttf
+  operation = compress
+# Generating
+# ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-BlackItalic.woff2
+build ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-BlackItalic.woff2: $
+    compress ../fonts/googlefonts/ttf/MonaSansSemiExpanded-BlackItalic.ttf
+  operation = compress
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4nh_l8oq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4nh_l8oq: $
+    subspace /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_pxl6s9s
+  operation = subspace
+  axes = ital=0
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy4mp5gkf
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy4mp5gkf: $
+    subspace /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_pxl6s9s
+  operation = subspace
+  axes = ital=1
+# Generating ../fonts/googlefonts/variable/MonaSans[wdth,wght].ttf
+build ../fonts/googlefonts/variable/MonaSans[wdth,wght].ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4nh_l8oq
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp29xm7qgr
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp29xm7qgr: exec $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy4mp5gkf
+  exe = gftools-fontsetter
+  args = -o /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp29xm7qgr $
+      /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy4mp5gkf $
+      /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ctbgnlf
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2puyh0pr
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2puyh0pr: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp29xm7qgr
+  operation = fix
+  args = --include-source-fixes
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwq1tojc1
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwq1tojc1: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2puyh0pr
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/webfonts/MonaSans[ital,wdth,wght].woff2
+build ../fonts/googlefonts/webfonts/MonaSans[ital,wdth,wght].woff2: $
+    compress /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwq1tojc1
+  operation = compress
+# Generating ../fonts/googlefonts/variable/MonaSans-Italic[wdth,wght].ttf
+build ../fonts/googlefonts/variable/MonaSans-Italic[wdth,wght].ttf: copy $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwq1tojc1
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpeuog7f1y
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpeuog7f1y: $
+    buildTTF instance_ufos/MonaSansCondensed-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpac_axvbx
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpac_axvbx: $
+    buildOTF instance_ufos/MonaSansCondensed-ExtraLight.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb9ul9r13
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb9ul9r13: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpeuog7f1y
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraLight.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraLight.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb9ul9r13
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-ExtraLight.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-ExtraLight.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpac_axvbx
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpor7fc_tp
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpor7fc_tp: $
+    buildTTF instance_ufos/MonaSansCondensed-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpw6nuocbp
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpw6nuocbp: $
+    buildOTF instance_ufos/MonaSansCondensed-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpms3kskda
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpms3kskda: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpor7fc_tp
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-Light.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-Light.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpms3kskda
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-Light.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-Light.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpw6nuocbp
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmphy_5o2lx
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmphy_5o2lx: $
+    buildTTF instance_ufos/MonaSansCondensed-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8e_njuh8
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8e_njuh8: $
+    buildOTF instance_ufos/MonaSansCondensed-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp56npajai
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp56npajai: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmphy_5o2lx
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-Regular.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-Regular.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp56npajai
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-Regular.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-Regular.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8e_njuh8
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpga42em7c
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpga42em7c: $
+    buildTTF instance_ufos/MonaSansCondensed-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd8d_bll3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd8d_bll3: $
+    buildOTF instance_ufos/MonaSansCondensed-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpucfu83wd
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpucfu83wd: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpga42em7c
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-Medium.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-Medium.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpucfu83wd
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-Medium.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-Medium.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd8d_bll3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp555f9q98
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp555f9q98: $
+    buildTTF instance_ufos/MonaSansCondensed-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpj5hh5ldo
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpj5hh5ldo: $
+    buildOTF instance_ufos/MonaSansCondensed-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy1uf2bdk
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy1uf2bdk: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp555f9q98
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-SemiBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-SemiBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy1uf2bdk
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-SemiBold.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-SemiBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpj5hh5ldo
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4nui6u2u
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4nui6u2u: $
+    buildTTF instance_ufos/MonaSansCondensed-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvq30cy9s
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvq30cy9s: $
+    buildOTF instance_ufos/MonaSansCondensed-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplx97_w8z
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplx97_w8z: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4nui6u2u
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-Bold.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-Bold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplx97_w8z
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-Bold.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-Bold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvq30cy9s
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbvaj1tpt
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbvaj1tpt: $
+    buildTTF instance_ufos/MonaSansCondensed-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzmp1sgd6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzmp1sgd6: $
+    buildOTF instance_ufos/MonaSansCondensed-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp47cak2gf
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp47cak2gf: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbvaj1tpt
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp47cak2gf
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-ExtraBold.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-ExtraBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzmp1sgd6
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0aqmi7ql
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0aqmi7ql: $
+    buildTTF instance_ufos/MonaSansCondensed-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpo808mbym
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpo808mbym: $
+    buildOTF instance_ufos/MonaSansCondensed-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyeci7qy_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyeci7qy_: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0aqmi7ql
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-Black.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-Black.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyeci7qy_
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-Black.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-Black.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpo808mbym
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpiw8hj07l
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpiw8hj07l: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpz19fiz8k
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpz19fiz8k: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-ExtraLight.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyodutldd
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyodutldd: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpiw8hj07l
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraLight.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraLight.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyodutldd
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraLight.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraLight.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpz19fiz8k
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfrhwo75b
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfrhwo75b: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfjccnem3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfjccnem3: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpazlsg7_d
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpazlsg7_d: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfrhwo75b
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Light.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Light.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpazlsg7_d
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-Light.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-Light.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfjccnem3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ban178k
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ban178k: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr3urm1q0
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr3urm1q0: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps0cv1vh0
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps0cv1vh0: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ban178k
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Regular.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Regular.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps0cv1vh0
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-Regular.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-Regular.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr3urm1q0
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd1i8u5w2
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd1i8u5w2: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpq0e1flly
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpq0e1flly: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprdt9vkc7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprdt9vkc7: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd1i8u5w2
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Medium.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Medium.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprdt9vkc7
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-Medium.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-Medium.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpq0e1flly
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpez7jnwon
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpez7jnwon: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7qw5i9qy
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7qw5i9qy: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcbshiulq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcbshiulq: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpez7jnwon
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-SemiBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-SemiBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcbshiulq
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-SemiBold.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-SemiBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7qw5i9qy
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7tc3__r7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7tc3__r7: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ot4b5sp
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ot4b5sp: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpans30ssq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpans30ssq: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7tc3__r7
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Bold.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Bold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpans30ssq
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-Bold.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-Bold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6ot4b5sp
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxqq1_c2b
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxqq1_c2b: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9algp1z7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9algp1z7: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_o25trur
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_o25trur: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxqq1_c2b
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_o25trur
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraBold.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9algp1z7
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjltrx0kj
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjltrx0kj: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdlzzuft5
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdlzzuft5: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpo7rmsqm7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpo7rmsqm7: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjltrx0kj
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Black.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Black.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpo7rmsqm7
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-Black.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-Black.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdlzzuft5
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8swtnn46
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8swtnn46: $
+    buildTTF instance_ufos/MonaSans-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp61emd5w9
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp61emd5w9: $
+    buildOTF instance_ufos/MonaSans-ExtraLight.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdhzsr6re
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdhzsr6re: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8swtnn46
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-ExtraLight.ttf
+build ../fonts/googlefonts/ttf/MonaSans-ExtraLight.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdhzsr6re
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-ExtraLight.otf
+build ../fonts/googlefonts/otf/MonaSans-ExtraLight.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp61emd5w9
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdf0cwhp0
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdf0cwhp0: $
+    buildTTF instance_ufos/MonaSans-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9lnhnt0i
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9lnhnt0i: $
+    buildOTF instance_ufos/MonaSans-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpelssglnw
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpelssglnw: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdf0cwhp0
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-Light.ttf
+build ../fonts/googlefonts/ttf/MonaSans-Light.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpelssglnw
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-Light.otf
+build ../fonts/googlefonts/otf/MonaSans-Light.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9lnhnt0i
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbjw1vv03
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbjw1vv03: $
+    buildTTF instance_ufos/MonaSans-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcku8j9jw
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcku8j9jw: $
+    buildOTF instance_ufos/MonaSans-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzzqqa7jx
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzzqqa7jx: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbjw1vv03
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-Regular.ttf
+build ../fonts/googlefonts/ttf/MonaSans-Regular.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzzqqa7jx
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-Regular.otf
+build ../fonts/googlefonts/otf/MonaSans-Regular.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcku8j9jw
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpke0serv_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpke0serv_: $
+    buildTTF instance_ufos/MonaSans-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvzarjucf
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvzarjucf: $
+    buildOTF instance_ufos/MonaSans-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy6co_rpj
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy6co_rpj: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpke0serv_
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-Medium.ttf
+build ../fonts/googlefonts/ttf/MonaSans-Medium.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy6co_rpj
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-Medium.otf
+build ../fonts/googlefonts/otf/MonaSans-Medium.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvzarjucf
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfcu39t3z
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfcu39t3z: $
+    buildTTF instance_ufos/MonaSans-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpt4y56ek_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpt4y56ek_: $
+    buildOTF instance_ufos/MonaSans-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy9o2ozfq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy9o2ozfq: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfcu39t3z
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-SemiBold.ttf
+build ../fonts/googlefonts/ttf/MonaSans-SemiBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy9o2ozfq
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-SemiBold.otf
+build ../fonts/googlefonts/otf/MonaSans-SemiBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpt4y56ek_
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyh1xhvlv
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyh1xhvlv: $
+    buildTTF instance_ufos/MonaSans-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_d5_w_ey
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_d5_w_ey: $
+    buildOTF instance_ufos/MonaSans-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvhc7ob5l
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvhc7ob5l: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpyh1xhvlv
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-Bold.ttf
+build ../fonts/googlefonts/ttf/MonaSans-Bold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvhc7ob5l
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-Bold.otf
+build ../fonts/googlefonts/otf/MonaSans-Bold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_d5_w_ey
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn4mzlqfa
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn4mzlqfa: $
+    buildTTF instance_ufos/MonaSans-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4lefai94
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4lefai94: $
+    buildOTF instance_ufos/MonaSans-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpj7kjpx8h
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpj7kjpx8h: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn4mzlqfa
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-ExtraBold.ttf
+build ../fonts/googlefonts/ttf/MonaSans-ExtraBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpj7kjpx8h
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-ExtraBold.otf
+build ../fonts/googlefonts/otf/MonaSans-ExtraBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4lefai94
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqvp34a6m
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqvp34a6m: $
+    buildTTF instance_ufos/MonaSans-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8m7sfpz6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8m7sfpz6: $
+    buildOTF instance_ufos/MonaSans-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_rcatp0w
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_rcatp0w: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqvp34a6m
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-Black.ttf
+build ../fonts/googlefonts/ttf/MonaSans-Black.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_rcatp0w
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-Black.otf
+build ../fonts/googlefonts/otf/MonaSans-Black.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8m7sfpz6
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv1ltusxq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv1ltusxq: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1oo3ie_j
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1oo3ie_j: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-ExtraLight.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3awxbrhz
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3awxbrhz: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv1ltusxq
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraLight.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraLight.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3awxbrhz
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraLight.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraLight.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1oo3ie_j
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqo67ao5w
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqo67ao5w: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnxzzz0gn
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnxzzz0gn: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp07q1zxzv
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp07q1zxzv: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqo67ao5w
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Light.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Light.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp07q1zxzv
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-Light.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-Light.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnxzzz0gn
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7cbpbwfv
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7cbpbwfv: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd_x05y27
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd_x05y27: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwszxkc3o
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwszxkc3o: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7cbpbwfv
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Regular.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Regular.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwszxkc3o
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-Regular.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-Regular.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd_x05y27
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxqvx7ech
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxqvx7ech: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplpt3z1dp
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplpt3z1dp: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnm96w_hw
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnm96w_hw: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxqvx7ech
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Medium.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Medium.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnm96w_hw
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-Medium.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-Medium.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplpt3z1dp
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcbcy905k
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcbcy905k: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpmvdlw34i
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpmvdlw34i: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpe3nw1kzl
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpe3nw1kzl: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcbcy905k
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-SemiBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-SemiBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpe3nw1kzl
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-SemiBold.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-SemiBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpmvdlw34i
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqr2ps225
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqr2ps225: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpniogimom
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpniogimom: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9mw1yo5w
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9mw1yo5w: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpqr2ps225
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Bold.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Bold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9mw1yo5w
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-Bold.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-Bold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpniogimom
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9fli92r6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9fli92r6: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpov3ta8vc
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpov3ta8vc: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppapx34fo
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppapx34fo: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9fli92r6
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppapx34fo
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraBold.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpov3ta8vc
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp955sw9am
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp955sw9am: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptoyjeunb
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptoyjeunb: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0vauqm76
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0vauqm76: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp955sw9am
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Black.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Black.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0vauqm76
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-Black.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-Black.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptoyjeunb
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprwqyf9mz
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprwqyf9mz: $
+    buildTTF instance_ufos/MonaSansExpanded-ExtraLight.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpucbcnyky
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpucbcnyky: $
+    buildOTF instance_ufos/MonaSansExpanded-ExtraLight.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy9q6pdc_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy9q6pdc_: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprwqyf9mz
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraLight.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraLight.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy9q6pdc_
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-ExtraLight.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-ExtraLight.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpucbcnyky
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa_kz2njc
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa_kz2njc: $
+    buildTTF instance_ufos/MonaSansExpanded-Light.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx_o2velb
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx_o2velb: $
+    buildOTF instance_ufos/MonaSansExpanded-Light.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzd_jq9ou
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzd_jq9ou: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa_kz2njc
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-Light.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-Light.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpzd_jq9ou
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-Light.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-Light.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx_o2velb
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx9aemvb_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx9aemvb_: $
+    buildTTF instance_ufos/MonaSansExpanded-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7s4knhq3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7s4knhq3: $
+    buildOTF instance_ufos/MonaSansExpanded-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps5tiwsbc
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps5tiwsbc: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx9aemvb_
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-Regular.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-Regular.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps5tiwsbc
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-Regular.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-Regular.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7s4knhq3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp46jd5v2l
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp46jd5v2l: $
+    buildTTF instance_ufos/MonaSansExpanded-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx_o4e73i
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx_o4e73i: $
+    buildOTF instance_ufos/MonaSansExpanded-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0qqh7qw1
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0qqh7qw1: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp46jd5v2l
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-Medium.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-Medium.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0qqh7qw1
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-Medium.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-Medium.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx_o4e73i
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpc3pg9lis
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpc3pg9lis: $
+    buildTTF instance_ufos/MonaSansExpanded-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpote6e4dp
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpote6e4dp: $
+    buildOTF instance_ufos/MonaSansExpanded-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9_8d0si3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9_8d0si3: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpc3pg9lis
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-SemiBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-SemiBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9_8d0si3
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-SemiBold.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-SemiBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpote6e4dp
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfqwbqcvc
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfqwbqcvc: $
+    buildTTF instance_ufos/MonaSansExpanded-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpex64oi9l
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpex64oi9l: $
+    buildOTF instance_ufos/MonaSansExpanded-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv7ljour7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv7ljour7: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfqwbqcvc
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-Bold.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-Bold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv7ljour7
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-Bold.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-Bold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpex64oi9l
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3__3mcu7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3__3mcu7: $
+    buildTTF instance_ufos/MonaSansExpanded-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwsoyq123
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwsoyq123: $
+    buildOTF instance_ufos/MonaSansExpanded-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjl8nrb5b
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjl8nrb5b: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3__3mcu7
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraBold.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraBold.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjl8nrb5b
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-ExtraBold.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-ExtraBold.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwsoyq123
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxy2osi_e
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxy2osi_e: $
+    buildTTF instance_ufos/MonaSansExpanded-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpk2tpjbfe
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpk2tpjbfe: $
+    buildOTF instance_ufos/MonaSansExpanded-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp08ocxvj4
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp08ocxvj4: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxy2osi_e
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-Black.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-Black.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp08ocxvj4
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-Black.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-Black.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpk2tpjbfe
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2xerir8g
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2xerir8g: $
+    buildTTF instance_ufos/MonaSansCondensed-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpq14mmet3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpq14mmet3: $
+    buildOTF instance_ufos/MonaSansCondensed-ExtraLightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpi2djlg8p
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpi2djlg8p: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2xerir8g
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraLightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraLightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpi2djlg8p
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-ExtraLightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-ExtraLightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpq14mmet3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7x6dkjm6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7x6dkjm6: $
+    buildTTF instance_ufos/MonaSansCondensed-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgo297ks8
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgo297ks8: $
+    buildOTF instance_ufos/MonaSansCondensed-LightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpc8yfzvtc
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpc8yfzvtc: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7x6dkjm6
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-LightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-LightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpc8yfzvtc
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-LightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-LightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgo297ks8
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgbcge981
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgbcge981: $
+    buildTTF instance_ufos/MonaSansCondensed-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsqjn5l__
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsqjn5l__: $
+    buildOTF instance_ufos/MonaSansCondensed-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpw5kc3hjb
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpw5kc3hjb: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgbcge981
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-Italic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-Italic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpw5kc3hjb
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-Italic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-Italic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsqjn5l__
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmph0cvp30c
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmph0cvp30c: $
+    buildTTF instance_ufos/MonaSansCondensed-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjzzunk93
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjzzunk93: $
+    buildOTF instance_ufos/MonaSansCondensed-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxfox4e40
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxfox4e40: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmph0cvp30c
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-MediumItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-MediumItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxfox4e40
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-MediumItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-MediumItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjzzunk93
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpkcx5aysy
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpkcx5aysy: $
+    buildTTF instance_ufos/MonaSansCondensed-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpf6y1cv8_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpf6y1cv8_: $
+    buildOTF instance_ufos/MonaSansCondensed-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpe507ywip
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpe507ywip: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpkcx5aysy
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-SemiBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-SemiBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpe507ywip
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-SemiBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-SemiBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpf6y1cv8_
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp87aiujab
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp87aiujab: $
+    buildTTF instance_ufos/MonaSansCondensed-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpi2s2ayu3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpi2s2ayu3: $
+    buildOTF instance_ufos/MonaSansCondensed-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3zk2_5_a
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3zk2_5_a: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp87aiujab
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-BoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-BoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3zk2_5_a
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-BoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-BoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpi2s2ayu3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8npi37_4
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8npi37_4: $
+    buildTTF instance_ufos/MonaSansCondensed-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu682pthw
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu682pthw: $
+    buildOTF instance_ufos/MonaSansCondensed-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpp8btxjmz
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpp8btxjmz: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8npi37_4
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-ExtraBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpp8btxjmz
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-ExtraBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-ExtraBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu682pthw
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcspphv8h
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcspphv8h: $
+    buildTTF instance_ufos/MonaSansCondensed-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7zqk5syd
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7zqk5syd: $
+    buildOTF instance_ufos/MonaSansCondensed-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplwugs46q
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplwugs46q: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcspphv8h
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansCondensed-BlackItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansCondensed-BlackItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplwugs46q
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansCondensed-BlackItalic.otf
+build ../fonts/googlefonts/otf/MonaSansCondensed-BlackItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7zqk5syd
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2q7cksiq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2q7cksiq: $
+    buildTTF instance_ufos/MonaSans-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy7vr8jss
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy7vr8jss: $
+    buildOTF instance_ufos/MonaSans-ExtraLightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnn9wefba
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnn9wefba: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp2q7cksiq
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-ExtraLightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-ExtraLightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpnn9wefba
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-ExtraLightItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-ExtraLightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpy7vr8jss
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_zopv4ci
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_zopv4ci: $
+    buildTTF instance_ufos/MonaSans-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa6xjs19r
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa6xjs19r: $
+    buildOTF instance_ufos/MonaSans-LightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr44wouqb
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr44wouqb: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp_zopv4ci
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-LightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-LightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr44wouqb
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-LightItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-LightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa6xjs19r
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdl681z2j
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdl681z2j: $
+    buildTTF instance_ufos/MonaSans-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr02_8q3d
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr02_8q3d: $
+    buildOTF instance_ufos/MonaSans-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu2ths5ux
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu2ths5ux: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpdl681z2j
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-Italic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-Italic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu2ths5ux
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-Italic.otf
+build ../fonts/googlefonts/otf/MonaSans-Italic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr02_8q3d
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfatfhx4v
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfatfhx4v: $
+    buildTTF instance_ufos/MonaSans-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6xm0i_67
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6xm0i_67: $
+    buildOTF instance_ufos/MonaSans-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3sctzgi4
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3sctzgi4: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfatfhx4v
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-MediumItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-MediumItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3sctzgi4
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-MediumItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-MediumItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6xm0i_67
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps7lt_96v
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps7lt_96v: $
+    buildTTF instance_ufos/MonaSans-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsvfi6a8f
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsvfi6a8f: $
+    buildOTF instance_ufos/MonaSans-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd961i_p9
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd961i_p9: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmps7lt_96v
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-SemiBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-SemiBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpd961i_p9
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-SemiBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-SemiBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsvfi6a8f
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6fbcs4e6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6fbcs4e6: $
+    buildTTF instance_ufos/MonaSans-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpneqahzw7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpneqahzw7: $
+    buildOTF instance_ufos/MonaSans-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4_fw026k
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4_fw026k: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6fbcs4e6
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-BoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-BoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4_fw026k
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-BoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-BoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpneqahzw7
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp50l1_7o9
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp50l1_7o9: $
+    buildTTF instance_ufos/MonaSans-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxc8frmq3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxc8frmq3: $
+    buildOTF instance_ufos/MonaSans-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn2vs0k1f
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn2vs0k1f: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp50l1_7o9
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-ExtraBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-ExtraBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn2vs0k1f
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-ExtraBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-ExtraBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpxc8frmq3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpous4zaeu
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpous4zaeu: $
+    buildTTF instance_ufos/MonaSans-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpffhxasvs
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpffhxasvs: $
+    buildOTF instance_ufos/MonaSans-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa8dmh8tu
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa8dmh8tu: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpous4zaeu
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSans-BlackItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSans-BlackItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpa8dmh8tu
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSans-BlackItalic.otf
+build ../fonts/googlefonts/otf/MonaSans-BlackItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpffhxasvs
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpntiz8z5g
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpntiz8z5g: $
+    buildTTF instance_ufos/MonaSansExpanded-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb1zlae7p
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb1zlae7p: $
+    buildOTF instance_ufos/MonaSansExpanded-ExtraLightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgk4s6df6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgk4s6df6: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpntiz8z5g
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraLightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraLightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgk4s6df6
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-ExtraLightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-ExtraLightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb1zlae7p
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmphjdbh78j
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmphjdbh78j: $
+    buildTTF instance_ufos/MonaSansExpanded-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9pgxziue
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9pgxziue: $
+    buildOTF instance_ufos/MonaSansExpanded-LightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmperbxaioz
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmperbxaioz: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmphjdbh78j
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-LightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-LightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmperbxaioz
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-LightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-LightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9pgxziue
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfivst1f9
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfivst1f9: $
+    buildTTF instance_ufos/MonaSansExpanded-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7t97b_dk
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7t97b_dk: $
+    buildOTF instance_ufos/MonaSansExpanded-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpurf6m0hq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpurf6m0hq: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfivst1f9
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-Italic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-Italic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpurf6m0hq
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-Italic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-Italic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7t97b_dk
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8y4jdng0
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8y4jdng0: $
+    buildTTF instance_ufos/MonaSansExpanded-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvtdvj8w3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvtdvj8w3: $
+    buildOTF instance_ufos/MonaSansExpanded-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp23bao0ll
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp23bao0ll: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8y4jdng0
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-MediumItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-MediumItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp23bao0ll
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-MediumItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-MediumItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvtdvj8w3
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbi78jv_o
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbi78jv_o: $
+    buildTTF instance_ufos/MonaSansExpanded-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsb4a3syj
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsb4a3syj: $
+    buildOTF instance_ufos/MonaSansExpanded-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1p3htdw9
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1p3htdw9: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpbi78jv_o
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-SemiBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-SemiBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1p3htdw9
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-SemiBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-SemiBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpsb4a3syj
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptyidyewk
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptyidyewk: $
+    buildTTF instance_ufos/MonaSansExpanded-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr3w4utd6
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr3w4utd6: $
+    buildOTF instance_ufos/MonaSansExpanded-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpre_i4rk5
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpre_i4rk5: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptyidyewk
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-BoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-BoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpre_i4rk5
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-BoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-BoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpr3w4utd6
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3to0s00p
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3to0s00p: $
+    buildTTF instance_ufos/MonaSansExpanded-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4ribjpwf
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4ribjpwf: $
+    buildOTF instance_ufos/MonaSansExpanded-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvu8ig49j
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvu8ig49j: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3to0s00p
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-ExtraBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvu8ig49j
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-ExtraBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-ExtraBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4ribjpwf
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmputrvbahi
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmputrvbahi: $
+    buildTTF instance_ufos/MonaSansExpanded-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpay8_4nii
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpay8_4nii: $
+    buildOTF instance_ufos/MonaSansExpanded-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplcsmls9w
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplcsmls9w: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmputrvbahi
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansExpanded-BlackItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansExpanded-BlackItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmplcsmls9w
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansExpanded-BlackItalic.otf
+build ../fonts/googlefonts/otf/MonaSansExpanded-BlackItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpay8_4nii
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpmo3ge89b
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpmo3ge89b: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8bhktoot
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8bhktoot: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-ExtraLightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpk6l3ywk5
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpk6l3ywk5: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpmo3ge89b
+  operation = autohint
+  args = --fail-ok 
+# Generating
+# ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraLightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraLightItalic.ttf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpk6l3ywk5
+  operation = fix
+  args = 
+# Generating
+# ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraLightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraLightItalic.otf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8bhktoot
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp13mr3y3_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp13mr3y3_: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptysq6dwl
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptysq6dwl: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-LightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppqtbvisu
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppqtbvisu: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp13mr3y3_
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-LightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-LightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppqtbvisu
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-LightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-LightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmptysq6dwl
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpboaskrtq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpboaskrtq: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8la71sls
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8la71sls: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcggh_nz5
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcggh_nz5: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpboaskrtq
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Italic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-Italic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpcggh_nz5
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-Italic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-Italic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp8la71sls
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0vbp9g2h
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0vbp9g2h: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp5ewvkred
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp5ewvkred: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpez0zaszl
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpez0zaszl: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0vbp9g2h
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-MediumItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-MediumItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpez0zaszl
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-MediumItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-MediumItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp5ewvkred
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1d22q8bi
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1d22q8bi: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6sb3tupw
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6sb3tupw: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjzj792pf
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjzj792pf: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp1d22q8bi
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-SemiBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-SemiBoldItalic.ttf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjzj792pf
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-SemiBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-SemiBoldItalic.otf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6sb3tupw
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvqc9eflr
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvqc9eflr: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7ohxq7d8
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7ohxq7d8: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb3wzpwzf
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb3wzpwzf: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpvqc9eflr
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-BoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-BoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpb3wzpwzf
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-BoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-BoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp7ohxq7d8
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv6wqb8vc
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv6wqb8vc: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpan33wvct
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpan33wvct: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpkxf2keal
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpkxf2keal: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpv6wqb8vc
+  operation = autohint
+  args = --fail-ok 
+# Generating
+# ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-ExtraBoldItalic.ttf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpkxf2keal
+  operation = fix
+  args = 
+# Generating
+# ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraBoldItalic.otf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpan33wvct
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu0nrz7q9
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu0nrz7q9: $
+    buildTTF instance_ufos/MonaSansSemiCondensed-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgmcc5epu
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgmcc5epu: $
+    buildOTF instance_ufos/MonaSansSemiCondensed-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp675av_e_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp675av_e_: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu0nrz7q9
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiCondensed-BlackItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiCondensed-BlackItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp675av_e_
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiCondensed-BlackItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiCondensed-BlackItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpgmcc5epu
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx2au2s1g
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx2au2s1g: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-ExtraLightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4x3jfngl
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4x3jfngl: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-ExtraLightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp57lxmp39
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp57lxmp39: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpx2au2s1g
+  operation = autohint
+  args = --fail-ok 
+# Generating
+# ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraLightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraLightItalic.ttf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp57lxmp39
+  operation = fix
+  args = 
+# Generating
+# ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraLightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraLightItalic.otf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp4x3jfngl
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjqsslfxn
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjqsslfxn: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-LightItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpebzop7w7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpebzop7w7: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-LightItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprm5l5ea8
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprm5l5ea8: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpjqsslfxn
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-LightItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-LightItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmprm5l5ea8
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-LightItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-LightItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpebzop7w7
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpld2n2fui
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpld2n2fui: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwr09w26e
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwr09w26e: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0xj62nke
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0xj62nke: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpld2n2fui
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Italic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-Italic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp0xj62nke
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-Italic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-Italic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpwr09w26e
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp39q6jmju
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp39q6jmju: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpg2_ff3qh
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpg2_ff3qh: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6p83js2y
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6p83js2y: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp39q6jmju
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-MediumItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-MediumItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp6p83js2y
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-MediumItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-MediumItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpg2_ff3qh
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp19qfzig3
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp19qfzig3: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfwnmhaiq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfwnmhaiq: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3htfjhtb
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3htfjhtb: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp19qfzig3
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-SemiBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-SemiBoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp3htfjhtb
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-SemiBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-SemiBoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpfwnmhaiq
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpku6xb9fr
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpku6xb9fr: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpuhx45qyx
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpuhx45qyx: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppz3pyoj_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppz3pyoj_: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpku6xb9fr
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-BoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-BoldItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmppz3pyoj_
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-BoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-BoldItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpuhx45qyx
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpezzqz1c7
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpezzqz1c7: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu54w3bca
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu54w3bca: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpapi8yrdq
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpapi8yrdq: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpezzqz1c7
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraBoldItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-ExtraBoldItalic.ttf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpapi8yrdq
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraBoldItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraBoldItalic.otf: $
+    fix /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpu54w3bca
+  operation = fix
+  args = 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9lpf1jme
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9lpf1jme: $
+    buildTTF instance_ufos/MonaSansSemiExpanded-BlackItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp76a_qsdh
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp76a_qsdh: $
+    buildOTF instance_ufos/MonaSansSemiExpanded-BlackItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn7qunbd_
+build /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn7qunbd_: $
+    autohint /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp9lpf1jme
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/googlefonts/ttf/MonaSansSemiExpanded-BlackItalic.ttf
+build ../fonts/googlefonts/ttf/MonaSansSemiExpanded-BlackItalic.ttf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpn7qunbd_
+  operation = fix
+  args = 
+# Generating ../fonts/googlefonts/otf/MonaSansSemiExpanded-BlackItalic.otf
+build ../fonts/googlefonts/otf/MonaSansSemiExpanded-BlackItalic.otf: fix $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmp76a_qsdh
+  operation = fix
+  args = 
+default $
+    /var/folders/c8/prxw74zj4qsczvrt0l8cjm7w0000gn/T/tmpowuwrnnf.buildStatstamp $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraLight.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-Light.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-Regular.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-Medium.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-SemiBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-Bold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-Black.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraLight.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Light.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Regular.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Medium.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-SemiBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Bold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Black.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-ExtraLight.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-Light.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-Regular.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-Medium.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-SemiBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-Bold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-ExtraBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-Black.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraLight.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Light.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Regular.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Medium.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-SemiBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Bold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Black.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraLight.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-Light.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-Regular.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-Medium.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-SemiBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-Bold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraBold.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-Black.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraLightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-LightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-Italic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-MediumItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-SemiBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-BoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-ExtraBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansCondensed-BlackItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-ExtraLightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-LightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-Italic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-MediumItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-SemiBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-BoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-ExtraBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSans-BlackItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraLightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-LightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-Italic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-MediumItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-SemiBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-BoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-ExtraBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansExpanded-BlackItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraLightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-LightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-Italic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-MediumItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-SemiBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-BoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-ExtraBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiCondensed-BlackItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraLightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-LightItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-Italic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-MediumItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-SemiBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-BoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-ExtraBoldItalic.woff2 $
+    ../fonts/googlefonts/webfonts/MonaSansSemiExpanded-BlackItalic.woff2 $
+    ../fonts/googlefonts/variable/MonaSans[wdth,wght].ttf $
+    ../fonts/googlefonts/webfonts/MonaSans[ital,wdth,wght].woff2 $
+    ../fonts/googlefonts/otf/MonaSansCondensed-ExtraLight.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-Light.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-Regular.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-Medium.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-SemiBold.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-Bold.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-ExtraBold.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-Black.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraLight.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-Light.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-Regular.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-Medium.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-SemiBold.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-Bold.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraBold.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-Black.otf $
+    ../fonts/googlefonts/otf/MonaSans-ExtraLight.otf $
+    ../fonts/googlefonts/otf/MonaSans-Light.otf $
+    ../fonts/googlefonts/otf/MonaSans-Regular.otf $
+    ../fonts/googlefonts/otf/MonaSans-Medium.otf $
+    ../fonts/googlefonts/otf/MonaSans-SemiBold.otf $
+    ../fonts/googlefonts/otf/MonaSans-Bold.otf $
+    ../fonts/googlefonts/otf/MonaSans-ExtraBold.otf $
+    ../fonts/googlefonts/otf/MonaSans-Black.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraLight.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-Light.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-Regular.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-Medium.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-SemiBold.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-Bold.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraBold.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-Black.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-ExtraLight.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-Light.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-Regular.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-Medium.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-SemiBold.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-Bold.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-ExtraBold.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-Black.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-ExtraLightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-LightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-Italic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-MediumItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-SemiBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-BoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-ExtraBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansCondensed-BlackItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-ExtraLightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-LightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-Italic.otf $
+    ../fonts/googlefonts/otf/MonaSans-MediumItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-SemiBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-BoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-ExtraBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSans-BlackItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-ExtraLightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-LightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-Italic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-MediumItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-SemiBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-BoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-ExtraBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansExpanded-BlackItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraLightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-LightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-Italic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-MediumItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-SemiBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-BoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-ExtraBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiCondensed-BlackItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraLightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-LightItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-Italic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-MediumItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-SemiBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-BoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-ExtraBoldItalic.otf $
+    ../fonts/googlefonts/otf/MonaSansSemiExpanded-BlackItalic.otf

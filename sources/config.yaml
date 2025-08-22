@@ -1,9 +1,9 @@
 sources:
   - MonaSans.glyphspackage
 familyName: "Mona Sans"
-outputDir: "../fonts"
-buildOTF: True
+outputDir: "../fonts/googlefonts"
 buildVariable: True
+buildOTF: True
 buildWebfont: True
 buildTTF: True
 axisOrder:
