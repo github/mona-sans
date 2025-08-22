@@ -1,0 +1,146 @@
+name: Create Release
+# Release workflow for Mona Sans
+
+on:
+  push:
+    tags:
+      - 'v*.*'  # Matches tags like v1.300, etc.
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version for testing (e.g., "test-1.4" or "dev-2024-01-01")'
+        required: true
+        default: 'test-1.4'
+        type: string
+
+permissions:
+  contents: write  # Required to create releases and upload assets
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper release notes
+      
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
+      
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install --upgrade pip setuptools
+          python3 -m pip install gftools fontbakery
+      
+      - name: Extract version from tag or input
+        id: version
+        run: |
+            if [[ "$VERSION" == v* ]]; then
+              TAG="$VERSION"
+            else
+              TAG="v$VERSION"
+            fi
+            echo "version=${VERSION}" >> $GITHUB_OUTPUT
+            echo "tag=${TAG}" >> $GITHUB_OUTPUT
+          else
+            VERSION=${GITHUB_REF#refs/tags/v}
+            echo "version=${VERSION}" >> $GITHUB_OUTPUT
+            echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Build fonts
+        run: |
+          cd sources
+          bash build.sh
+          cd ..
+        env:
+          FB_CONTINUE_ON_ERROR: true
+      
+      - name: Prepare release artifacts
+        run: |
+          mkdir -p release-artifacts
+          
+          # Create static fonts package (OTF + TTF)
+          zip -r "release-artifacts/mona-sans-static-v${{ steps.version.outputs.version }}.zip" \
+            fonts/static/ OFL.txt README.md
+          
+          # Create variable fonts package  
+          zip -r "release-artifacts/mona-sans-variable-v${{ steps.version.outputs.version }}.zip" \
+            fonts/variable/ OFL.txt README.md
+          
+          # Create webfonts package
+          if [ -d "fonts/webfonts" ]; then
+            zip -r "release-artifacts/mona-sans-webfonts-v${{ steps.version.outputs.version }}.zip" \
+              fonts/webfonts/ OFL.txt README.md
+          fi
+          
+          # Create complete package with all formats
+          zip -r "release-artifacts/mona-sans-complete-v${{ steps.version.outputs.version }}.zip" \
+            fonts/ -x "fonts/googlefonts/*" \
+            OFL.txt README.md
+      
+      - name: Create release notes
+        id: release_notes
+        run: |
+          cat > release_notes.md << 'EOF'
+          # Mona Sans ${{ steps.version.outputs.tag }}
+
+          A versatile typeface, designed by GitHub together with Degarism and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print.
+
+          ## Font Packages
+          
+          - **Static Fonts** - Individual OTF and TTF files for each weight, width, and style
+          - **Variable Fonts** - Modern variable font files with adjustable weight and width
+          - **Web Fonts** - WOFF/WOFF2 files optimized for web use
+          - **Complete Package** - All font formats in one download
+          
+          See the [README](https://github.com/github/mona-sans#readme) for detailed installation instructions.
+          
+          ## Font Specifications
+          
+          - **Weight Range**: 100-900 (Thin to Black)
+          - **Width Range**: 75-125 (Condensed to Expanded)
+          - **Styles**: Roman and Italic
+          - **Format Support**: OTF, TTF, Variable TTF, WOFF, WOFF2
+          EOF
+      
+      - name: Create draft release with assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Mona Sans ${{ steps.version.outputs.tag }}
+          body_path: release_notes.md
+          draft: true
+          prerelease: false
+          files: release-files.txt
+      
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mona-sans-fonts-v${{ steps.version.outputs.version }}
+          path: fonts/
+      
+      - name: Summary
+        run: |
+          echo "## Release Summary" >> $GITHUB_STEP_SUMMARY
+          echo "Created draft release: **Mona Sans ${{ steps.version.outputs.tag }}**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Uploaded Assets:" >> $GITHUB_STEP_SUMMARY
+          find release-artifacts -maxdepth 1 -name '*.zip' -print0 | while IFS= read -r -d '' file; do
+            filename=$(basename "$file")
+            size=$(stat -c %s "$file")
+            # Convert size in bytes to human-readable format
+            hr_size=$(numfmt --to=iec-i --suffix=B "$size")
+            echo "- $filename ($hr_size)" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **[View Draft Release](https://github.com/${{ github.repository }}/releases/tag/${{ steps.version.outputs.tag }})**" >> $GITHUB_STEP_SUMMARY
