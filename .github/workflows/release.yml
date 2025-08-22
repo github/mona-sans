@@ -44,9 +44,11 @@ jobs:
       - name: Extract version from tag or input
         id: version
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            VERSION="${{ github.event.inputs.version }}"
-            TAG="v${VERSION}"
+            if [[ "$VERSION" == v* ]]; then
+              TAG="$VERSION"
+            else
+              TAG="v$VERSION"
+            fi
             echo "version=${VERSION}" >> $GITHUB_OUTPUT
             echo "tag=${TAG}" >> $GITHUB_OUTPUT
           else
