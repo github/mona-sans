@@ -135,10 +135,12 @@ jobs:
           echo "Created draft release: **Mona Sans ${{ steps.version.outputs.tag }}**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Uploaded Assets:" >> $GITHUB_STEP_SUMMARY
-          ls -lh release-artifacts/*.zip | while read line; do
-            filename=$(echo "$line" | awk '{print $9}' | xargs basename)
-            size=$(echo "$line" | awk '{print $5}')
-            echo "- $filename ($size)" >> $GITHUB_STEP_SUMMARY
+          find release-artifacts -maxdepth 1 -name '*.zip' -print0 | while IFS= read -r -d '' file; do
+            filename=$(basename "$file")
+            size=$(stat -c %s "$file")
+            # Convert size in bytes to human-readable format
+            hr_size=$(numfmt --to=iec-i --suffix=B "$size")
+            echo "- $filename ($hr_size)" >> $GITHUB_STEP_SUMMARY
           done
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "🔗 **[View Draft Release](https://github.com/${{ github.repository }}/releases/tag/${{ steps.version.outputs.tag }})**" >> $GITHUB_STEP_SUMMARY
