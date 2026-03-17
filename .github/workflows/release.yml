@@ -103,7 +103,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: mona-sans-fonts-v${{ needs.build.outputs.version }}
-          path: fonts/
+          path: .
 
       - name: Extract version
         id: version
