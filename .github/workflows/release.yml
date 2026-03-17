@@ -113,8 +113,10 @@ jobs:
           else
             VERSION=${GITHUB_REF#refs/tags/v}
           fi
-          # Normalize version for Debian (replace hyphens, ensure it starts with a digit)
-          DEB_VERSION=$(echo "$VERSION" | sed 's/^v//')
+          # Normalize to a valid Debian version: strip leading 'v', replace
+          # characters illegal in dpkg versions, and prefix with '0~' when the
+          # result doesn't start with a digit (Debian convention for pre-release)
+          DEB_VERSION=$(echo "$VERSION" | awk '{sub(/^v/,""); gsub(/[^A-Za-z0-9.+~-]/,"."); if ($0 !~ /^[0-9]/) $0="0~"$0; print}')
           echo "version=${DEB_VERSION}" >> $GITHUB_OUTPUT
 
       - name: Build .deb package
