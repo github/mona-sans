@@ -195,7 +195,7 @@ jobs:
       - name: Download .deb artifact
         uses: actions/download-artifact@v4
         with:
-          name: mona-sans-deb-v${{ needs.build.outputs.version }}
+          name: mona-sans-deb-v${{ needs.build-deb.outputs.version }}
           path: release-artifacts/
 
       - name: Create release notes
