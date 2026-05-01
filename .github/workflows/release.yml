@@ -48,11 +48,6 @@ jobs:
             echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
           fi
       
-      - name: Build fonts
-        run: bash sources/build.sh
-        env:
-          FB_CONTINUE_ON_ERROR: true
-      
       - name: Prepare release artifacts
         run: |
           mkdir -p release-artifacts
