@@ -1,0 +1,59 @@
+{
+glyphname = _f.longarm;
+layers = (
+{
+layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
+shapes = (
+{
+ref = f;
+}
+);
+width = 390;
+},
+{
+layerId = "5713303B-ED49-44A7-8230-B5CAE56DEB7E";
+shapes = (
+{
+ref = f;
+}
+);
+width = 390;
+},
+{
+layerId = m019;
+shapes = (
+{
+ref = f;
+}
+);
+width = 618;
+},
+{
+layerId = m020;
+shapes = (
+{
+ref = f;
+}
+);
+width = 618;
+},
+{
+layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
+shapes = (
+{
+ref = f;
+}
+);
+width = 846;
+},
+{
+layerId = "D2144554-01B8-4B9B-B16A-E0E5B5794DFC";
+shapes = (
+{
+ref = f;
+}
+);
+width = 846;
+}
+);
+}

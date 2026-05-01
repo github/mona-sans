@@ -50,11 +50,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (83,-129);
+pos = (87,-129);
 ref = macroncomb;
 }
 );
-width = 706;
+width = 714;
 },
 {
 layerId = m019;
@@ -154,11 +154,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (42,-129);
+pos = (44,-129);
 ref = macroncomb;
 }
 );
-width = 704;
+width = 708;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";

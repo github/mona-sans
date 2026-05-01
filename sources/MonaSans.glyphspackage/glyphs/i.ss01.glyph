@@ -24,7 +24,7 @@ pos = (-13,-137);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 231;
+width = 247;
 },
 {
 anchors = (
@@ -356,7 +356,7 @@ pos = (-26,-134);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 306;
+width = 318;
 },
 {
 anchors = (

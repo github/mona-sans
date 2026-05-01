@@ -50,11 +50,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (86,-134);
+pos = (90,-134);
 ref = dieresiscomb.ss01;
 }
 );
-width = 706;
+width = 714;
 },
 {
 layerId = m019;
@@ -154,11 +154,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (50,-134);
+pos = (52,-134);
 ref = dieresiscomb.ss01;
 }
 );
-width = 704;
+width = 708;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";

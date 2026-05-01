@@ -25,11 +25,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (260,0);
+pos = (261,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 443;
+width = 444;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -109,11 +109,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (266,0);
+pos = (264,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 449;
+width = 447;
 },
 {
 layerId = "095FE76F-1953-440B-9108-AA0678D151F9";
@@ -165,11 +165,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (350,0);
+pos = (353,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 538;
+width = 541;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";
