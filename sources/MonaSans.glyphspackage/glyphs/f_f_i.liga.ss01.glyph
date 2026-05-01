@@ -51,7 +51,7 @@ pos = (597,0);
 ref = i.ss01;
 }
 );
-width = 828;
+width = 844;
 },
 {
 background = {
@@ -301,7 +301,7 @@ pos = (867,0);
 ref = i.ss01;
 }
 );
-width = 1173;
+width = 1185;
 },
 {
 background = {
@@ -472,11 +472,11 @@ pos = (120,0);
 ref = _f.longarm;
 },
 {
-pos = (210,0);
+pos = (262,0);
 ref = i.ss01;
 }
 );
-width = 315;
+width = 367;
 },
 {
 background = {
@@ -547,11 +547,11 @@ pos = (372,0);
 ref = _f.longarm;
 },
 {
-pos = (741,0);
+pos = (737,0);
 ref = i.ss01;
 }
 );
-width = 985;
+width = 981;
 },
 {
 background = {

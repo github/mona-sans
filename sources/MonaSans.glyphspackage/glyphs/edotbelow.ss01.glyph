@@ -50,11 +50,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (202,0);
+pos = (209,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 705;
+width = 716;
 },
 {
 layerId = m019;

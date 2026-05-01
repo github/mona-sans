@@ -438,7 +438,7 @@ width = 527;
 anchors = (
 {
 name = "#exit";
-pos = (90,0);
+pos = (142,0);
 }
 );
 layerId = "A312EA11-A86D-4039-A6A0-3473E7FCFCBA";
@@ -456,7 +456,7 @@ nodes = (
 );
 }
 );
-width = 137;
+width = 170;
 },
 {
 anchors = (
@@ -510,7 +510,7 @@ width = 333;
 anchors = (
 {
 name = "#exit";
-pos = (369,0);
+pos = (365,0);
 }
 );
 layerId = "116A5FF1-38DA-4DF1-8B47-201F29A4437C";

@@ -53,11 +53,11 @@ ref = l.ss04;
 },
 {
 alignment = 1;
-pos = (312,0);
+pos = (319,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 495;
+width = 502;
 },
 {
 layerId = m019;
@@ -165,11 +165,11 @@ ref = l.ss04;
 },
 {
 alignment = 1;
-pos = (305,0);
+pos = (317,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 471;
+width = 501;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";

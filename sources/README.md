@@ -6,8 +6,7 @@ Mona Sans VF is exported from the Glyphs interface directly into the /fonts dire
 
 1. Open MonaSans.glyphs project in Glyphs.app
 2. Use File > Export > Variable Font
-
-The exported variable font will include the full feature set and axis range of Mona Sans through the Glyphs feature `import master`, which adds the display masters on export.
+3. Save the exported variable font into the `/fonts` directory.
 
 Running `build.sh` will try to move them to the right place, if you don't put them there already.
 

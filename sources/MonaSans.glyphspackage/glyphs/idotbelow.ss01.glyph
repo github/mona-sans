@@ -28,7 +28,7 @@ pos = (-13,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 231;
+width = 247;
 },
 {
 layerId = "28A8A76A-23B4-40F5-83B9-DC51E48BF161";
@@ -158,7 +158,7 @@ pos = (14,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 306;
+width = 318;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";
