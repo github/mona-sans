@@ -49,10 +49,7 @@ jobs:
           fi
       
       - name: Build fonts
-        run: |
-          cd sources
-          bash build.sh
-          cd ..
+        run: bash sources/build.sh
         env:
           FB_CONTINUE_ON_ERROR: true
       
