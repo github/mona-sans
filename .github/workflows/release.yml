@@ -19,6 +19,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
+      tag_name: ${{ steps.version.outputs.tag }}
     
     steps:
       - name: Checkout code
@@ -75,63 +79,171 @@ jobs:
             fonts/ -x "fonts/googlefonts/*" -x "fonts/googlefonts/**" \
             OFL.txt README.md
       
+      - name: Upload release zip artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mona-sans-release-zips-v${{ steps.version.outputs.version }}
+          path: release-artifacts/*.zip
+
+      - name: Upload font build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mona-sans-fonts-v${{ steps.version.outputs.version }}
+          path: fonts/
+
+  build-deb:
+    runs-on: ubuntu-24.04
+    needs: [build]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download font artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: mona-sans-fonts-v${{ needs.build.outputs.version }}
+          path: .
+
+      - name: Extract version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION=${GITHUB_REF#refs/tags/v}
+          fi
+          # Normalize to a valid Debian version: strip leading 'v', replace
+          # characters illegal in dpkg versions, and prefix with '0~' when the
+          # result doesn't start with a digit (Debian convention for pre-release)
+          DEB_VERSION=$(echo "$VERSION" | awk '{sub(/^v/,""); gsub(/[^A-Za-z0-9.+~-]/,"."); if ($0 !~ /^[0-9]/) $0="0~"$0; print}')
+          echo "version=${DEB_VERSION}" >> $GITHUB_OUTPUT
+
+      - name: Build .deb package
+        run: |
+          PKG="fonts-mona-sans"
+          VERSION="${{ steps.version.outputs.version }}"
+          DEB_DIR="${PKG}_${VERSION}_all"
+
+          # Create package directory structure
+          mkdir -p "${DEB_DIR}/DEBIAN"
+          mkdir -p "${DEB_DIR}/usr/share/fonts/truetype/mona-sans"
+          mkdir -p "${DEB_DIR}/usr/share/fonts/truetype/mona-sans-variable"
+          mkdir -p "${DEB_DIR}/usr/share/doc/${PKG}"
+
+          # Install static TTF files (Mona Sans + Mona Sans Mono)
+          cp fonts/static/ttf/*.ttf "${DEB_DIR}/usr/share/fonts/truetype/mona-sans/"
+
+          # Install variable TTF files (Mona Sans VF + Mona Sans Mono VF)
+          cp fonts/variable/*.ttf "${DEB_DIR}/usr/share/fonts/truetype/mona-sans-variable/"
+
+          # Install license as Debian copyright file
+          cp OFL.txt "${DEB_DIR}/usr/share/doc/${PKG}/copyright"
+
+          # Create control file
+          cat > "${DEB_DIR}/DEBIAN/control" << EOF
+          Package: ${PKG}
+          Version: ${VERSION}
+          Architecture: all
+          Section: fonts
+          Priority: optional
+          Depends: fontconfig
+          Installed-Size: $(du -sk "${DEB_DIR}/usr" | cut -f1)
+          Maintainer: GitHub <opensource+mona-sans@github.com>
+          Homepage: https://github.com/github/mona-sans
+          Description: Mona Sans and Mona Sans Mono typeface families
+           Mona Sans is a versatile typeface designed by GitHub together with
+           Degarism, inspired by industrial-era grotesques. It works well across
+           product, web, and print. This package includes both Mona Sans (with
+           weight range 200-900 and width range 75-125) and Mona Sans Mono, in
+           static and variable font formats.
+          EOF
+
+          # Strip leading whitespace from control file (heredoc indentation)
+          sed -i 's/^          //' "${DEB_DIR}/DEBIAN/control"
+
+          # Create triggers for fontconfig cache update
+          printf 'activate-noawait update-fontconfig-caches\n' > "${DEB_DIR}/DEBIAN/triggers"
+
+          # Build the package
+          dpkg-deb --build --root-owner-group "${DEB_DIR}"
+
+          # Validate with lintian (non-fatal)
+          sudo apt-get update -qq && sudo apt-get install -y -qq lintian > /dev/null 2>&1 || true
+          lintian "${DEB_DIR}.deb" || true
+
+          mkdir -p release-artifacts
+          mv "${DEB_DIR}.deb" "release-artifacts/${PKG}_${VERSION}_all.deb"
+
+      - name: Upload .deb artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mona-sans-deb-v${{ steps.version.outputs.version }}
+          path: release-artifacts/*.deb
+
+  release:
+    runs-on: ubuntu-latest
+    needs: [build, build-deb]
+
+    steps:
+      - name: Download zip artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: mona-sans-release-zips-v${{ needs.build.outputs.version }}
+          path: release-artifacts/
+
+      - name: Download .deb artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: mona-sans-deb-v${{ needs.build-deb.outputs.version }}
+          path: release-artifacts/
+
       - name: Create release notes
-        id: release_notes
         run: |
           cat > release_notes.md << 'EOF'
-          # Mona Sans ${{ steps.version.outputs.tag }}
+          # Mona Sans ${{ needs.build.outputs.tag }}
 
           A versatile typeface, designed by GitHub together with Degarism and inspired by industrial-era grotesques. Mona Sans works well across product, web, and print.
 
           ## Font Packages
-          
+
           - **Static Fonts** - Individual OTF and TTF files for each weight, width, and style
           - **Variable Fonts** - Modern variable font files with adjustable weight and width
           - **Web Fonts** - WOFF/WOFF2 files optimized for web use
           - **Complete Package** - All font formats in one download
-          
+          - **Debian Package** - `.deb` package for Ubuntu 24.04 LTS (includes Mona Sans and Mona Sans Mono)
+
           See the [README](https://github.com/github/mona-sans#readme) for detailed installation instructions.
-          
+
           ## Font Specifications
-          
+
           - **Weight Range**: 200-900 (ExtraLight to Black)
           - **Width Range**: 75-125 (Condensed to Expanded)
           - **Styles**: Roman and Italic
           - **Format Support**: OTF, TTF, Variable TTF, WOFF, WOFF2
           EOF
-      
-      - name: Create draft release with assets
+
+      - name: Create draft release with all assets
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.version.outputs.tag }}
-          name: Mona Sans ${{ steps.version.outputs.tag }}
+          tag_name: ${{ needs.build.outputs.tag }}
+          name: Mona Sans ${{ needs.build.outputs.tag }}
           body_path: release_notes.md
           draft: true
           prerelease: false
-          files: |
-            release-artifacts/mona-sans-static-v${{ steps.version.outputs.version }}.zip
-            release-artifacts/mona-sans-variable-v${{ steps.version.outputs.version }}.zip
-            release-artifacts/mona-sans-webfonts-v${{ steps.version.outputs.version }}.zip
-            release-artifacts/mona-sans-complete-v${{ steps.version.outputs.version }}.zip
-      
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: mona-sans-fonts-v${{ steps.version.outputs.version }}
-          path: fonts/
-      
+          files: release-artifacts/*
+
       - name: Summary
         run: |
           echo "## Release Summary" >> $GITHUB_STEP_SUMMARY
-          echo "Created draft release: **Mona Sans ${{ steps.version.outputs.tag }}**" >> $GITHUB_STEP_SUMMARY
+          echo "Created draft release: **Mona Sans ${{ needs.build.outputs.tag }}**" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Uploaded Assets:" >> $GITHUB_STEP_SUMMARY
-          find release-artifacts -maxdepth 1 -name '*.zip' -print0 | while IFS= read -r -d '' file; do
+          find release-artifacts -maxdepth 1 -type f -print0 | while IFS= read -r -d '' file; do
             filename=$(basename "$file")
             size=$(stat -c %s "$file")
-            # Convert size in bytes to human-readable format
             hr_size=$(numfmt --to=iec-i --suffix=B "$size")
             echo "- $filename ($hr_size)" >> $GITHUB_STEP_SUMMARY
           done
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🔗 **[View Draft Release](https://github.com/${{ github.repository }}/releases/tag/${{ steps.version.outputs.tag }})**" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **[View Draft Release](https://github.com/${{ github.repository }}/releases/tag/${{ needs.build.outputs.tag }})**" >> $GITHUB_STEP_SUMMARY
