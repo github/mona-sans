@@ -50,11 +50,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (190,-134);
+pos = (197,-134);
 ref = hookabovecomb;
 }
 );
-width = 705;
+width = 716;
 },
 {
 layerId = m019;

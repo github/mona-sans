@@ -48,11 +48,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (53,-23);
+pos = (73,-23);
 ref = strokeshortcomb.case.T;
 }
 );
-width = 696;
+width = 736;
 },
 {
 layerId = m019;
@@ -152,11 +152,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (33,-23);
+pos = (53,-23);
 ref = strokeshortcomb.case.T;
 }
 );
-width = 668;
+width = 708;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";

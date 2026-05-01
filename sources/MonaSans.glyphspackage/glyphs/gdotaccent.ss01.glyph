@@ -50,11 +50,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (195,-129);
+pos = (202,-129);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 713;
+width = 720;
 },
 {
 layerId = m019;
@@ -154,11 +154,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (174,-134);
+pos = (178,-134);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 707;
+width = 711;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";

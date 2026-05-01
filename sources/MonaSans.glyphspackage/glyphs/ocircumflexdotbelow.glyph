@@ -62,15 +62,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (194,0);
+pos = (198,0);
 ref = dotbelowcomb;
 },
 {
-pos = (56,-129);
+pos = (60,-129);
 ref = circumflexcomb;
 }
 );
-width = 706;
+width = 714;
 },
 {
 layerId = m019;
@@ -198,15 +198,15 @@ shapes = (
 ref = o;
 },
 {
-pos = (229,0);
+pos = (231,0);
 ref = dotbelowcomb;
 },
 {
-pos = (14,-129);
+pos = (16,-129);
 ref = circumflexcomb;
 }
 );
-width = 704;
+width = 708;
 },
 {
 layerId = "F809B810-8CF1-453B-A5BE-CA3BE927A72B";
