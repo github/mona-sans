@@ -172,7 +172,7 @@ jobs:
       - name: Upload .deb artifact
         uses: actions/upload-artifact@v4
         with:
-          name: mona-sans-deb-v${{ steps.version.outputs.version }}
+          name: mona-sans-deb-v${{ needs.build.outputs.version }}
           path: release-artifacts/*.deb
           include-hidden-files: false
 
