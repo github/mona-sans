@@ -25,3 +25,16 @@ pip3 install gftools
 brew install ttfautohint
 ```
 
+### Variable webfont weight check
+
+The release workflow packages the checked-in WOFF and WOFF2 files directly.
+After exporting them, verify that `OS/2.usWeightClass` matches the default
+`wght` coordinate in `fvar`:
+
+```bash
+python -m pip install 'fonttools[woff]'
+python -m unittest discover -s tests -v
+```
+
+This check validates metadata; it does not change the default outlines or
+rebase the variable font axes.
