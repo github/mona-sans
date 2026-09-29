@@ -26,7 +26,7 @@ jobs:
     
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
         with:
           fetch-depth: 0  # Full history for proper release notes
       
@@ -72,14 +72,14 @@ jobs:
             OFL.txt README.md
       
       - name: Upload release zip artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: mona-sans-release-zips-v${{ steps.version.outputs.version }}
           path: release-artifacts/*.zip
           include-hidden-files: false
 
       - name: Upload font build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: mona-sans-fonts-v${{ steps.version.outputs.version }}
           path: fonts/
@@ -91,10 +91,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
 
       - name: Download font artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
           name: mona-sans-fonts-v${{ needs.build.outputs.version }}
           path: .
@@ -170,7 +170,7 @@ jobs:
           mv "${DEB_DIR}.deb" "release-artifacts/${PKG}_${VERSION}_all.deb"
 
       - name: Upload .deb artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: mona-sans-deb-v${{ needs.build.outputs.version }}
           path: release-artifacts/*.deb
@@ -182,13 +182,13 @@ jobs:
 
     steps:
       - name: Download zip artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
           name: mona-sans-release-zips-v${{ needs.build.outputs.version }}
           path: release-artifacts/
 
       - name: Download .deb artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
         with:
           name: mona-sans-deb-v${{ needs.build.outputs.version }}
           path: release-artifacts/
@@ -219,7 +219,7 @@ jobs:
           EOF
 
       - name: Create draft release with all assets
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2.6.2
         with:
           tag_name: ${{ needs.build.outputs.tag }}
           name: Mona Sans ${{ needs.build.outputs.tag }}
