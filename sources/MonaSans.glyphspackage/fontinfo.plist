@@ -6122,6 +6122,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6181,6 +6182,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6236,6 +6238,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6303,6 +6306,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6366,6 +6370,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6429,6 +6434,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6492,6 +6498,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6562,6 +6569,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6628,6 +6636,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {
@@ -6700,6 +6709,7 @@ value = "Mona Sans VF";
 );
 }
 );
+weightClass = 200;
 type = variable;
 },
 {

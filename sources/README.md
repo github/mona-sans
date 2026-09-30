@@ -10,6 +10,8 @@ Mona Sans VF is exported from the Glyphs interface directly into the /fonts dire
 
 Running `build.sh` will try to move them to the right place, if you don't put them there already.
 
+The variable export settings use an ExtraLight master (`wght=200`) as their Variable Font Origin, so their weight class must also remain 200. If the exported OS/2 weight is 400, Fontconfig treats ExtraLight as Regular and shifts every named weight.
+
 ### Google Fonts Build (`build.sh`)
 
 The `build.sh` script handles building font files that meet Google Fonts specifications and requirements, and builds into the `/googlefonts` folder. It also checks to make sure the other fonts are in the right place.
