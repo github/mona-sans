@@ -72,14 +72,14 @@ jobs:
             OFL.txt README.md
       
       - name: Upload release zip artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: mona-sans-release-zips-v${{ steps.version.outputs.version }}
           path: release-artifacts/*.zip
           include-hidden-files: false
 
       - name: Upload font build artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: mona-sans-fonts-v${{ steps.version.outputs.version }}
           path: fonts/
@@ -170,7 +170,7 @@ jobs:
           mv "${DEB_DIR}.deb" "release-artifacts/${PKG}_${VERSION}_all.deb"
 
       - name: Upload .deb artifact
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: mona-sans-deb-v${{ needs.build.outputs.version }}
           path: release-artifacts/*.deb
