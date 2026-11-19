@@ -50,7 +50,7 @@ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of
 
 ## Stylistic sets
 
-Mona Sans has ten stylistic sets:
+Mona Sans has eleven stylistic sets:
 
 | Set | Description | Example |
 | --- | --- | --- | 
@@ -64,6 +64,7 @@ Mona Sans has ten stylistic sets:
 | ss08 | Tabular zero with straight bar | <img src="https://github.com/user-attachments/assets/1efe404b-ca17-4dbb-877e-47a7080d2785" width="400"> |
 | ss09 | Q with diagonal arm | <img src="https://github.com/user-attachments/assets/5f7f28e7-d325-496a-8362-21d7a71b362a" width="400"> |
 | ss10 | J with bowl | <img src="https://github.com/user-attachments/assets/5a0776c8-8acf-41ad-ba23-e26515bc1f8e" width="400"> |
+| ss11 | Tabular zero without slash (use with `tnum`) | |
 
 When using Mona Sans on the web, you can control each stylistic set with the syntax `"ssXX" on/off`. If you wanted square diacritical marks, small letter L distinct from capital I, and alternative small letter g it would look like this:
 
